@@ -8,4 +8,4 @@
  * - medie: contiene le medie del giocatore nella stagione
  */
 
-prop(Giocatore,numero,Numero).
+giocatore(NomeGiocatore, NumeroGiocatore, Squadra, Altezza, Medie) :- NomeGiocatore.

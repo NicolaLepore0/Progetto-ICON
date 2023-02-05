@@ -8,4 +8,26 @@
  * - time: indica il tempo mancante alla fine del quarto
  * - giocatore: nome giocatore che ha compiuto l'evento
  */
-prop(Evento,fatto_da,Giocatore).
+punti_casa(P) :- P.
+punti_ospite(P) :- P.
+evento(E) :- E.
+quarto(Q) :- Q.
+time(T) :- T.
+
+giocatore_in_campo(NomeGiocatore) :- evento_compiuto(NomeGiocatore).
+
+giocatore_fuori_campo(Nome_giocatore) :- not giocatore_in_campo(NomeGiocatore).
+giocatore_in_campo(Nome_giocatore) :- not giocatore_fuori_campo(NomeGiocatore).
+
+fuori_campo(Giocatore) :- falli(Giocatore, NumFalli), NumFalli >= 5.
+
+vincitore(Casa, Ospite, 'casa') :- Casa > Ospite.
+vincitore(Casa, Ospite, 'ospite') :- Casa < Ospite.
+vincitore(Casa, Ospite, 'pareggio') :- Casa = Ospite.
+
+giocatore(NomeGiocatore).
+punti_fatti_da(NomeGiocatore, Punti).
+
+miglior_realizzatore(NomeGiocatore, NumeroMaglia, Squadra, Punti) :-
+punti_fatti_da(NomeGiocatore, Punti), giocatore(NomeGiocatore, NumeroMaglia, Squadra),
+not( (punti_fatti_da(NomeGiocatoreAltro, PuntiAltri), giocatore(NomeGiocatoreAltro, _, _), PuntiAltri > Punti) ).ù
