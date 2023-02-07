@@ -7,36 +7,33 @@ class live:
         self.squadra_casa = squadra(partita['squadra_casa'], partita)#5 giocatori in campo
         self.squadra_ospite = squadra(partita['squadra_ospite'], partita)#5 giocatori in campo
         self.evento = evento['evento']
+    def analizza_evento(self, partita,evento):
+        if self.evento == "OUT":
+            prolog.assertz("esce_giocatore({}, {})".format(to_lower_and_dashed(evento['giocatore']['nome_giocatore']),to_lower_and_dashed(self.nome)))
 class squadra:
     def __init__(self, nome, partita):
         self.nome = to_lower_and_dashed(nome)
         self.squadra_completa = get_squadra(self.nome)
         self.giocatori_in_campo = self.giocatori_in_campo(partita)
-
     def giocatori_in_campo(self, partita):#Devo inserire i giocatori prima che la partita inizi.
-        prolog = Prolog()
-        prolog.consult("prolog/partita.pl")
-        query = None
-        if self.giocatori_in_campo is not None: #SBAGLIATO CORREGGI
+        query = list(prolog.query("giocatori_in_campo({}).".format(to_lower_and_dashed(self.nome))))
+        if len(query) == 1:
             quintetto = quintetto_titolare(partita, self.nome)
             for giocatore in quintetto:
                 prolog.assertz("entra_giocatore({}, {})".format(to_lower_and_dashed(giocatore),to_lower_and_dashed(self.nome)))
                 return quintetto
         else:
-            query = prolog.query("giocatori_in_campo({}).".format(to_lower_and_dashed(self.nome)))
             return [x['Giocatore'] for x in query]
     def crea_squadra(self,giocatori, squadra):
-        prolog = Prolog()
-        prolog.consult("prolog/partita.pl")
         for giocatore in giocatori:
-            prolog.assertz("entra_giocatore({}, {})".format(to_lower_and_dashed(giocatore),to_lower_and_dashed(squadra)))
+            prolog.assertz("giocatore({}, {})".format(to_lower_and_dashed(giocatore),to_lower_and_dashed(squadra)))
 
 def get_squadra(nome): #dato il nome di una squadra preleva i dati dal csv e ritorna array nomi giocatori
         with open("dataset/squadre.json", "r") as jsonfile:
             squadre = json.load(jsonfile)
             return squadre.get(nome, [])
 def to_lower_and_dashed(s):
-    return s.lower().replace(" ", "_")
+    return s.lower().replace(" ", "_").replace(".", "_")
 
 def quintetto_titolare(partita , nome):
     team1_players = []
@@ -76,6 +73,9 @@ from keras.layers import LSTM, Dense
 with open('dataset/partita.json', 'r') as file:
     campionato = json.load(file)
 
+global prolog
+prolog = Prolog()
+prolog.consult("prolog/partita.pl")
 #Per ogni partita creo una lista di eventi live e inserisco questa lista in una lista per tutte le partite
 campionato_live = []
 for partita in campionato:
@@ -83,8 +83,9 @@ for partita in campionato:
     if partita['risultato_finale_host'] != '0':
         for evento in partita['eventi']:
             live_event = live(partita, evento)
-            partita_event_live = partita_event_live.append(live_event)
-        campionato_live = campionato_live.append(partita_event_live)
+            partita_event_live.append(live_event)
+        print("partita aggiunta")
+        campionato_live.append(partita_event_live)
 
 print(campionato_live)
 

@@ -22,17 +22,6 @@
         (giocatore(Giocatore, Squadra) -> esce_giocatore(Giocatore, Squadra); entra_giocatore(Giocatore, Squadra)).
 
     giocatori_in_campo(Squadra) :-
-        findall(Giocatore, giocatore(Giocatore, Squadra), Giocatori).
-
-/*
-titolari_ospite():-
-quintetto_casa(Giocatore1, Giocatore2, Giocatore3, Giocatore4, Giocatore5) :-
-    ingresso(Giocatore1),ingresso(Giocatore2),ingresso(Giocatore3),ingresso(Giocatore4),ingresso(Giocatore5),
-    not(uscita(Giocatore1),uscita(Giocatore2),uscita(Giocatore3),uscita(Giocatore4),uscita(Giocatore5)).
-
-quintetto_ospite(Giocatore1, Giocatore2, Giocatore3, Giocatore4, Giocatore5) :-
-    ingresso(Giocatore1),ingresso(Giocatore2),ingresso(Giocatore3),ingresso(Giocatore4),ingresso(Giocatore5),
-    not(uscita(Giocatore1),uscita(Giocatore2),uscita(Giocatore3),uscita(Giocatore4),uscita(Giocatore5)).
-
-
+        findall(Giocatore, giocatore(Giocatore, Squadra), Giocatori),
+        write(Giocatori).
 
