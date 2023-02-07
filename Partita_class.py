@@ -16,7 +16,6 @@ class Partita:
             return 1
         else:
             return 0
-
 class Evento:
     def __init__(self, punti_casa, punti_ospite, evento,quarto, time,giocatore):
         self.punti_casa = punti_casa

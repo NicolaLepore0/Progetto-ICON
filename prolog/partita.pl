@@ -7,24 +7,23 @@
  * - risultato_finale_guest: risultato finale squadra ospite
  * - eventi: lista ordinata che contiene tutti gli eventi della partita
  */
+:- dynamic giocatore/2.
 
-primi_cinque_usciti(Eventi, GiocatoriUsciti) :-
-    trova_uscite(Eventi, [], 0, GiocatoriUsciti),
-    length(GiocatoriUsciti, NumeroUsciti),
-    NumeroUsciti == 5.
+entra_giocatore(Giocatore, Squadra) :-
+    not(giocatore(Giocatore, Squadra)),
+    assertz(giocatore(Giocatore, Squadra)).
 
-trova_uscite([], GiocatoriUsciti, 5, GiocatoriUsciti).
-trova_uscite([evento(NomeGiocatore, uscita) | EventiRestanti], GiocatoriEntrati, ContatoreUsciti, GiocatoriUsciti) :-
-    \+ member(NomeGiocatore, GiocatoriEntrati),
-    ContatoreUsciti < 5,
-    ContatoreUscitoSuccessivo is ContatoreUsciti + 1,
-    trova_uscite(EventiRestanti, GiocatoriEntrati, ContatoreUscitoSuccessivo, GiocatoriUscitiSuccessivi),
-    GiocatoriUsciti = [NomeGiocatore | GiocatoriUscitiSuccessivi].
-trova_uscite([evento(NomeGiocatore, entrata) | EventiRestanti], GiocatoriEntrati, ContatoreUsciti, GiocatoriUsciti) :-
-    trova_uscite(EventiRestanti, [NomeGiocatore | GiocatoriEntrati], ContatoreUsciti, GiocatoriUsciti).
+esce_giocatore(Giocatore, Squadra) :-
+    giocatore(Giocatore, Squadra),
+    retract(giocatore(Giocatore, Squadra)).
 
+gestisci_giocatore(Giocatore, Squadra) :-
+    (giocatore(Giocatore, Squadra) -> esce_giocatore(Giocatore, Squadra); entra_giocatore(Giocatore, Squadra)).
 
+giocatori_in_campo(Squadra) :-
+    findall(Giocatore, giocatore(Giocatore, Squadra), Giocatori).
 
+/*
 titolari_ospite():-
 quintetto_casa(Giocatore1, Giocatore2, Giocatore3, Giocatore4, Giocatore5) :-
     ingresso(Giocatore1),ingresso(Giocatore2),ingresso(Giocatore3),ingresso(Giocatore4),ingresso(Giocatore5),
