@@ -8,20 +8,21 @@
  * - eventi: lista ordinata che contiene tutti gli eventi della partita
  */
 :- dynamic giocatore/2.
+:- dynamic entra_giocatore/2.
 
-entra_giocatore(Giocatore, Squadra) :-
-    not(giocatore(Giocatore, Squadra)),
-    assertz(giocatore(Giocatore, Squadra)).
+    entra_giocatore(Giocatore, Squadra) :-
+        not(giocatore(Giocatore, Squadra)),
+        assertz(giocatore(Giocatore, Squadra)).
 
-esce_giocatore(Giocatore, Squadra) :-
-    giocatore(Giocatore, Squadra),
-    retract(giocatore(Giocatore, Squadra)).
+    esce_giocatore(Giocatore, Squadra) :-
+        giocatore(Giocatore, Squadra),
+        retract(giocatore(Giocatore, Squadra)).
 
-gestisci_giocatore(Giocatore, Squadra) :-
-    (giocatore(Giocatore, Squadra) -> esce_giocatore(Giocatore, Squadra); entra_giocatore(Giocatore, Squadra)).
+    gestisci_giocatore(Giocatore, Squadra) :-
+        (giocatore(Giocatore, Squadra) -> esce_giocatore(Giocatore, Squadra); entra_giocatore(Giocatore, Squadra)).
 
-giocatori_in_campo(Squadra) :-
-    findall(Giocatore, giocatore(Giocatore, Squadra), Giocatori).
+    giocatori_in_campo(Squadra) :-
+        findall(Giocatore, giocatore(Giocatore, Squadra), Giocatori).
 
 /*
 titolari_ospite():-
