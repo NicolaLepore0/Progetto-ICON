@@ -7,9 +7,10 @@ class live:
         self.squadra_casa = squadra(partita['squadra_casa'], partita)#5 giocatori in campo
         self.squadra_ospite = squadra(partita['squadra_ospite'], partita)#5 giocatori in campo
         self.evento = evento['evento']
+        self.analizza_evento(partita, evento)
     def analizza_evento(self, partita,evento):
-        if self.evento == "OUT":
-            prolog.assertz("esce_giocatore({}, {})".format(to_lower_and_dashed(evento['giocatore']['nome_giocatore']),to_lower_and_dashed(self.nome)))
+        if evento['evento'] == "OUT":
+            prolog.assertz("esce_giocatore({}, {})".format(to_lower_and_dashed(evento['giocatore']['nome_giocatore']),to_lower_and_dashed(evento['giocatore']['squadra'])))
 class squadra:
     def __init__(self, nome, partita):
         self.nome = to_lower_and_dashed(nome)

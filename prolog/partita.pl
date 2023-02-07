@@ -9,6 +9,7 @@
  */
 :- dynamic giocatore/2.
 :- dynamic entra_giocatore/2.
+:- dynamic esce_giocatore/2.
 
     entra_giocatore(Giocatore, Squadra) :-
         not(giocatore(Giocatore, Squadra)),
@@ -24,4 +25,7 @@
     giocatori_in_campo(Squadra) :-
         findall(Giocatore, giocatore(Giocatore, Squadra), Giocatori),
         write(Giocatori).
+
+    squadra_giocatore(Giocatore, Squadra) :-
+    giocatore(Giocatore, Squadra).
 
