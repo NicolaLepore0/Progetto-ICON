@@ -23,22 +23,14 @@ char_to_replace = {
 
 col_to_rem = [
     'numero_giocatore',
-    'squadra',
-    'ASS',
+    'rim_o',
+    'rim_d',
+    't1_per',
+    't2_per',
+    't3_per',
+    'ass',
 ]
 
-'''
-errorLeadToGoal
-errorLeadToShot
-savedShotsFromInsideTheBox
-
-val_last_season(1, laliga_2_Spain, 4).
-val_last_season(2, laliga_2_Spain, 4).
-
-last_season(2, Name, Val).
-Name = laliga_2_Spain
-Val = 4
-'''
 
 def filter_bad_strings(value: str, char_to_replace: dict) -> str:
     to_replace = re.search("^[0-9]+[.]*_* *", value)
@@ -51,7 +43,7 @@ def filter_bad_strings(value: str, char_to_replace: dict) -> str:
 
 pl_kb = []
 
-with open('dataset/giocatori.csv', 'r', encoding='utf-8') as f:
+with open('dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
     csvr = csv.reader(f, delimiter=',')
     header = next(csvr)
     for i, player in enumerate(csvr):
@@ -85,7 +77,7 @@ with open('dataset/giocatori.csv', 'r', encoding='utf-8') as f:
 
 prolog = Prolog()
 prolog.consult("dataset_preprocessed.pl")
-list_ids = f"[{', '.join([str(x) for x in range(1, 2457)])}]"
+list_ids = f"[{', '.join([str(x) for x in range(1, 5000)])}]"
 
 # print("Playmaker: ")
 pl_list = list(prolog.query(f"evaluate_all_play(Pl)"))[0]['Pl']

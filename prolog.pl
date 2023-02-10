@@ -15,7 +15,7 @@ calc_max([X|Xs], R):- calc_max(Xs,X,R).%start
 
 is_centro(Id) :- role(Id,g). %play è un ruolo
 is_ala(Id) :- role(Id,g).
-is_centro(Id) :- role(Id,g).
+is_play(Id) :- role(Id,g).
 is_guardia(Id) :- role(Id,g).
 
 %Altezze
@@ -35,112 +35,112 @@ get_all_minutesPlayed([H | T], Res_list) :-
 %Falli subiti
 get_all_fouls_s([], []).
 get_all_fouls_s([H | T], Res_list) :-
-    fouls_s(H, Res),
+    falli_s(H, Res),
     get_all_fouls_s(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Falli commessi
 get_all_fouls_c([], []).
 get_all_fouls_c([H | T], Res_list) :-
-    fouls_c(H, Res),
+    falli_c(H, Res),
     get_all_fouls_c(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Tiri 2 risuciti
 get_all_T2([], []).
 get_all_T2([H | T], Res_list) :-
-    t2(H, Res),
+    t2_r(H, Res),
     get_all_T2(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Tiri 2 tentati
 get_all_T2T([], []).
 get_all_T2T([H | T], Res_list) :-
-    t2t(H, Res),
+    t2_t(H, Res),
     get_all_T2T(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Tiri 3 risuciti
 get_all_T3([], []).
 get_all_T3([H | T], Res_list) :-
-    t3(H, Res),
+    t3_r(H, Res),
     get_all_T3(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Tiri 3 tentati
 get_all_T3T([], []).
 get_all_T3T([H | T], Res_list) :-
-    t3t(H, Res),
+    t3_t(H, Res),
     get_all_T3T(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Tiri 1 risuciti
 get_all_T1([], []).
 get_all_T1([H | T], Res_list) :-
-    t1(H, Res),
+    t1_r(H, Res),
     get_all_T1(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Tiri 1 tentati
 get_all_T1T([], []).
 get_all_T1T([H | T], Res_list) :-
-    t1t(H, Res),
+    t1_t(H, Res),
     get_all_T1T(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Rimbalzi T
 get_all_rebaunds([], []).
 get_all_rebaunds([H | T], Res_list) :-
-    rebaunds(H, Res),
+    rim_t(H, Res),
     get_all_rebaunds(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Stoppate Date
 get_all_stopD([], []).
 get_all_stopD([H | T], Res_list) :-
-    stopD(H, Res),
+    stop_d(H, Res),
     get_all_stopD(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Stoppate Subite
 get_all_stoS([], []).
 get_all_stopS([H | T], Res_list) :-
-    stopS(H, Res),
+    stop_s(H, Res),
     get_all_stopS(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Palle perse
 get_all_palleP([], []).
 get_all_palleP([H | T], Res_list) :-
-    palleP(H, Res),
+    palle_p(H, Res),
     get_all_palleP(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Palle recuperate
 get_all_palleR([], []).
 get_all_palleR([H | T], Res_list) :-
-    palleR(H, Res),
+    palle_r(H, Res),
     get_all_palleR(T, Res_down),
     append([Res], Res_down,Res_list).
 
 %Percentuale T2
 t2Percentage(Id, T2Percentage) :-
-    t2(Id, T2),
-    t2T(Id, T2T),
+    t2_r(Id, T2),
+    t2_t(Id, T2T),
     handleDivisionByZero(T2, T2T, Y),
     T2Percentage is Y.
 
 %Percentuale T3
 t3Percentage(Id, T3Percentage) :-
-    t3(Id, T3),
-    t3T(Id, T3T),
+    t3_r(Id, T3),
+    t3_t(Id, T3T),
     handleDivisionByZero(T3, T3T, Y),
     T3Percentage is Y.
 
 %Percentuale T1
 t1Percentage(Id, T1Percentage) :-
-    t1(Id, T1),
-    t1T(Id, T1T),
+    t1_r(Id, T1),
+    t1_t(Id, T1T),
     handleDivisionByZero(T1, T1T, Y),
     T1Percentage is Y.
 
@@ -193,7 +193,7 @@ eval_t1Percentage(T1Percentage, T1T, Threshold, _, Eval) :-
     Eval is T1Percentage.
 
 
-evaluate_all_centro(Pl) :-
+evaluate_all_play(Pl) :-
     findall(Player, is_centro(Player), Players),
 
     get_all_height(Players, Height_list),
@@ -324,34 +324,35 @@ evaluation_Pl(Id,
     eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    fouls_c(Id,Fouls_c),
-    fouls_s(Id,Fouls_s),
-    t2(Id,T2),
-    t2T(Id,T2T),
-    t3(Id,T3),
-    t3T(Id,T3T),
-    t1(Id,T1),
-    t1T(Id,T1T),
-    rebaunds(Id,Rebaunds),
-    stopD(Id,StopD),
-    stopS(Id,StopS),
-    palleP(Id,PalleP),
-    palleR(Id,PalleR),
+    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
 
-    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided)
-    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided)
-    handleDivisionByZero(Fouls_s, Max_Fouls_s, Max_Fouls_s_divided)
-    handleDivisionByZero(T2, Max_T2, T2_divided)
-    handleDivisionByZero(T2T, Max_T2T, T2T_divided)
-    handleDivisionByZero(T3, Max_T3, T3_divided)
-    handleDivisionByZero(T3T, Max_T3T, T3T_divided)
-    handleDivisionByZero(T1, Max_T1, T1_divided)
-    handleDivisionByZero(T1T, Max_T1T, T1T_divided)
-    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided)
-    handleDivisionByZero(StopD, Max_StopD, StopD_divided)
-    handleDivisionByZero(StopS, Max_StopS, StopS_divided)
-    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided)
-    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided)
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
 
     Eval is
         Eval_height +
@@ -502,34 +503,35 @@ evaluation_Cn(Id,
     eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    fouls_c(Id,Fouls_c),
-    fouls_s(Id,Fouls_s),
-    t2(Id,T2),
-    t2T(Id,T2T),
-    t3(Id,T3),
-    t3T(Id,T3T),
-    t1(Id,T1),
-    t1T(Id,T1T),
-    rebaunds(Id,Rebaunds),
-    stopD(Id,StopD),
-    stopS(Id,StopS),
-    palleP(Id,PalleP),
-    palleR(Id,PalleR),
+    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
 
-    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided)
-    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided)
-    handleDivisionByZero(Fouls_s, Max_Fouls_s, Max_Fouls_s_divided)
-    handleDivisionByZero(T2, Max_T2, T2_divided)
-    handleDivisionByZero(T2T, Max_T2T, T2T_divided)
-    handleDivisionByZero(T3, Max_T3, T3_divided)
-    handleDivisionByZero(T3T, Max_T3T, T3T_divided)
-    handleDivisionByZero(T1, Max_T1, T1_divided)
-    handleDivisionByZero(T1T, Max_T1T, T1T_divided)
-    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided)
-    handleDivisionByZero(StopD, Max_StopD, StopD_divided)
-    handleDivisionByZero(StopS, Max_StopS, StopS_divided)
-    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided)
-    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided)
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
 
     Eval is
         Eval_height +
@@ -679,34 +681,35 @@ evaluation_Gd(Id,
     eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    fouls_c(Id,Fouls_c),
-    fouls_s(Id,Fouls_s),
-    t2(Id,T2),
-    t2T(Id,T2T),
-    t3(Id,T3),
-    t3T(Id,T3T),
-    t1(Id,T1),
-    t1T(Id,T1T),
-    rebaunds(Id,Rebaunds),
-    stopD(Id,StopD),
-    stopS(Id,StopS),
-    palleP(Id,PalleP),
-    palleR(Id,PalleR),
+    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
 
-    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided)
-    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided)
-    handleDivisionByZero(Fouls_s, Max_Fouls_s, Max_Fouls_s_divided)
-    handleDivisionByZero(T2, Max_T2, T2_divided)
-    handleDivisionByZero(T2T, Max_T2T, T2T_divided)
-    handleDivisionByZero(T3, Max_T3, T3_divided)
-    handleDivisionByZero(T3T, Max_T3T, T3T_divided)
-    handleDivisionByZero(T1, Max_T1, T1_divided)
-    handleDivisionByZero(T1T, Max_T1T, T1T_divided)
-    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided)
-    handleDivisionByZero(StopD, Max_StopD, StopD_divided)
-    handleDivisionByZero(StopS, Max_StopS, StopS_divided)
-    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided)
-    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided)
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
 
     Eval is
         Eval_height +
@@ -856,50 +859,51 @@ evaluation_Pl(Id,
     eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    fouls_c(Id,Fouls_c),
-    fouls_s(Id,Fouls_s),
-    t2(Id,T2),
-    t2T(Id,T2T),
-    t3(Id,T3),
-    t3T(Id,T3T),
-    t1(Id,T1),
-    t1T(Id,T1T),
-    rebaunds(Id,Rebaunds),
-    stopD(Id,StopD),
-    stopS(Id,StopS),
-    palleP(Id,PalleP),
-    palleR(Id,PalleR),
+    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
 
-    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided)
-    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided)
-    handleDivisionByZero(Fouls_s, Max_Fouls_s, Max_Fouls_s_divided)
-    handleDivisionByZero(T2, Max_T2, T2_divided)
-    handleDivisionByZero(T2T, Max_T2T, T2T_divided)
-    handleDivisionByZero(T3, Max_T3, T3_divided)
-    handleDivisionByZero(T3T, Max_T3T, T3T_divided)
-    handleDivisionByZero(T1, Max_T1, T1_divided)
-    handleDivisionByZero(T1T, Max_T1T, T1T_divided)
-    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided)
-    handleDivisionByZero(StopD, Max_StopD, StopD_divided)
-    handleDivisionByZero(StopS, Max_StopS, StopS_divided)
-    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided)
-    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided)
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
+        (Fouls_c_divided *0,5 +
+        Fouls_s_divided *0,5 +
+        T2_divided *1 +
+        (T2T_divided - T2_divided) *0,75 +
+        T3_divided *1 +
+        (T3T_divided - T3_divided) *0,75 +
+        T1_divided +
+        (T1T_divided - T1_divided) *0,5 +
+        Rebaunds_divided *1 +
+        StopD_divided *0,75 +
+        StopS_divided *0,2 +
+        PalleP_divided *1 +
+        PalleR_divided *1
         ) / MinutesPlayed * Eval_mp.
 
 
