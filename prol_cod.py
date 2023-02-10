@@ -53,7 +53,7 @@ with open('dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
                 pred = ''
                 value = ''
                 pred = h
-                value = player[j].lower().replace('i̇', 'i').replace(' ', '_')
+                value = player[j].lower().replace(' ', '_')
                 if j == 1:
                     value = re.sub("^[0-9]+[.]*_*", "", value)
                 value = value.translate(str.maketrans(char_to_replace))
@@ -61,11 +61,6 @@ with open('dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
             j += 1
 
     pl_kb.sort()
-
-    #pl_kb.append("show_team(Team, Player) :- team(Id, Team), name(Id, Player)")
-    #pl_kb.append("show_goal(_, [], [])")
-    #pl_kb.append("show_goal(Threshold, [H | T], [[Name, N_goal] | T_res]) :- goals(H, N_goal), N_goal > Threshold, name(H, Name), show_goal(Threshold, T, T_res)")
-    #pl_kb.append("show_goal(Threshold, [H | T], T_res) :- goals(H, N_goal), N_goal =< Threshold, show_goal(Threshold, T, T_res)")
 
     with open('dataset_preprocessed.pl', 'w', encoding='utf-8') as fout:
         for line in pl_kb:
@@ -77,28 +72,28 @@ with open('dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
 
 prolog = Prolog()
 prolog.consult("dataset_preprocessed.pl")
-list_ids = f"[{', '.join([str(x) for x in range(1, 5000)])}]"
+list_ids = f"[{', '.join([str(x) for x in range(1, 249)])}]"
 
-# print("Playmaker: ")
-pl_list = list(prolog.query(f"evaluate_all_play(Pl)"))[0]['Pl']
+print("Playmaker: ")
+pl_list = list(prolog.query(f"evaluate_all_pl(Pl)"))
 pl_list.sort(key=lambda row: row[1], reverse=True)
-# for dc in dc_list:
-#    print(dc)
+for pl in pl_list:
+    print(pl)
 
 # print("Centro: ")
-cn_list = list(prolog.query(f"evaluate_all_centro(Cn)"))[0]['Cn']
+cn_list = list(prolog.query(f"evaluate_all_cn(Cn)"))
 cn_list.sort(key=lambda row: row[1], reverse=True)
-# for fb in fb_list:
-#    print(fb)
+for cn in cn_list:
+    print(cn)
 
 # print("Ala: ")
-al_list = list(prolog.query(f"evaluate_all_ala(Al)"))[0]['Al']
+al_list = list(prolog.query(f"evaluate_all_al(Al)"))
 al_list.sort(key=lambda row: row[1], reverse=True)
 # for dm in dm_list:
 #    print(dm)
 
 # print("Guardia: ")
-gd_list = list(prolog.query(f"evaluate_all_guardia(Gd)"))[0]['Gd']
+gd_list = list(prolog.query(f"evaluate_all_gd(Gd)"))
 gd_list.sort(key=lambda row: row[1], reverse=True)
 # for mc in mc_list:
 #    print(mc)

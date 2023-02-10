@@ -13,10 +13,10 @@ calc_max([X|Xs], WK, R):- X >  WK, calc_max(Xs, X, R). %WK is Carry about
 calc_max([X|Xs], WK, R):- X =< WK, calc_max(Xs, WK, R).
 calc_max([X|Xs], R):- calc_max(Xs,X,R).%start
 
-is_centro(Id) :- role(Id,g). %play è un ruolo
-is_ala(Id) :- role(Id,g).
-is_play(Id) :- role(Id,g).
-is_guardia(Id) :- role(Id,g).
+is_centro(Id) :- ruolo(Id,centro). %play è un ruolo
+is_ala(Id) :- ruolo(Id,ala).
+is_play(Id) :- ruolo(Id,play).
+is_guardia(Id) :- ruolo(Id,guardia).
 
 %Altezze
 get_all_height([], []).
@@ -193,8 +193,8 @@ eval_t1Percentage(T1Percentage, T1T, Threshold, _, Eval) :-
     Eval is T1Percentage.
 
 
-evaluate_all_play(Pl) :-
-    findall(Player, is_centro(Player), Players),
+evaluate_all_pl(Pl) :-
+    findall(Player, is_play(Player), Players),
 
     get_all_height(Players, Height_list),
     get_all_minutesPlayed(Players, MinutesPlayed_list),
@@ -228,7 +228,7 @@ evaluate_all_play(Pl) :-
     calc_max(PalleP_list, Max_PalleP),
     calc_max(PalleR_list, Max_PalleR),
 
-    evaluate_all_Pl(Players,
+    evaluate_all_pl(Players,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -246,8 +246,8 @@ evaluate_all_play(Pl) :-
         Max_PalleR,
         Pl).
 
-evaluate_all_Pl([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
-evaluate_all_Pl([H | T],
+evaluate_all_pl([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_pl([H | T],
             Max_height,
             Max_minutesPlayed,
             Max_Fouls_c,
@@ -264,7 +264,7 @@ evaluate_all_Pl([H | T],
             Max_PalleP,
             Max_PalleR,
             Res) :-
-    evaluation_Pl(H,
+    evaluation_pl(H,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -281,7 +281,7 @@ evaluate_all_Pl([H | T],
         Max_PalleP,
         Max_PalleR,
         Eval_local),
-    evaluate_all_Pl(T,
+    evaluate_all_pl(T,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -302,7 +302,7 @@ evaluate_all_Pl([H | T],
     name(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
-evaluation_Pl(Id,
+evaluation_pl(Id,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -319,12 +319,12 @@ evaluation_Pl(Id,
         Max_PalleP,
         Max_PalleR,
         Eval) :-
-    is_centro(Id),
+    is_play(Id),
     altezza(Id, Height),
-    eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
     falli_c(Id,Fouls_c),
     falli_s(Id,Fouls_s),
     t2_r(Id,T2),
@@ -372,7 +372,7 @@ evaluation_Pl(Id,
         ) / MinutesPlayed * Eval_mp.
 
 
-evaluate_all_centro(Cn) :-
+evaluate_all_cn(Cn) :-
     findall(Player, is_centro(Player), Players),
 
     get_all_height(Players, Height_list),
@@ -407,7 +407,7 @@ evaluate_all_centro(Cn) :-
     calc_max(PalleP_list, Max_PalleP),
     calc_max(PalleR_list, Max_PalleR),
 
-    evaluate_all_Cn(Players,
+    evaluate_all_cn(Players,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -425,8 +425,8 @@ evaluate_all_centro(Cn) :-
         Max_PalleR,
         Cn).
 
-evaluate_all_Cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
-evaluate_all_Cn([H | T],
+evaluate_all_cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_cn([H | T],
             Max_height,
             Max_minutesPlayed,
             Max_Fouls_c,
@@ -443,7 +443,7 @@ evaluate_all_Cn([H | T],
             Max_PalleP,
             Max_PalleR,
             Res) :-
-    evaluation_Cn(H,
+    evaluation_cn(H,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -460,7 +460,7 @@ evaluate_all_Cn([H | T],
         Max_PalleP,
         Max_PalleR,
         Eval_local),
-    evaluate_all_Cn(T,
+    evaluate_all_cn(T,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -481,7 +481,7 @@ evaluate_all_Cn([H | T],
     name(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
-evaluation_Cn(Id,
+evaluation_cn(Id,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -500,10 +500,10 @@ evaluation_Cn(Id,
         Eval) :-
     is_centro(Id),
     altezza(Id, Height),
-    eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
     falli_c(Id,Fouls_c),
     falli_s(Id,Fouls_s),
     t2_r(Id,T2),
@@ -550,7 +550,7 @@ evaluation_Cn(Id,
         PalleR *1
         ) / MinutesPlayed * Eval_mp.
 
-evaluate_all_guardia(Gd) :-
+evaluate_all_gd(Gd) :-
     findall(Player, is_guardia(Player), Players),
 
     get_all_height(Players, Height_list),
@@ -585,7 +585,7 @@ evaluate_all_guardia(Gd) :-
     calc_max(PalleP_list, Max_PalleP),
     calc_max(PalleR_list, Max_PalleR),
 
-    evaluate_all_Gd(Players,
+    evaluate_all_gd(Players,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -603,8 +603,8 @@ evaluate_all_guardia(Gd) :-
         Max_PalleR,
         Gd).
 
-evaluate_all_Gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
-evaluate_all_Gd([H | T],
+evaluate_all_gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_gd([H | T],
             Max_height,
             Max_minutesPlayed,
             Max_Fouls_c,
@@ -621,7 +621,7 @@ evaluate_all_Gd([H | T],
             Max_PalleP,
             Max_PalleR,
             Res) :-
-    evaluation_Gd(H,
+    evaluation_gd(H,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -638,7 +638,7 @@ evaluate_all_Gd([H | T],
         Max_PalleP,
         Max_PalleR,
         Eval_local),
-    evaluate_all_Gd(T,
+    evaluate_all_gd(T,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -659,7 +659,7 @@ evaluate_all_Gd([H | T],
     name(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
-evaluation_Gd(Id,
+evaluation_gd(Id,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -678,10 +678,10 @@ evaluation_Gd(Id,
         Eval) :-
     is_guardia(Id),
     altezza(Id, Height),
-    eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
     falli_c(Id,Fouls_c),
     falli_s(Id,Fouls_s),
     t2_r(Id,T2),
@@ -728,7 +728,7 @@ evaluation_Gd(Id,
         PalleR *1
         ) / MinutesPlayed * Eval_mp.
 
-evaluate_all_ala(Al) :-
+evaluate_all_al(Al) :-
     findall(Player, is_ala(Player), Players),
 
     get_all_height(Players, Height_list),
@@ -763,7 +763,7 @@ evaluate_all_ala(Al) :-
     calc_max(PalleP_list, Max_PalleP),
     calc_max(PalleR_list, Max_PalleR),
 
-    evaluate_all_Al(Players,
+    evaluate_all_al(Players,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -781,8 +781,8 @@ evaluate_all_ala(Al) :-
         Max_PalleR,
         Al).
 
-evaluate_all_Al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
-evaluate_all_Al([H | T],
+evaluate_all_al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_al([H | T],
             Max_height,
             Max_minutesPlayed,
             Max_Fouls_c,
@@ -799,7 +799,7 @@ evaluate_all_Al([H | T],
             Max_PalleP,
             Max_PalleR,
             Res) :-
-    evaluation_Pl(H,
+    evaluation_al(H,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -816,7 +816,7 @@ evaluate_all_Al([H | T],
         Max_PalleP,
         Max_PalleR,
         Eval_local),
-    evaluate_all_Pl(T,
+    evaluate_all_al(T,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -837,7 +837,7 @@ evaluate_all_Al([H | T],
     name(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
-evaluation_Pl(Id,
+evaluation_al(Id,
         Max_height,
         Max_minutesPlayed,
         Max_Fouls_c,
@@ -856,10 +856,10 @@ evaluation_Pl(Id,
         Eval) :-
     is_ala(Id),
     altezza(Id, Height),
-    eval_height(Height, 176, 182, 0.4, 0.6, Max_height, Eval_height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
     altezza(Id, Height),
     minuti(Id, MinutesPlayed),
-    eval_mp(MinutesPlayed, 1000, 2500, 0.2, 0.5, 0.6, 40, Eval_mp),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
     falli_c(Id,Fouls_c),
     falli_s(Id,Fouls_s),
     t2_r(Id,T2),
