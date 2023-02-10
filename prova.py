@@ -30,10 +30,12 @@ class live:
         for giocatore in self.get_sq_ospite():
             vet.append(giocatore)
         return vet
+'''
 def get_squadra(nome): #dato il nome di una squadra preleva i dati dal csv e ritorna array nomi giocatori
     with open("dataset/squadre.json", "r") as jsonfile:
         squadre = json.load(jsonfile)
     return squadre.get(nome, [])
+'''
 def quintetto_titolare(partita, nome):
     global player_names
     team1_players = []
