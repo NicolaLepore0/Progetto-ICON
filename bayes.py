@@ -11,17 +11,18 @@ from pandas import DataFrame
 nodes = [
     "casa_puntiFatti",
     "casa_puntiSubiti",
-    "casa_tiri",
+    "casa_falliFatti",
     "casa_pallePerse",
-    "casa_falli",
+    "casa_t2_r",
+    
     "ospiti_puntiFatti",
     "ospiti_puntiSubiti",
-    "ospiti_tiri",
+    "ospiti_falliFatti",
     "ospiti_pallePerse",
-    "ospiti_falli",
+    "ospiti_t2_r",
     "result",
 ]
-df = pd.read_csv("./datasets/dataset_for_NN.csv", usecols=nodes)
+df = pd.read_csv("dataset/squadre.csv", usecols=nodes)
 
 # apply discretization
 N_BINS = 3
@@ -121,13 +122,13 @@ model = BayesianNetwork(
     [
         ("casa_puntiSubiti", "result"),
         ("casa_puntiFatti", "result"),
-        ("casa_tiri", "casa_puntiFatti"),
-        ("casa_falli", "casa_puntiSubiti"),
+        ("casa_t2_r", "casa_puntiFatti"),
+        ("casa_falliFatti", "casa_puntiSubiti"),
         ('casa_pallePerse', 'casa_puntiSubiti'),
         ("ospiti_puntiSubiti", "result"),
         ("ospiti_puntiFatti", "result"),
-        ("ospiti_tiri", "ospiti_puntiFatti"),
-        ("ospiti_falli", "ospiti_puntiSubiti"),
+        ("ospiti_t2_r", "ospiti_puntiFatti"),
+        ("ospiti_falliFatti", "ospiti_puntiSubiti"),
         ('ospiti_pallePerse', 'ospiti_puntiSubiti')
     ]
 )
@@ -148,20 +149,20 @@ casa_pallePerse_cpd = TabularCPD(
     ],
 )
 
-print('TabularCPD casa_falli')
-casa_falli_cpd = TabularCPD(
-    variable="casa_falli",
+print('TabularCPD casa_falliFatti')
+casa_falliFatti_cpd = TabularCPD(
+    variable="casa_falliFatti",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_falli']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_falli']['B'] / total],  # B: 0.1081081081081081, 0.2162162162162162
-        [features_count['casa_falli']['C'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_falliFatti']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_falliFatti']['B'] / total],  # B: 0.1081081081081081, 0.2162162162162162
+        [features_count['casa_falliFatti']['C'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
 )
 
-print('TabularCPD casa_tiri')
-casa_tiri_cpd = TabularCPD(
-    variable="casa_tiri",
+print('TabularCPD casa_t2_r')
+casa_t2_r_cpd = TabularCPD(
+    variable="casa_t2_r",
     variable_card=N_BINS,
     values=calc_matrix_with_cols(["home_bigChances", "home_accurateCrosses", "home_accurateOppositionHalfPasses"], 'ABC'),
     evidence=["home_accurateCrosses", "home_accurateOppositionHalfPasses"],
@@ -172,16 +173,16 @@ print('TabularCPD casa_puntiFatti')
 casa_puntiFatti_cpd = TabularCPD(
     variable="casa_puntiFatti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["casa_puntiFatti", "home_bigChances", "casa_tiri"], 'ABC'),
-    evidence=["home_bigChances", "casa_tiri"],
+    values=calc_matrix_with_cols(["casa_puntiFatti", "home_bigChances", "casa_t2_r"], 'ABC'),
+    evidence=["home_bigChances", "casa_t2_r"],
     evidence_card=[N_BINS, N_BINS],
 )
 print('TabularCPD casa_puntiSubiti')
 casa_puntiSubiti_cpd = TabularCPD(
     variable="casa_puntiSubiti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["casa_puntiSubiti", "casa_falli", "home_errorsLeadingToShot", "casa_pallePerse"], 'ABC'),
-    evidence=["casa_falli", "home_errorsLeadingToShot", "casa_pallePerse"],
+    values=calc_matrix_with_cols(["casa_puntiSubiti", "casa_falliFatti", "home_errorsLeadingToShot", "casa_pallePerse"], 'ABC'),
+    evidence=["casa_falliFatti", "home_errorsLeadingToShot", "casa_pallePerse"],
     evidence_card=[N_BINS, N_BINS, N_BINS],
 )
 
@@ -198,22 +199,22 @@ ospiti_pallePerse_cpd = TabularCPD(
     ],
 )
 
-print('TabularCPD ospiti_falli')
-ospiti_falli_cpd = TabularCPD(
-    variable="ospiti_falli",
+print('TabularCPD ospiti_falliFatti')
+ospiti_falliFatti_cpd = TabularCPD(
+    variable="ospiti_falliFatti",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_falli']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_falli']['B'] / total],  # B: 0.1081081081081081, 0.2162162162162162
-        [features_count['ospiti_falli']['C'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_falliFatti']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_falliFatti']['B'] / total],  # B: 0.1081081081081081, 0.2162162162162162
+        [features_count['ospiti_falliFatti']['C'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
 )
 
-print('TabularCPD ospiti_tiri')
-ospiti_tiri_cpd = TabularCPD(
-    variable="ospiti_tiri",
+print('TabularCPD ospiti_t2_r')
+ospiti_t2_r_cpd = TabularCPD(
+    variable="ospiti_t2_r",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_tiri", "away_accurateCrosses", "away_accurateOppositionHalfPasses"], 'ABC'),
+    values=calc_matrix_with_cols(["ospiti_t2_r", "away_accurateCrosses", "away_accurateOppositionHalfPasses"], 'ABC'),
     evidence=["away_accurateCrosses", "away_accurateOppositionHalfPasses"],
     evidence_card=[N_BINS, N_BINS],
 )
@@ -222,16 +223,16 @@ print('TabularCPD ospiti_puntiFatti')
 ospiti_puntiFatti_cpd = TabularCPD(
     variable="ospiti_puntiFatti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_puntiFatti", "away_bigChances", "ospiti_tiri"], 'ABC'),
-    evidence=["away_bigChances", "ospiti_tiri"],
+    values=calc_matrix_with_cols(["ospiti_puntiFatti", "away_bigChances", "ospiti_t2_r"], 'ABC'),
+    evidence=["away_bigChances", "ospiti_t2_r"],
     evidence_card=[N_BINS, N_BINS],
 )
 print('TabularCPD ospiti_puntiSubiti')
 ospiti_puntiSubiti_cpd = TabularCPD(
     variable="ospiti_puntiSubiti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_puntiSubiti", "ospiti_falli", "away_errorsLeadingToShot", "ospiti_pallePerse"], 'ABC'),
-    evidence=["ospiti_falli", "away_errorsLeadingToShot", "ospiti_pallePerse"],
+    values=calc_matrix_with_cols(["ospiti_puntiSubiti", "ospiti_falliFatti", "away_errorsLeadingToShot", "ospiti_pallePerse"], 'ABC'),
+    evidence=["ospiti_falliFatti", "away_errorsLeadingToShot", "ospiti_pallePerse"],
     evidence_card=[N_BINS, N_BINS, N_BINS],
 )
 
@@ -253,23 +254,21 @@ result_cpd = TabularCPD(
 print('Adding cpds')
 #################### aggiungo CPD
 model.add_cpds(
-    casa_pallePerse_cpd,
-    casa_falli_cpd,
-    casa_tiri_cpd,
     casa_puntiFatti_cpd,
     casa_puntiSubiti_cpd,
-    ospiti_pallePerse_cpd,
-    ospiti_falli_cpd,
-    ospiti_tiri_cpd,
+    casa_falliFatti_cpd,
+    casa_pallePerse_cpd,
+    casa_t2_r_cpd,
     ospiti_puntiFatti_cpd,
     ospiti_puntiSubiti_cpd,
+    ospiti_falliFatti_cpd,
+    ospiti_pallePerse_cpd,
+    ospiti_t2_r_cpd,
     result_cpd,
 )
 
 print('calculating inference')
 inference = VariableElimination(model)
-#prob = inference.query(variables=["result"])
-#print(prob)
 
 max_n = 10
 correct = 0
