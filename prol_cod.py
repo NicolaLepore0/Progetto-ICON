@@ -75,8 +75,6 @@ list_ids = f"[{', '.join([str(x) for x in range(1, 2000)])}]"
 
 pl_list = list(prolog.query(f"evaluate_all_pl(Pl)"))[0]["Pl"]
 pl_list.sort(key=lambda row: row[1], reverse=True)
-for pl in pl_list:
-    print(pl[0])
 
 # print("Centro: ")
 cn_list = list(prolog.query(f"evaluate_all_cn(Cn)"))[0]["Cn"]
@@ -108,17 +106,33 @@ def comparePlayers(plList):
     for x in plList:
         if(str(x[0]) == p1Converted  or str(x[0]) == p2Converted):
             pl.append(x)
-            print(x)
     percP1 = f'{pl[0][1] / (pl[0][1] + pl[1][1]) * 100:.2f} %'
     percP2 = f'{pl[1][1] / (pl[0][1] + pl[1][1]) * 100:.2f} %'
-    print(f'{str(p1) if pl[0][0] == p1Converted else str(p2)} {percP1} - {percP2} {str(p2) if pl[0][0] == p2Converted else str(p1)}')
+    print(str(pl[0][0]) + ": " + percP1)
+    print(str(pl[1][0]) + ": " + percP2)
 
 scelta = input("Cosa vuoi confrontare? (pl/cn/al/gd): ")
 if scelta == 'pl':
+    scelta = input("Vuoi la lista dei giocatori?: (y/n) ")
+    if scelta == 'y':
+        for pl in pl_list:
+            print(str(pl[0]) + ": " + str(pl[1]))
     comparePlayers(pl_list)
 elif scelta == 'cn':
+    scelta = input("Vuoi la lista dei giocatori?: (y/n) ")
+    if scelta == 'y':
+        for pl in cn_list:
+            print(str(pl[0]) + ": " + str(pl[1]))
     comparePlayers(cn_list)
 elif scelta == 'al':
+    scelta = input("Vuoi la lista dei giocatori?: (y/n) ")
+    if scelta == 'y':
+        for pl in al_list:
+            print(str(pl[0]) + ": " + str(pl[1]))
     comparePlayers(al_list)
 elif scelta == 'gd':
+    scelta = input("Vuoi la lista dei giocatori?: (y/n) ")
+    if scelta == 'y':
+        for pl in gd_list:
+            print(str(pl[0]) + ": " + str(pl[1]))
     comparePlayers(gd_list)
