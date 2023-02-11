@@ -3,7 +3,7 @@ import csv
 import re
 
 char_to_replace = {
-    ' ': '_', '-': '_', '\'': '_', '&': 'and',
+    ' ': '_', '-': '', '\'': '_', '&': 'and',
     'á': 'a', 'â': 'a', 'ã': 'a', 'ă': 'a', 'ă': 'a', 'ä': 'a', 'å': 'a', 'æ': 'ae', 'ą': 'a', 'à': 'a',
     'č': 'c', 'ć': 'c', 'ç': 'c',
     'đ': 'd',
@@ -22,7 +22,6 @@ char_to_replace = {
 }
 
 col_to_rem = [
-    'numero_giocatore',
     'rim_o',
     'rim_d',
     't1_per',
@@ -72,28 +71,26 @@ with open('dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
 
 prolog = Prolog()
 prolog.consult("dataset_preprocessed.pl")
-list_ids = f"[{', '.join([str(x) for x in range(1, 249)])}]"
+list_ids = f"[{', '.join([str(x) for x in range(1, 2000)])}]"
 
-print("Playmaker: ")
-pl_list = list(prolog.query(f"evaluate_all_pl(Pl)"))
+pl_list = list(prolog.query(f"evaluate_all_pl(Pl)"))[0]["Pl"]
 pl_list.sort(key=lambda row: row[1], reverse=True)
 for pl in pl_list:
-    print(pl)
+    print(pl[0])
 
 # print("Centro: ")
-cn_list = list(prolog.query(f"evaluate_all_cn(Cn)"))
+cn_list = list(prolog.query(f"evaluate_all_cn(Cn)"))[0]["Cn"]
 cn_list.sort(key=lambda row: row[1], reverse=True)
-for cn in cn_list:
-    print(cn)
+
 
 # print("Ala: ")
-al_list = list(prolog.query(f"evaluate_all_al(Al)"))
+al_list = list(prolog.query(f"evaluate_all_al(Al)"))[0]["Al"]
 al_list.sort(key=lambda row: row[1], reverse=True)
 # for dm in dm_list:
 #    print(dm)
 
 # print("Guardia: ")
-gd_list = list(prolog.query(f"evaluate_all_gd(Gd)"))
+gd_list = list(prolog.query(f"evaluate_all_gd(Gd)"))[0]["Gd"]
 gd_list.sort(key=lambda row: row[1], reverse=True)
 # for mc in mc_list:
 #    print(mc)
@@ -109,19 +106,19 @@ def comparePlayers(plList):
     p2Converted = p2Converted.lower()
     pl = []
     for x in plList:
-        if(x[0] == p1Converted or x[0] == p2Converted):
+        if(str(x[0]) == p1Converted  or str(x[0]) == p2Converted):
             pl.append(x)
-    else:
-        percP1 = f'{pl[0][1] / (pl[0][1] + pl[1][1]) * 100:.2f} %'
-        percP2 = f'{pl[1][1] / (pl[0][1] + pl[1][1]) * 100:.2f} %'
-        print(f'{p1 if pl[0][0] == p1Converted else p2} {percP1} - {percP2} {p1 if pl[0][0] == p2Converted else p2}')
+            print(x)
+    percP1 = f'{pl[0][1] / (pl[0][1] + pl[1][1]) * 100:.2f} %'
+    percP2 = f'{pl[1][1] / (pl[0][1] + pl[1][1]) * 100:.2f} %'
+    print(f'{str(p1) if pl[0][0] == p1Converted else str(p2)} {percP1} - {percP2} {str(p2) if pl[0][0] == p2Converted else str(p1)}')
 
-scelta = input("Cosa vuoi confrontare? (Pl/Cn/Al/Gd): ")
-if scelta == 'Pl':
+scelta = input("Cosa vuoi confrontare? (pl/cn/al/gd): ")
+if scelta == 'pl':
     comparePlayers(pl_list)
-elif scelta == 'Cn':
+elif scelta == 'cn':
     comparePlayers(cn_list)
-elif scelta == 'Al':
+elif scelta == 'al':
     comparePlayers(al_list)
-elif scelta == 'Gd':
+elif scelta == 'gd':
     comparePlayers(gd_list)

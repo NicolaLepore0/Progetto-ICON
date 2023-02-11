@@ -13,7 +13,7 @@ calc_max([X|Xs], WK, R):- X >  WK, calc_max(Xs, X, R). %WK is Carry about
 calc_max([X|Xs], WK, R):- X =< WK, calc_max(Xs, WK, R).
 calc_max([X|Xs], R):- calc_max(Xs,X,R).%start
 
-is_centro(Id) :- ruolo(Id,centro). %play è un ruolo
+is_centro(Id) :- ruolo(Id,centro).
 is_ala(Id) :- ruolo(Id,ala).
 is_play(Id) :- ruolo(Id,play).
 is_guardia(Id) :- ruolo(Id,guardia).
@@ -103,7 +103,7 @@ get_all_stopD([H | T], Res_list) :-
     append([Res], Res_down,Res_list).
 
 %Stoppate Subite
-get_all_stoS([], []).
+get_all_stopS([], []).
 get_all_stopS([H | T], Res_list) :-
     stop_s(H, Res),
     get_all_stopS(T, Res_down),
@@ -246,7 +246,7 @@ evaluate_all_pl(Pl) :-
         Max_PalleR,
         Pl).
 
-evaluate_all_pl([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_pl([], _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_pl([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -299,7 +299,7 @@ evaluate_all_pl([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_pl(Id,
@@ -356,20 +356,21 @@ evaluation_pl(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 
 evaluate_all_cn(Cn) :-
@@ -425,7 +426,7 @@ evaluate_all_cn(Cn) :-
         Max_PalleR,
         Cn).
 
-evaluate_all_cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_cn([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -478,7 +479,7 @@ evaluate_all_cn([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_cn(Id,
@@ -535,20 +536,21 @@ evaluation_cn(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 evaluate_all_gd(Gd) :-
     findall(Player, is_guardia(Player), Players),
@@ -603,7 +605,7 @@ evaluate_all_gd(Gd) :-
         Max_PalleR,
         Gd).
 
-evaluate_all_gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_gd([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -656,7 +658,7 @@ evaluate_all_gd([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_gd(Id,
@@ -713,20 +715,21 @@ evaluation_gd(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 evaluate_all_al(Al) :-
     findall(Player, is_ala(Player), Players),
@@ -781,7 +784,7 @@ evaluate_all_al(Al) :-
         Max_PalleR,
         Al).
 
-evaluate_all_al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_al([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -834,7 +837,7 @@ evaluate_all_al([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_al(Id,
@@ -891,20 +894,21 @@ evaluation_al(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c_divided *0,5 +
-        Fouls_s_divided *0,5 +
-        T2_divided *1 +
-        (T2T_divided - T2_divided) *0,75 +
-        T3_divided *1 +
-        (T3T_divided - T3_divided) *0,75 +
-        T1_divided +
-        (T1T_divided - T1_divided) *0,5 +
-        Rebaunds_divided *1 +
-        StopD_divided *0,75 +
-        StopS_divided *0,2 +
-        PalleP_divided *1 +
-        PalleR_divided *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 
 

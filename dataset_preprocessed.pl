@@ -1243,6 +1243,255 @@ nome_giocatore(96,andrea_gattel).
 nome_giocatore(97,mourtada_gaye).
 nome_giocatore(98,stefano_gentile).
 nome_giocatore(99,gabriele_ghidini).
+numero_giocatore(1,0).
+numero_giocatore(10,0).
+numero_giocatore(100,0).
+numero_giocatore(101,0).
+numero_giocatore(102,0).
+numero_giocatore(103,0).
+numero_giocatore(104,0).
+numero_giocatore(105,0).
+numero_giocatore(106,0).
+numero_giocatore(107,0).
+numero_giocatore(108,0).
+numero_giocatore(109,0).
+numero_giocatore(11,0).
+numero_giocatore(110,0).
+numero_giocatore(111,0).
+numero_giocatore(112,0).
+numero_giocatore(113,0).
+numero_giocatore(114,0).
+numero_giocatore(115,0).
+numero_giocatore(116,0).
+numero_giocatore(117,0).
+numero_giocatore(118,0).
+numero_giocatore(119,0).
+numero_giocatore(12,0).
+numero_giocatore(120,0).
+numero_giocatore(121,0).
+numero_giocatore(122,0).
+numero_giocatore(123,0).
+numero_giocatore(124,0).
+numero_giocatore(125,0).
+numero_giocatore(126,0).
+numero_giocatore(127,0).
+numero_giocatore(128,0).
+numero_giocatore(129,0).
+numero_giocatore(13,0).
+numero_giocatore(130,0).
+numero_giocatore(131,0).
+numero_giocatore(132,0).
+numero_giocatore(133,0).
+numero_giocatore(134,0).
+numero_giocatore(135,0).
+numero_giocatore(136,0).
+numero_giocatore(137,0).
+numero_giocatore(138,0).
+numero_giocatore(139,0).
+numero_giocatore(14,0).
+numero_giocatore(140,0).
+numero_giocatore(141,0).
+numero_giocatore(142,0).
+numero_giocatore(143,0).
+numero_giocatore(144,0).
+numero_giocatore(145,0).
+numero_giocatore(146,0).
+numero_giocatore(147,0).
+numero_giocatore(148,0).
+numero_giocatore(149,0).
+numero_giocatore(15,0).
+numero_giocatore(150,0).
+numero_giocatore(151,0).
+numero_giocatore(152,0).
+numero_giocatore(153,0).
+numero_giocatore(154,0).
+numero_giocatore(155,0).
+numero_giocatore(156,0).
+numero_giocatore(157,0).
+numero_giocatore(158,0).
+numero_giocatore(159,0).
+numero_giocatore(16,0).
+numero_giocatore(160,0).
+numero_giocatore(161,0).
+numero_giocatore(162,0).
+numero_giocatore(163,0).
+numero_giocatore(164,0).
+numero_giocatore(165,0).
+numero_giocatore(166,0).
+numero_giocatore(167,0).
+numero_giocatore(168,0).
+numero_giocatore(169,0).
+numero_giocatore(17,0).
+numero_giocatore(170,0).
+numero_giocatore(171,0).
+numero_giocatore(172,0).
+numero_giocatore(173,0).
+numero_giocatore(174,0).
+numero_giocatore(175,0).
+numero_giocatore(176,0).
+numero_giocatore(177,0).
+numero_giocatore(178,0).
+numero_giocatore(179,0).
+numero_giocatore(18,0).
+numero_giocatore(180,0).
+numero_giocatore(181,0).
+numero_giocatore(182,0).
+numero_giocatore(183,0).
+numero_giocatore(184,0).
+numero_giocatore(185,0).
+numero_giocatore(186,0).
+numero_giocatore(187,0).
+numero_giocatore(188,0).
+numero_giocatore(189,0).
+numero_giocatore(19,0).
+numero_giocatore(190,0).
+numero_giocatore(191,0).
+numero_giocatore(192,0).
+numero_giocatore(193,0).
+numero_giocatore(194,0).
+numero_giocatore(195,0).
+numero_giocatore(196,0).
+numero_giocatore(197,0).
+numero_giocatore(198,0).
+numero_giocatore(199,0).
+numero_giocatore(2,0).
+numero_giocatore(20,0).
+numero_giocatore(200,0).
+numero_giocatore(201,0).
+numero_giocatore(202,0).
+numero_giocatore(203,0).
+numero_giocatore(204,0).
+numero_giocatore(205,0).
+numero_giocatore(206,0).
+numero_giocatore(207,0).
+numero_giocatore(208,0).
+numero_giocatore(209,0).
+numero_giocatore(21,0).
+numero_giocatore(210,0).
+numero_giocatore(211,0).
+numero_giocatore(212,0).
+numero_giocatore(213,0).
+numero_giocatore(214,0).
+numero_giocatore(215,0).
+numero_giocatore(216,0).
+numero_giocatore(217,0).
+numero_giocatore(218,0).
+numero_giocatore(219,0).
+numero_giocatore(22,0).
+numero_giocatore(220,0).
+numero_giocatore(221,0).
+numero_giocatore(222,0).
+numero_giocatore(223,0).
+numero_giocatore(224,0).
+numero_giocatore(225,0).
+numero_giocatore(226,0).
+numero_giocatore(227,0).
+numero_giocatore(228,0).
+numero_giocatore(229,0).
+numero_giocatore(23,0).
+numero_giocatore(230,0).
+numero_giocatore(231,0).
+numero_giocatore(232,0).
+numero_giocatore(233,0).
+numero_giocatore(234,0).
+numero_giocatore(235,0).
+numero_giocatore(236,0).
+numero_giocatore(237,0).
+numero_giocatore(238,0).
+numero_giocatore(239,0).
+numero_giocatore(24,0).
+numero_giocatore(240,0).
+numero_giocatore(241,0).
+numero_giocatore(242,0).
+numero_giocatore(243,0).
+numero_giocatore(244,0).
+numero_giocatore(245,0).
+numero_giocatore(246,0).
+numero_giocatore(247,0).
+numero_giocatore(248,0).
+numero_giocatore(249,0).
+numero_giocatore(25,0).
+numero_giocatore(26,0).
+numero_giocatore(27,0).
+numero_giocatore(28,0).
+numero_giocatore(29,0).
+numero_giocatore(3,0).
+numero_giocatore(30,0).
+numero_giocatore(31,0).
+numero_giocatore(32,0).
+numero_giocatore(33,0).
+numero_giocatore(34,0).
+numero_giocatore(35,0).
+numero_giocatore(36,0).
+numero_giocatore(37,0).
+numero_giocatore(38,0).
+numero_giocatore(39,0).
+numero_giocatore(4,0).
+numero_giocatore(40,0).
+numero_giocatore(41,0).
+numero_giocatore(42,0).
+numero_giocatore(43,0).
+numero_giocatore(44,0).
+numero_giocatore(45,0).
+numero_giocatore(46,0).
+numero_giocatore(47,0).
+numero_giocatore(48,0).
+numero_giocatore(49,0).
+numero_giocatore(5,0).
+numero_giocatore(50,0).
+numero_giocatore(51,0).
+numero_giocatore(52,0).
+numero_giocatore(53,0).
+numero_giocatore(54,0).
+numero_giocatore(55,0).
+numero_giocatore(56,0).
+numero_giocatore(57,0).
+numero_giocatore(58,0).
+numero_giocatore(59,0).
+numero_giocatore(6,0).
+numero_giocatore(60,0).
+numero_giocatore(61,0).
+numero_giocatore(62,0).
+numero_giocatore(63,0).
+numero_giocatore(64,0).
+numero_giocatore(65,0).
+numero_giocatore(66,0).
+numero_giocatore(67,0).
+numero_giocatore(68,0).
+numero_giocatore(69,0).
+numero_giocatore(7,0).
+numero_giocatore(70,0).
+numero_giocatore(71,0).
+numero_giocatore(72,0).
+numero_giocatore(73,0).
+numero_giocatore(74,0).
+numero_giocatore(75,0).
+numero_giocatore(76,0).
+numero_giocatore(77,0).
+numero_giocatore(78,0).
+numero_giocatore(79,0).
+numero_giocatore(8,0).
+numero_giocatore(80,0).
+numero_giocatore(81,0).
+numero_giocatore(82,0).
+numero_giocatore(83,0).
+numero_giocatore(84,0).
+numero_giocatore(85,0).
+numero_giocatore(86,0).
+numero_giocatore(87,0).
+numero_giocatore(88,0).
+numero_giocatore(89,0).
+numero_giocatore(9,0).
+numero_giocatore(90,0).
+numero_giocatore(91,0).
+numero_giocatore(92,0).
+numero_giocatore(93,0).
+numero_giocatore(94,0).
+numero_giocatore(95,0).
+numero_giocatore(96,0).
+numero_giocatore(97,0).
+numero_giocatore(98,0).
+numero_giocatore(99,0).
 palle_p(1,0).
 palle_p(10,0).
 palle_p(100,0).
@@ -1266,7 +1515,7 @@ palle_p(116,0).
 palle_p(117,2).
 palle_p(118,0).
 palle_p(119,0).
-palle_p(12,_1).
+palle_p(12,1).
 palle_p(120,1).
 palle_p(121,1).
 palle_p(122,1).
@@ -1329,7 +1578,7 @@ palle_p(173,1).
 palle_p(174,1).
 palle_p(175,1).
 palle_p(176,1).
-palle_p(177,_2).
+palle_p(177,2).
 palle_p(178,0).
 palle_p(179,0).
 palle_p(18,0).
@@ -1343,7 +1592,7 @@ palle_p(186,0).
 palle_p(187,3).
 palle_p(188,1).
 palle_p(189,0).
-palle_p(19,_4).
+palle_p(19,4).
 palle_p(190,1).
 palle_p(191,2).
 palle_p(192,1).
@@ -1419,7 +1668,7 @@ palle_p(3,1).
 palle_p(30,1).
 palle_p(31,0).
 palle_p(32,1).
-palle_p(33,_2).
+palle_p(33,2).
 palle_p(34,0).
 palle_p(35,1).
 palle_p(36,0).
@@ -1460,7 +1709,7 @@ palle_p(67,0).
 palle_p(68,1).
 palle_p(69,1).
 palle_p(7,1).
-palle_p(70,_1).
+palle_p(70,1).
 palle_p(71,1).
 palle_p(72,0).
 palle_p(73,0).
@@ -2574,7 +2823,7 @@ stop_d(173,0).
 stop_d(174,10).
 stop_d(175,0).
 stop_d(176,0).
-stop_d(177,_1).
+stop_d(177,1).
 stop_d(178,0).
 stop_d(179,0).
 stop_d(18,0).
@@ -2635,7 +2884,7 @@ stop_d(228,0).
 stop_d(229,0).
 stop_d(23,0).
 stop_d(230,8).
-stop_d(231,_1).
+stop_d(231,1).
 stop_d(232,0).
 stop_d(233,0).
 stop_d(234,0).
@@ -2664,7 +2913,7 @@ stop_d(3,1).
 stop_d(30,0).
 stop_d(31,0).
 stop_d(32,0).
-stop_d(33,_6).
+stop_d(33,6).
 stop_d(34,0).
 stop_d(35,0).
 stop_d(36,11).
@@ -4495,7 +4744,7 @@ calc_max([X|Xs], WK, R):- X >  WK, calc_max(Xs, X, R). %WK is Carry about
 calc_max([X|Xs], WK, R):- X =< WK, calc_max(Xs, WK, R).
 calc_max([X|Xs], R):- calc_max(Xs,X,R).%start
 
-is_centro(Id) :- ruolo(Id,centro). %play è un ruolo
+is_centro(Id) :- ruolo(Id,centro).
 is_ala(Id) :- ruolo(Id,ala).
 is_play(Id) :- ruolo(Id,play).
 is_guardia(Id) :- ruolo(Id,guardia).
@@ -4585,7 +4834,7 @@ get_all_stopD([H | T], Res_list) :-
     append([Res], Res_down,Res_list).
 
 %Stoppate Subite
-get_all_stoS([], []).
+get_all_stopS([], []).
 get_all_stopS([H | T], Res_list) :-
     stop_s(H, Res),
     get_all_stopS(T, Res_down),
@@ -4728,7 +4977,7 @@ evaluate_all_pl(Pl) :-
         Max_PalleR,
         Pl).
 
-evaluate_all_pl([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_pl([], _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_pl([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -4781,7 +5030,7 @@ evaluate_all_pl([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_pl(Id,
@@ -4838,20 +5087,21 @@ evaluation_pl(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 
 evaluate_all_cn(Cn) :-
@@ -4907,7 +5157,7 @@ evaluate_all_cn(Cn) :-
         Max_PalleR,
         Cn).
 
-evaluate_all_cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_cn([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -4960,7 +5210,7 @@ evaluate_all_cn([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_cn(Id,
@@ -5017,20 +5267,21 @@ evaluation_cn(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 evaluate_all_gd(Gd) :-
     findall(Player, is_guardia(Player), Players),
@@ -5085,7 +5336,7 @@ evaluate_all_gd(Gd) :-
         Max_PalleR,
         Gd).
 
-evaluate_all_gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_gd([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -5138,7 +5389,7 @@ evaluate_all_gd([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_gd(Id,
@@ -5195,20 +5446,21 @@ evaluation_gd(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c *0,5 +
-        Fouls_s *0,5 +
-        T2 *1 +
-        (T2T - T2) *0,75 +
-        T3 *1 +
-        (T3T - T3) *0,75 +
-        T1 +
-        (T1T - T1) *0,5 +
-        Rebaunds *1 +
-        StopD *0,75 +
-        StopS *0,2 +
-        PalleP *1 +
-        PalleR *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 evaluate_all_al(Al) :-
     findall(Player, is_ala(Player), Players),
@@ -5263,7 +5515,7 @@ evaluate_all_al(Al) :-
         Max_PalleR,
         Al).
 
-evaluate_all_al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
 evaluate_all_al([H | T],
             Max_height,
             Max_minutesPlayed,
@@ -5316,7 +5568,7 @@ evaluate_all_al([H | T],
         Max_PalleR,
         Eval_down),
     %%%%%% da modificare
-    name(H, Name),
+    nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 
 evaluation_al(Id,
@@ -5373,20 +5625,21 @@ evaluation_al(Id,
 
     Eval is
         Eval_height +
-        (Fouls_c_divided *0,5 +
-        Fouls_s_divided *0,5 +
-        T2_divided *1 +
-        (T2T_divided - T2_divided) *0,75 +
-        T3_divided *1 +
-        (T3T_divided - T3_divided) *0,75 +
-        T1_divided +
-        (T1T_divided - T1_divided) *0,5 +
-        Rebaunds_divided *1 +
-        StopD_divided *0,75 +
-        StopS_divided *0,2 +
-        PalleP_divided *1 +
-        PalleR_divided *1
-        ) / MinutesPlayed * Eval_mp.
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
 
 
 
