@@ -14,7 +14,6 @@ nodes = [
     "casa_falliFatti",
     "casa_pallePerse",
     "casa_t2_r",
-    
     "ospiti_puntiFatti",
     "ospiti_puntiSubiti",
     "ospiti_falliFatti",
@@ -25,7 +24,7 @@ nodes = [
 df = pd.read_csv("dataset/squadre.csv", usecols=nodes)
 
 # apply discretization
-N_BINS = 3
+N_BINS = 2
 
 def equal_width(values, n_bins):
     min_val = min(values)
@@ -110,8 +109,7 @@ new_column = create_dataframe(nodes, df, N_BINS)
 data = DataFrame(data=new_column)
 results = {
     "victory": "A",
-    "draw": "B",
-    "lose": "C"
+    "lose": "B"
 }
 data["result"] = [results[r] for r in df["result"]]
 
@@ -144,8 +142,7 @@ casa_pallePerse_cpd = TabularCPD(
     variable_card=N_BINS,
     values=[
         [features_count['casa_pallePerse']['A'] / total],  # A
-        [features_count['casa_pallePerse']['B'] / total],  # B
-        [features_count['casa_pallePerse']['C'] / total],  # C
+        [features_count['casa_pallePerse']['B'] / total],  # C
     ],
 )
 
@@ -155,37 +152,36 @@ casa_falliFatti_cpd = TabularCPD(
     variable_card=N_BINS,
     values=[
         [features_count['casa_falliFatti']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_falliFatti']['B'] / total],  # B: 0.1081081081081081, 0.2162162162162162
-        [features_count['casa_falliFatti']['C'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_falliFatti']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
-)
-
-print('TabularCPD casa_t2_r')
-casa_t2_r_cpd = TabularCPD(
-    variable="casa_t2_r",
-    variable_card=N_BINS,
-    values=calc_matrix_with_cols(["home_bigChances", "home_accurateCrosses", "home_accurateOppositionHalfPasses"], 'ABC'),
-    evidence=["home_accurateCrosses", "home_accurateOppositionHalfPasses"],
-    evidence_card=[N_BINS, N_BINS],
 )
 
 print('TabularCPD casa_puntiFatti')
 casa_puntiFatti_cpd = TabularCPD(
     variable="casa_puntiFatti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["casa_puntiFatti", "home_bigChances", "casa_t2_r"], 'ABC'),
-    evidence=["home_bigChances", "casa_t2_r"],
-    evidence_card=[N_BINS, N_BINS],
+    values=calc_matrix_with_cols(["casa_puntiFatti", "casa_t2_r"], 'AB'),
+    evidence=["casa_t2_r"],
+    evidence_card=[N_BINS],
 )
 print('TabularCPD casa_puntiSubiti')
 casa_puntiSubiti_cpd = TabularCPD(
     variable="casa_puntiSubiti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["casa_puntiSubiti", "casa_falliFatti", "home_errorsLeadingToShot", "casa_pallePerse"], 'ABC'),
-    evidence=["casa_falliFatti", "home_errorsLeadingToShot", "casa_pallePerse"],
-    evidence_card=[N_BINS, N_BINS, N_BINS],
+    values=calc_matrix_with_cols(["casa_puntiSubiti", "casa_falliFatti", "casa_pallePerse"], 'AB'),
+    evidence=["casa_falliFatti", "casa_pallePerse"],
+    evidence_card=[N_BINS, N_BINS],
 )
 
+print('TabularCPD casa_t2_r')
+casa_t2_r_cpd = TabularCPD(
+    variable="casa_t2_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t2_r']['A'] / total],  # A
+        [features_count['casa_t2_r']['B'] / total],  # C
+    ],
+)
 ##################################### away
 
 print('TabularCPD ospiti_pallePerse')
@@ -194,8 +190,7 @@ ospiti_pallePerse_cpd = TabularCPD(
     variable_card=N_BINS,
     values=[
         [features_count['ospiti_pallePerse']['A'] / total],  # A:
-        [features_count['ospiti_pallePerse']['B'] / total],  # B:
-        [features_count['ospiti_pallePerse']['C'] / total],  # C:
+        [features_count['ospiti_pallePerse']['B'] / total],  # C:
     ],
 )
 
@@ -205,35 +200,34 @@ ospiti_falliFatti_cpd = TabularCPD(
     variable_card=N_BINS,
     values=[
         [features_count['ospiti_falliFatti']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_falliFatti']['B'] / total],  # B: 0.1081081081081081, 0.2162162162162162
-        [features_count['ospiti_falliFatti']['C'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_falliFatti']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
-)
-
-print('TabularCPD ospiti_t2_r')
-ospiti_t2_r_cpd = TabularCPD(
-    variable="ospiti_t2_r",
-    variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_t2_r", "away_accurateCrosses", "away_accurateOppositionHalfPasses"], 'ABC'),
-    evidence=["away_accurateCrosses", "away_accurateOppositionHalfPasses"],
-    evidence_card=[N_BINS, N_BINS],
 )
 
 print('TabularCPD ospiti_puntiFatti')
 ospiti_puntiFatti_cpd = TabularCPD(
     variable="ospiti_puntiFatti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_puntiFatti", "away_bigChances", "ospiti_t2_r"], 'ABC'),
-    evidence=["away_bigChances", "ospiti_t2_r"],
-    evidence_card=[N_BINS, N_BINS],
+    values=calc_matrix_with_cols(["ospiti_puntiFatti", "ospiti_t2_r"], 'AB'),
+    evidence=["ospiti_t2_r"],
+    evidence_card=[N_BINS],
 )
 print('TabularCPD ospiti_puntiSubiti')
 ospiti_puntiSubiti_cpd = TabularCPD(
     variable="ospiti_puntiSubiti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_puntiSubiti", "ospiti_falliFatti", "away_errorsLeadingToShot", "ospiti_pallePerse"], 'ABC'),
-    evidence=["ospiti_falliFatti", "away_errorsLeadingToShot", "ospiti_pallePerse"],
-    evidence_card=[N_BINS, N_BINS, N_BINS],
+    values=calc_matrix_with_cols(["ospiti_puntiSubiti", "ospiti_falliFatti", "ospiti_pallePerse"], 'AB'),
+    evidence=["ospiti_falliFatti", "ospiti_pallePerse"],
+    evidence_card=[N_BINS, N_BINS],
+)
+print('TabularCPD ospiti_t2_r')
+ospiti_t2_r_cpd = TabularCPD(
+    variable="ospiti_t2_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_t2_r']['A'] / total],  # A
+        [features_count['ospiti_t2_r']['B'] / total],  # C
+    ],
 )
 
 #################### result
@@ -241,14 +235,14 @@ print('TabularCPD result')
 result_cpd = TabularCPD(
     variable="result",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["result", "casa_puntiFatti", "casa_puntiSubiti", "ospiti_puntiFatti", "ospiti_puntiSubiti"], 'ABC'),
+    values=calc_matrix_with_cols(["result", "casa_puntiFatti", "casa_puntiSubiti", "ospiti_puntiFatti", "ospiti_puntiSubiti"], 'AB'),
     evidence=[
         "casa_puntiFatti",
         "casa_puntiSubiti",
         "ospiti_puntiFatti",
         "ospiti_puntiSubiti",
     ],
-    evidence_card=[3, 3, 3, 3],
+    evidence_card=[2, 2, 2, 2],
 )
 
 print('Adding cpds')
@@ -281,7 +275,6 @@ for i, r in enumerate(tqdm.tqdm(data.iloc)):
     corr_dict = {
         'A': 0,
         'B': 1,
-        'C': 2,
     }
     expected_result = df.iloc[i]['result']
     del obj['result']
@@ -289,8 +282,7 @@ for i, r in enumerate(tqdm.tqdm(data.iloc)):
     prob = inference.query(variables=["result"], evidence=obj, show_progress=False)
     str_int = {
         'victory': 0,
-        'draw': 1,
-        'lose': 2,
+        'lose': 1,
     }
 
     print(f'expected_result: {expected_result}, {np.argmax(prob)},\nactual_result: {prob}')
