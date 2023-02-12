@@ -25,7 +25,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
     'casa_t3_s',
     'casa_t1_r',
     'casa_t1_s',
-    'casa_rimbalzi',
+    'casa_rimbalzi_o',
+    'casa_rimbalzi_d',
     'ospiti_puntiFatti',
     'ospiti_puntiSubiti',
     'ospiti_falliFatti',
@@ -38,7 +39,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
     'ospiti_t3_s',
     'ospiti_t1_r',
     'ospiti_t1_s',
-    'ospiti_rimbalzi',
+    'ospiti_rimbalzi_o',
+    'ospiti_rimbalzi_d',
     'result'
     ])
     for partita in data:
@@ -54,7 +56,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
         casa_t3_s = 0
         casa_t1_r = 0
         casa_t1_s = 0
-        casa_rimbalzi = 0
+        casa_rimbalzi_d = 0
+        casa_rimbalzi_o = 0
         ospiti_puntiFatti = 0
         ospiti_puntiSubiti = 0
         ospiti_falliFatti = 0
@@ -67,7 +70,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
         ospiti_t3_s = 0
         ospiti_t1_r = 0
         ospiti_t1_s = 0
-        ospiti_rimbalzi = 0
+        ospiti_rimbalzi_d = 0
+        ospiti_rimbalzi_o = 0
         result = ""
         if len(partita['eventi']) > 0:
             casa_puntiFatti = casa_puntiFatti + int(partita['risultato_finale_host'])
@@ -79,7 +83,7 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
             i = 0
             while i < len(partita['eventi']):
                     if partita['eventi'][i]['evento'] == "FF" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
-                            casa_falliFatti = casa_falliFatti + 1
+                        casa_falliFatti = casa_falliFatti + 1
                     elif partita['eventi'][i]['evento'] == "FS" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
                         casa_falliSubiti = casa_falliSubiti + 1
                     elif partita['eventi'][i]['evento'] == "PP" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
@@ -103,9 +107,9 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                     elif partita['eventi'][i]['evento'] == "PR" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
                         casa_palleRecuperate = casa_palleRecuperate + 1
                     elif partita['eventi'][i]['evento'] == "RD" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
-                        casa_rimbalzi = casa_rimbalzi + 1
+                        casa_rimbalzi_d = casa_rimbalzi_d + 1
                     elif partita['eventi'][i]['evento'] == "RO" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
-                        casa_rimbalzi = casa_rimbalzi + 1
+                        casa_rimbalzi_o = casa_rimbalzi_o + 1
                     i = i+1
 
         if len(partita['eventi']) > 0:
@@ -142,9 +146,9 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                     elif partita['eventi'][i]['evento'] == "PR" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_ospite']:
                         ospiti_palleRecuperate = ospiti_palleRecuperate + 1
                     elif partita['eventi'][i]['evento'] == "RD" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_ospite']:
-                        ospiti_rimbalzi = ospiti_rimbalzi + 1
+                        ospiti_rimbalzi_d = ospiti_rimbalzi_d + 1
                     elif partita['eventi'][i]['evento'] == "RO" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_ospite']:
-                        ospiti_rimbalzi = ospiti_rimbalzi + 1
+                        ospiti_rimbalzi_o = ospiti_rimbalzi_o + 1
                     i = i+1
         if casa_puntiFatti > 0:
             writer.writerow([casa_puntiFatti, casa_puntiSubiti,
@@ -158,7 +162,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                           casa_t3_s,
                           casa_t1_r,
                           casa_t1_s,
-                          casa_rimbalzi,
+                          casa_rimbalzi_o,
+                          casa_rimbalzi_d,
                           ospiti_puntiFatti,
                           ospiti_puntiSubiti,
                           ospiti_falliFatti,
@@ -171,7 +176,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                           ospiti_t3_s,
                           ospiti_t1_r,
                           ospiti_t1_s,
-                          ospiti_rimbalzi,
+                          ospiti_rimbalzi_o,
+                          ospiti_rimbalzi_d,
                           result])
     for partita in data2:
 
@@ -187,7 +193,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
         casa_t3_s = 0
         casa_t1_r = 0
         casa_t1_s = 0
-        casa_rimbalzi = 0
+        casa_rimbalzi_o= 0
+        casa_rimbalzi_d =0
         ospiti_puntiFatti = 0
         ospiti_puntiSubiti = 0
         ospiti_falliFatti = 0
@@ -200,7 +207,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
         ospiti_t3_s = 0
         ospiti_t1_r = 0
         ospiti_t1_s = 0
-        ospiti_rimbalzi = 0
+        ospiti_rimbalzi_o = 0
+        ospiti_rimbalzi_d = 0
         result = ""
         if len(partita['eventi']) > 0:
             casa_puntiFatti = casa_puntiFatti + int(partita['risultato_finale_host'])
@@ -236,9 +244,9 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                 elif partita['eventi'][i]['evento'] == "PR" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
                     casa_palleRecuperate = casa_palleRecuperate + 1
                 elif partita['eventi'][i]['evento'] == "RD" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
-                    casa_rimbalzi = casa_rimbalzi + 1
+                    casa_rimbalzi_d = casa_rimbalzi_d + 1
                 elif partita['eventi'][i]['evento'] == "RO" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_casa']:
-                    casa_rimbalzi = casa_rimbalzi + 1
+                    casa_rimbalzi_o = casa_rimbalzi_o + 1
                 i = i+1
 
         if len(partita['eventi']) > 0:
@@ -275,9 +283,9 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                 elif partita['eventi'][i]['evento'] == "PR" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_ospite']:
                     ospiti_palleRecuperate = ospiti_palleRecuperate + 1
                 elif partita['eventi'][i]['evento'] == "RD" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_ospite']:
-                    ospiti_rimbalzi = ospiti_rimbalzi + 1
+                    ospiti_rimbalzi_d = ospiti_rimbalzi_d + 1
                 elif partita['eventi'][i]['evento'] == "RO" and partita['eventi'][i]['giocatore']['squadra'] == partita['squadra_ospite']:
-                    ospiti_rimbalzi = ospiti_rimbalzi + 1
+                    ospiti_rimbalzi_o = ospiti_rimbalzi_o + 1
                 i = i+1
         if casa_puntiFatti > 0:
             writer.writerow([casa_puntiFatti, casa_puntiSubiti,
@@ -291,7 +299,8 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                              casa_t3_s,
                              casa_t1_r,
                              casa_t1_s,
-                             casa_rimbalzi,
+                             casa_rimbalzi_o,
+                             casa_rimbalzi_d,
                              ospiti_puntiFatti,
                              ospiti_puntiSubiti,
                              ospiti_falliFatti,
@@ -304,5 +313,6 @@ with open("dataset/squadre.csv", 'w', newline='') as f:
                              ospiti_t3_s,
                              ospiti_t1_r,
                              ospiti_t1_s,
-                             ospiti_rimbalzi,
+                             ospiti_rimbalzi_o,
+                             ospiti_rimbalzi_d,
                              result])

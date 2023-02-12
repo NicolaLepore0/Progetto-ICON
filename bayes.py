@@ -13,12 +13,24 @@ nodes = [
     "casa_puntiSubiti",
     "casa_falliFatti",
     "casa_pallePerse",
+    "casa_palleRecuperate",
     "casa_t2_r",
+    "casa_t3_r",
+    "casa_t1_r",
+    "casa_t2_s",
+    "casa_t3_s",
+    "casa_t1_s",
     "ospiti_puntiFatti",
     "ospiti_puntiSubiti",
     "ospiti_falliFatti",
     "ospiti_pallePerse",
+    "ospiti_palleRecuperate",
     "ospiti_t2_r",
+    "ospiti_t3_r",
+    "ospiti_t1_r",
+    "ospiti_t2_s",
+    "ospiti_t3_s",
+    "ospiti_t1_s",
     "result",
 ]
 df = pd.read_csv("dataset/squadre.csv", usecols=nodes)
@@ -114,20 +126,34 @@ results = {
 data["result"] = [results[r] for r in df["result"]]
 
 # Setting the model
-
 # set the structure
 model = BayesianNetwork(
     [
-        ("casa_puntiSubiti", "result"),
         ("casa_puntiFatti", "result"),
-        ("casa_t2_r", "casa_puntiFatti"),
-        ("casa_falliFatti", "casa_puntiSubiti"),
-        ('casa_pallePerse', 'casa_puntiSubiti'),
-        ("ospiti_puntiSubiti", "result"),
+        ("casa_puntiSubiti", "result"),
+        ("casa_falliFatti","casa_puntiSubiti"),
+        ("casa_pallePerse","casa_puntiSubiti"),
+        ("casa_palleRecuperate", "casa_puntiFatti"),
+        ('casa_falliFatti', 'casa_pallePerse'),
+        ("casa_t2_s","casa_pallePerse"),
+        ("casa_t3_s","casa_pallePerse"),
+        ("casa_t1_s","casa_pallePerse"),
+        ("casa_t2_r","casa_puntiFatti"),
+        ("casa_t3_r","casa_puntiFatti"),
+        ("casa_t1_r","casa_puntiFatti"),
+
         ("ospiti_puntiFatti", "result"),
-        ("ospiti_t2_r", "ospiti_puntiFatti"),
-        ("ospiti_falliFatti", "ospiti_puntiSubiti"),
-        ('ospiti_pallePerse', 'ospiti_puntiSubiti')
+        ("ospiti_puntiSubiti", "result"),
+        ("ospiti_falliFatti","ospiti_puntiSubiti"),
+        ("ospiti_pallePerse", "ospiti_puntiSubiti"),
+        ("ospiti_palleRecuperate", "ospiti_puntiFatti"),
+        ('ospiti_falliFatti', 'ospiti_pallePerse'),
+        ("ospiti_t2_s","ospiti_pallePerse"),
+        ("ospiti_t3_s","ospiti_pallePerse"),
+        ("ospiti_t1_s","ospiti_pallePerse"),
+        ("ospiti_t2_r","ospiti_puntiFatti"),
+        ("ospiti_t3_r","ospiti_puntiFatti"),
+        ("ospiti_t1_r","ospiti_puntiFatti"),
     ]
 )
 
@@ -140,10 +166,9 @@ print('TabularCPD casa_pallePerse')
 casa_pallePerse_cpd = TabularCPD(
     variable="casa_pallePerse",
     variable_card=N_BINS,
-    values=[
-        [features_count['casa_pallePerse']['A'] / total],  # A
-        [features_count['casa_pallePerse']['B'] / total],  # C
-    ],
+    values=calc_matrix_with_cols(["casa_pallePerse", "casa_falliFatti", "casa_t2_s","casa_t3_s","casa_t1_s"], 'AB'),
+    evidence=["casa_falliFatti", "casa_t2_s","casa_t3_s","casa_t1_s",],
+    evidence_card=[N_BINS, N_BINS,N_BINS, N_BINS],
 )
 
 print('TabularCPD casa_falliFatti')
@@ -155,14 +180,67 @@ casa_falliFatti_cpd = TabularCPD(
         [features_count['casa_falliFatti']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
 )
-
+print('TabularCPD casa_t2_s')
+casa_t2_s_cpd = TabularCPD(
+    variable="casa_t2_s",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t2_s']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_t2_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD casa_t3_s')
+casa_t3_s_cpd = TabularCPD(
+    variable="casa_t3_s",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t3_s']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_t3_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD casa_t1_s')
+casa_t1_s_cpd = TabularCPD(
+    variable="casa_t1_s",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t1_s']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_t1_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD casa_t2_r')
+casa_t2_r_cpd = TabularCPD(
+    variable="casa_t2_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t2_r']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_t2_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD casa_t3_r')
+casa_t3_r_cpd = TabularCPD(
+    variable="casa_t3_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t3_r']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_t3_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD casa_t1_')
+casa_t1_r_cpd = TabularCPD(
+    variable="casa_t1_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['casa_t1_r']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_t1_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
 print('TabularCPD casa_puntiFatti')
 casa_puntiFatti_cpd = TabularCPD(
     variable="casa_puntiFatti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["casa_puntiFatti", "casa_t2_r"], 'AB'),
-    evidence=["casa_t2_r"],
-    evidence_card=[N_BINS],
+    values=calc_matrix_with_cols(["casa_puntiFatti", "casa_t2_r","casa_t3_r","casa_t1_r","casa_palleRecuperate"], 'AB'),
+    evidence=["casa_t2_r","casa_t3_r","casa_t1_r","casa_palleRecuperate"],
+    evidence_card=[N_BINS,N_BINS,N_BINS,N_BINS],
 )
 print('TabularCPD casa_puntiSubiti')
 casa_puntiSubiti_cpd = TabularCPD(
@@ -172,26 +250,24 @@ casa_puntiSubiti_cpd = TabularCPD(
     evidence=["casa_falliFatti", "casa_pallePerse"],
     evidence_card=[N_BINS, N_BINS],
 )
-
-print('TabularCPD casa_t2_r')
-casa_t2_r_cpd = TabularCPD(
-    variable="casa_t2_r",
+print('TabularCPD casa_palleRecuperate')
+casa_palleRecuperate_cpd = TabularCPD(
+    variable="casa_palleRecuperate",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t2_r']['A'] / total],  # A
-        [features_count['casa_t2_r']['B'] / total],  # C
+        [features_count['casa_palleRecuperate']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['casa_palleRecuperate']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
 )
-##################################### away
 
+##################################### away
 print('TabularCPD ospiti_pallePerse')
 ospiti_pallePerse_cpd = TabularCPD(
     variable="ospiti_pallePerse",
     variable_card=N_BINS,
-    values=[
-        [features_count['ospiti_pallePerse']['A'] / total],  # A:
-        [features_count['ospiti_pallePerse']['B'] / total],  # C:
-    ],
+    values=calc_matrix_with_cols(["ospiti_pallePerse", "ospiti_falliFatti", "ospiti_t2_s","ospiti_t3_s","ospiti_t1_s"], 'AB'),
+    evidence=["ospiti_falliFatti", "ospiti_t2_s","ospiti_t3_s","ospiti_t1_s",],
+    evidence_card=[N_BINS, N_BINS,N_BINS, N_BINS],
 )
 
 print('TabularCPD ospiti_falliFatti')
@@ -208,9 +284,9 @@ print('TabularCPD ospiti_puntiFatti')
 ospiti_puntiFatti_cpd = TabularCPD(
     variable="ospiti_puntiFatti",
     variable_card=N_BINS,
-    values=calc_matrix_with_cols(["ospiti_puntiFatti", "ospiti_t2_r"], 'AB'),
-    evidence=["ospiti_t2_r"],
-    evidence_card=[N_BINS],
+    values=calc_matrix_with_cols(["ospiti_puntiFatti", "ospiti_t2_r","ospiti_t3_r","ospiti_t1_r","ospiti_palleRecuperate"], 'AB'),
+    evidence=["ospiti_t2_r","ospiti_t3_r","ospiti_t1_r","ospiti_palleRecuperate"],
+    evidence_card=[N_BINS,N_BINS,N_BINS,N_BINS],
 )
 print('TabularCPD ospiti_puntiSubiti')
 ospiti_puntiSubiti_cpd = TabularCPD(
@@ -220,13 +296,68 @@ ospiti_puntiSubiti_cpd = TabularCPD(
     evidence=["ospiti_falliFatti", "ospiti_pallePerse"],
     evidence_card=[N_BINS, N_BINS],
 )
+print('TabularCPD ospiti_palleRecuperate')
+ospiti_palleRecuperate_cpd = TabularCPD(
+    variable="ospiti_palleRecuperate",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_palleRecuperate']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_palleRecuperate']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+
+print('TabularCPD ospiti_t2_s')
+ospiti_t2_s_cpd = TabularCPD(
+    variable="ospiti_t2_s",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_t2_s']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_t2_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD ospiti_t3_s')
+ospiti_t3_s_cpd = TabularCPD(
+    variable="ospiti_t3_s",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_t3_s']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_t3_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD ospiti_t1_s')
+ospiti_t1_s_cpd = TabularCPD(
+    variable="ospiti_t1_s",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_t1_s']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_t1_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
 print('TabularCPD ospiti_t2_r')
 ospiti_t2_r_cpd = TabularCPD(
     variable="ospiti_t2_r",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t2_r']['A'] / total],  # A
-        [features_count['ospiti_t2_r']['B'] / total],  # C
+        [features_count['ospiti_t2_r']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_t2_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD ospiti_t3_r')
+ospiti_t3_r_cpd = TabularCPD(
+    variable="ospiti_t3_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_t3_r']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_t3_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+    ],
+)
+print('TabularCPD ospiti_t1_r')
+ospiti_t1_r_cpd = TabularCPD(
+    variable="ospiti_t1_r",
+    variable_card=N_BINS,
+    values=[
+        [features_count['ospiti_t1_r']['A'] / total],  # A: 0.0, 0.1081081081081081
+        [features_count['ospiti_t1_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
     ],
 )
 
@@ -252,12 +383,26 @@ model.add_cpds(
     casa_puntiSubiti_cpd,
     casa_falliFatti_cpd,
     casa_pallePerse_cpd,
+    casa_palleRecuperate_cpd,
+    casa_t2_s_cpd,
+    casa_t3_s_cpd,
+    casa_t1_s_cpd,
     casa_t2_r_cpd,
+    casa_t3_r_cpd,
+    casa_t1_r_cpd,
+
     ospiti_puntiFatti_cpd,
     ospiti_puntiSubiti_cpd,
     ospiti_falliFatti_cpd,
     ospiti_pallePerse_cpd,
+    ospiti_palleRecuperate_cpd,
+    ospiti_t2_s_cpd,
+    ospiti_t3_s_cpd,
+    ospiti_t1_s_cpd,
     ospiti_t2_r_cpd,
+    ospiti_t3_r_cpd,
+    ospiti_t1_r_cpd,
+
     result_cpd,
 )
 
