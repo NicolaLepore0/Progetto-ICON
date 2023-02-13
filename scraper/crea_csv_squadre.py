@@ -1,16 +1,16 @@
 import csv
 import json
 
-with open("dataset/squadre.txt", "r") as file:
+with open("../dataset/squadre.txt", "r") as file:
     lista = [riga.strip() for riga in file]
 
-with open("dataset/partita.json", "r") as file:
+with open("../dataset/partita.json", "r") as file:
     data = json.load(file)
 
-with open("dataset/partita21.json", "r") as file1:
+with open("../dataset/partita21.json", "r") as file1:
     data2 = json.load(file1)
 
-with open("dataset/squadre.csv", 'w', newline='') as f:
+with open("../dataset/squadre.csv", 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow([
     'casa_puntiFatti',

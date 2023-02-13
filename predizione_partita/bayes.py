@@ -33,7 +33,7 @@ nodes = [
     "ospiti_t1_s",
     "result",
 ]
-df = pd.read_csv("dataset/squadre.csv", usecols=nodes)
+df = pd.read_csv("../dataset/squadre.csv", usecols=nodes)
 
 # apply discretization
 N_BINS = 2
@@ -147,7 +147,7 @@ model = BayesianNetwork(
         ("ospiti_falliFatti","ospiti_puntiSubiti"),
         ("ospiti_pallePerse", "ospiti_puntiSubiti"),
         ("ospiti_palleRecuperate", "ospiti_puntiFatti"),
-        ('ospiti_falliFatti', 'ospiti_pallePerse'),
+        ('ospiti_falliFatti','ospiti_pallePerse'),
         ("ospiti_t2_s","ospiti_pallePerse"),
         ("ospiti_t3_s","ospiti_pallePerse"),
         ("ospiti_t1_s","ospiti_pallePerse"),
@@ -176,8 +176,8 @@ casa_falliFatti_cpd = TabularCPD(
     variable="casa_falliFatti",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_falliFatti']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_falliFatti']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_falliFatti']['A'] / total],
+        [features_count['casa_falliFatti']['B'] / total],
     ],
 )
 print('TabularCPD casa_t2_s')
@@ -435,3 +435,18 @@ for i, r in enumerate(tqdm.tqdm(data.iloc)):
         correct += 1
 
 print(f"Accuracy: {correct / i}")
+
+import matplotlib.pyplot as plt
+import networkx as nx
+
+# Get the graph representation of the model
+G = nx.DiGraph(model.edges())
+
+# Set the node positions
+pos = nx.spring_layout(G)
+
+# Plot the graph
+nx.draw(G, pos, with_labels=True, font_size=10, node_size=1000, node_color='lightblue')
+
+# Show the plot
+plt.show()

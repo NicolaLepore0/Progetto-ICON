@@ -5029,7 +5029,7 @@ evaluate_all_pl([H | T],
         Max_PalleP,
         Max_PalleR,
         Eval_down),
-    %%%%%% da modificare
+
     nome_giocatore(H, Name),
     append([[Name, Eval_local]], Eval_down, Res).
 

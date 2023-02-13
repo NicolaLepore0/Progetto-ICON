@@ -45,7 +45,7 @@ def scale_cols(df, col):
 
 
 # Seleziona le colonne che vuoi utilizzare come feature
-features = ['ruolo','altezza', 'T2_T', 'T2_PER', 'T3_T', 'T3_PER', 'RIM_O', 'RIM_D', 'RIM_T', 'STOP_D', 'STOP_S', 'ASS']
+features = ['ruolo','altezza', 't2_t', 't2_per', 't3_t', 't3_per', 'rim_o', 'rim_d', 'rim_t', 'stop_d', 'stop_s', 'ass']
 
 X = giocatori[features].values
 

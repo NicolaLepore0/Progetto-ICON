@@ -42,7 +42,7 @@ def filter_bad_strings(value: str, char_to_replace: dict) -> str:
 
 pl_kb = []
 
-with open('dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
+with open('../dataset/giocatori_corretti.csv', 'r', encoding='utf-8') as f:
     csvr = csv.reader(f, delimiter=',')
     header = next(csvr)
     for i, player in enumerate(csvr):

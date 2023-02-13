@@ -1,7 +1,6 @@
 import pandas as pd
+from matplotlib import pyplot as plt
 from sklearn.cluster import KMeans
-import numpy as np
-
 import os
 
 os.environ['OMP_NUM_THREADS'] = '1'
@@ -41,7 +40,7 @@ def scale_cols(df, col):
 giocatori = scale_cols(giocatori, 'minuti')
 
 # Seleziona le colonne che vuoi utilizzare come feature
-features = ['altezza', 'T2_T', 'T2_PER', 'T3_T', 'T3_PER', 'RIM_O', 'RIM_D', 'RIM_T', 'STOP_D', 'STOP_S', 'ASS']
+features = ['ruolo','altezza', 't2_t', 't2_per', 't3_t', 't3_per', 'rim_o', 'rim_d', 'rim_t', 'stop_d', 'stop_s', 'ass']
 
 X = giocatori[features].values
 
@@ -54,6 +53,20 @@ kmeans.fit(X)
 # Prevedi i cluster a cui appartengono ogni giocatore
 labels = kmeans.predict(X)
 
+for i in range(4):
+    x = X[labels == i, 0]
+    y = X[labels == i, 1]
+    plt.scatter(x, y, label='Cluster {}'.format(i+1))
+
+# Aggiungi le etichette per l'asse X e Y
+plt.xlabel('Ruolo')
+plt.ylabel('altezza')
+
+# Mostra la legenda
+plt.legend()
+
+# Mostra il grafico
+plt.show()
 
 from sklearn.metrics import silhouette_score
 
