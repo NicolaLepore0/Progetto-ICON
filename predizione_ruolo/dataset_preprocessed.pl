@@ -1,0 +1,5648 @@
+altezza(1,198).
+altezza(10,208).
+altezza(100,0).
+altezza(101,188).
+altezza(102,193).
+altezza(103,202).
+altezza(104,0).
+altezza(105,195).
+altezza(106,197).
+altezza(107,196).
+altezza(108,178).
+altezza(109,193).
+altezza(11,192).
+altezza(110,193).
+altezza(111,198).
+altezza(112,206).
+altezza(113,206).
+altezza(114,180).
+altezza(115,192).
+altezza(116,198).
+altezza(117,190).
+altezza(118,0).
+altezza(119,211).
+altezza(12,0).
+altezza(120,0).
+altezza(121,204).
+altezza(122,198).
+altezza(123,201).
+altezza(124,203).
+altezza(125,195).
+altezza(126,213).
+altezza(127,198).
+altezza(128,207).
+altezza(129,193).
+altezza(13,190).
+altezza(130,188).
+altezza(131,208).
+altezza(132,180).
+altezza(133,196).
+altezza(134,185).
+altezza(135,193).
+altezza(136,201).
+altezza(137,196).
+altezza(138,0).
+altezza(139,0).
+altezza(14,188).
+altezza(140,190).
+altezza(141,0).
+altezza(142,190).
+altezza(143,206).
+altezza(144,0).
+altezza(145,205).
+altezza(146,206).
+altezza(147,208).
+altezza(148,207).
+altezza(149,0).
+altezza(15,191).
+altezza(150,0).
+altezza(151,192).
+altezza(152,203).
+altezza(153,193).
+altezza(154,185).
+altezza(155,194).
+altezza(156,190).
+altezza(157,0).
+altezza(158,208).
+altezza(159,0).
+altezza(16,0).
+altezza(160,196).
+altezza(161,183).
+altezza(162,191).
+altezza(163,206).
+altezza(164,201).
+altezza(165,198).
+altezza(166,198).
+altezza(167,206).
+altezza(168,194).
+altezza(169,185).
+altezza(17,204).
+altezza(170,201).
+altezza(171,203).
+altezza(172,193).
+altezza(173,201).
+altezza(174,0).
+altezza(175,0).
+altezza(176,208).
+altezza(177,0).
+altezza(178,198).
+altezza(179,188).
+altezza(18,196).
+altezza(180,191).
+altezza(181,211).
+altezza(182,193).
+altezza(183,202).
+altezza(184,196).
+altezza(185,185).
+altezza(186,0).
+altezza(187,85).
+altezza(188,190).
+altezza(189,198).
+altezza(19,0).
+altezza(190,183).
+altezza(191,0).
+altezza(192,193).
+altezza(193,200).
+altezza(194,0).
+altezza(195,188).
+altezza(196,204).
+altezza(197,206).
+altezza(198,210).
+altezza(199,201).
+altezza(2,193).
+altezza(20,207).
+altezza(200,206).
+altezza(201,175).
+altezza(202,199).
+altezza(203,203).
+altezza(204,195).
+altezza(205,206).
+altezza(206,185).
+altezza(207,200).
+altezza(208,191).
+altezza(209,203).
+altezza(21,200).
+altezza(210,190).
+altezza(211,198).
+altezza(212,198).
+altezza(213,192).
+altezza(214,0).
+altezza(215,188).
+altezza(216,0).
+altezza(217,205).
+altezza(218,195).
+altezza(219,206).
+altezza(22,205).
+altezza(220,207).
+altezza(221,201).
+altezza(222,212).
+altezza(223,194).
+altezza(224,0).
+altezza(225,211).
+altezza(226,204).
+altezza(227,199).
+altezza(228,200).
+altezza(229,192).
+altezza(23,193).
+altezza(230,0).
+altezza(231,0).
+altezza(232,192).
+altezza(233,205).
+altezza(234,206).
+altezza(235,198).
+altezza(236,196).
+altezza(237,0).
+altezza(238,211).
+altezza(239,208).
+altezza(24,190).
+altezza(240,198).
+altezza(241,202).
+altezza(242,206).
+altezza(243,196).
+altezza(244,184).
+altezza(245,188).
+altezza(246,0).
+altezza(247,208).
+altezza(248,205).
+altezza(249,0).
+altezza(25,185).
+altezza(26,198).
+altezza(27,203).
+altezza(28,191).
+altezza(29,201).
+altezza(3,208).
+altezza(30,201).
+altezza(31,203).
+altezza(32,205).
+altezza(33,0).
+altezza(34,0).
+altezza(35,105).
+altezza(36,0).
+altezza(37,214).
+altezza(38,198).
+altezza(39,190).
+altezza(4,203).
+altezza(40,213).
+altezza(41,186).
+altezza(42,208).
+altezza(43,196).
+altezza(44,0).
+altezza(45,193).
+altezza(46,0).
+altezza(47,194).
+altezza(48,204).
+altezza(49,208).
+altezza(5,200).
+altezza(50,188).
+altezza(51,203).
+altezza(52,191).
+altezza(53,193).
+altezza(54,197).
+altezza(55,203).
+altezza(56,196).
+altezza(57,206).
+altezza(58,196).
+altezza(59,196).
+altezza(6,188).
+altezza(60,196).
+altezza(61,203).
+altezza(62,206).
+altezza(63,208).
+altezza(64,185).
+altezza(65,198).
+altezza(66,205).
+altezza(67,0).
+altezza(68,207).
+altezza(69,198).
+altezza(7,196).
+altezza(70,0).
+altezza(71,194).
+altezza(72,200).
+altezza(73,185).
+altezza(74,191).
+altezza(75,196).
+altezza(76,203).
+altezza(77,204).
+altezza(78,206).
+altezza(79,201).
+altezza(8,190).
+altezza(80,193).
+altezza(81,208).
+altezza(82,185).
+altezza(83,203).
+altezza(84,195).
+altezza(85,0).
+altezza(86,205).
+altezza(87,198).
+altezza(88,190).
+altezza(89,196).
+altezza(9,203).
+altezza(90,193).
+altezza(91,188).
+altezza(92,0).
+altezza(93,206).
+altezza(94,191).
+altezza(95,206).
+altezza(96,0).
+altezza(97,0).
+altezza(98,191).
+altezza(99,0).
+falli_c(1,2).
+falli_c(10,1).
+falli_c(100,0).
+falli_c(101,2).
+falli_c(102,0).
+falli_c(103,2).
+falli_c(104,0).
+falli_c(105,2).
+falli_c(106,2).
+falli_c(107,2).
+falli_c(108,1).
+falli_c(109,1).
+falli_c(11,1).
+falli_c(110,2).
+falli_c(111,1).
+falli_c(112,2).
+falli_c(113,3).
+falli_c(114,0).
+falli_c(115,1).
+falli_c(116,1).
+falli_c(117,2).
+falli_c(118,9).
+falli_c(119,1).
+falli_c(12,5).
+falli_c(120,1).
+falli_c(121,2).
+falli_c(122,2).
+falli_c(123,2).
+falli_c(124,3).
+falli_c(125,2).
+falli_c(126,1).
+falli_c(127,2).
+falli_c(128,1).
+falli_c(129,1).
+falli_c(13,1).
+falli_c(130,1).
+falli_c(131,1).
+falli_c(132,1).
+falli_c(133,2).
+falli_c(134,2).
+falli_c(135,2).
+falli_c(136,2).
+falli_c(137,2).
+falli_c(138,0).
+falli_c(139,0).
+falli_c(14,1).
+falli_c(140,1).
+falli_c(141,1).
+falli_c(142,2).
+falli_c(143,2).
+falli_c(144,0).
+falli_c(145,2).
+falli_c(146,3).
+falli_c(147,0).
+falli_c(148,1).
+falli_c(149,2).
+falli_c(15,1).
+falli_c(150,0).
+falli_c(151,2).
+falli_c(152,1).
+falli_c(153,2).
+falli_c(154,1).
+falli_c(155,0).
+falli_c(156,3).
+falli_c(157,2).
+falli_c(158,0).
+falli_c(159,3).
+falli_c(16,0).
+falli_c(160,1).
+falli_c(161,2).
+falli_c(162,2).
+falli_c(163,1).
+falli_c(164,0).
+falli_c(165,3).
+falli_c(166,2).
+falli_c(167,2).
+falli_c(168,2).
+falli_c(169,2).
+falli_c(17,2).
+falli_c(170,2).
+falli_c(171,2).
+falli_c(172,3).
+falli_c(173,3).
+falli_c(174,3).
+falli_c(175,0).
+falli_c(176,2).
+falli_c(177,1).
+falli_c(178,0).
+falli_c(179,0).
+falli_c(18,1).
+falli_c(180,2).
+falli_c(181,2).
+falli_c(182,1).
+falli_c(183,1).
+falli_c(184,2).
+falli_c(185,2).
+falli_c(186,0).
+falli_c(187,3).
+falli_c(188,3).
+falli_c(189,1).
+falli_c(19,3).
+falli_c(190,2).
+falli_c(191,2).
+falli_c(192,1).
+falli_c(193,2).
+falli_c(194,1).
+falli_c(195,3).
+falli_c(196,2).
+falli_c(197,2).
+falli_c(198,4).
+falli_c(199,1).
+falli_c(2,2).
+falli_c(20,1).
+falli_c(200,0).
+falli_c(201,2).
+falli_c(202,2).
+falli_c(203,2).
+falli_c(204,1).
+falli_c(205,2).
+falli_c(206,2).
+falli_c(207,0).
+falli_c(208,0).
+falli_c(209,2).
+falli_c(21,1).
+falli_c(210,2).
+falli_c(211,2).
+falli_c(212,1).
+falli_c(213,3).
+falli_c(214,0).
+falli_c(215,1).
+falli_c(216,2).
+falli_c(217,0).
+falli_c(218,2).
+falli_c(219,1).
+falli_c(22,0).
+falli_c(220,2).
+falli_c(221,0).
+falli_c(222,3).
+falli_c(223,1).
+falli_c(224,1).
+falli_c(225,2).
+falli_c(226,2).
+falli_c(227,1).
+falli_c(228,3).
+falli_c(229,2).
+falli_c(23,1).
+falli_c(230,3).
+falli_c(231,0).
+falli_c(232,0).
+falli_c(233,2).
+falli_c(234,0).
+falli_c(235,2).
+falli_c(236,1).
+falli_c(237,1).
+falli_c(238,1).
+falli_c(239,3).
+falli_c(24,0).
+falli_c(240,1).
+falli_c(241,2).
+falli_c(242,2).
+falli_c(243,2).
+falli_c(244,2).
+falli_c(245,2).
+falli_c(246,3).
+falli_c(247,1).
+falli_c(248,2).
+falli_c(249,0).
+falli_c(25,2).
+falli_c(26,2).
+falli_c(27,0).
+falli_c(28,2).
+falli_c(29,2).
+falli_c(3,2).
+falli_c(30,2).
+falli_c(31,1).
+falli_c(32,2).
+falli_c(33,0).
+falli_c(34,1).
+falli_c(35,1).
+falli_c(36,3).
+falli_c(37,1).
+falli_c(38,1).
+falli_c(39,2).
+falli_c(4,1).
+falli_c(40,2).
+falli_c(41,2).
+falli_c(42,2).
+falli_c(43,3).
+falli_c(44,0).
+falli_c(45,2).
+falli_c(46,0).
+falli_c(47,0).
+falli_c(48,2).
+falli_c(49,2).
+falli_c(5,0).
+falli_c(50,1).
+falli_c(51,0).
+falli_c(52,1).
+falli_c(53,2).
+falli_c(54,1).
+falli_c(55,2).
+falli_c(56,1).
+falli_c(57,2).
+falli_c(58,2).
+falli_c(59,2).
+falli_c(6,2).
+falli_c(60,2).
+falli_c(61,1).
+falli_c(62,1).
+falli_c(63,2).
+falli_c(64,1).
+falli_c(65,2).
+falli_c(66,1).
+falli_c(67,1).
+falli_c(68,2).
+falli_c(69,1).
+falli_c(7,2).
+falli_c(70,3).
+falli_c(71,2).
+falli_c(72,0).
+falli_c(73,1).
+falli_c(74,2).
+falli_c(75,0).
+falli_c(76,4).
+falli_c(77,2).
+falli_c(78,1).
+falli_c(79,0).
+falli_c(8,0).
+falli_c(80,2).
+falli_c(81,3).
+falli_c(82,3).
+falli_c(83,2).
+falli_c(84,1).
+falli_c(85,1).
+falli_c(86,0).
+falli_c(87,1).
+falli_c(88,1).
+falli_c(89,0).
+falli_c(9,2).
+falli_c(90,1).
+falli_c(91,3).
+falli_c(92,1).
+falli_c(93,2).
+falli_c(94,1).
+falli_c(95,1).
+falli_c(96,1).
+falli_c(97,1).
+falli_c(98,2).
+falli_c(99,0).
+falli_s(1,0).
+falli_s(10,1).
+falli_s(100,2).
+falli_s(101,3).
+falli_s(102,0).
+falli_s(103,1).
+falli_s(104,0).
+falli_s(105,2).
+falli_s(106,3).
+falli_s(107,1).
+falli_s(108,3).
+falli_s(109,2).
+falli_s(11,0).
+falli_s(110,1).
+falli_s(111,1).
+falli_s(112,1).
+falli_s(113,2).
+falli_s(114,2).
+falli_s(115,1).
+falli_s(116,0).
+falli_s(117,3).
+falli_s(118,14).
+falli_s(119,3).
+falli_s(12,10).
+falli_s(120,3).
+falli_s(121,2).
+falli_s(122,2).
+falli_s(123,3).
+falli_s(124,2).
+falli_s(125,0).
+falli_s(126,1).
+falli_s(127,2).
+falli_s(128,0).
+falli_s(129,2).
+falli_s(13,4).
+falli_s(130,0).
+falli_s(131,1).
+falli_s(132,0).
+falli_s(133,2).
+falli_s(134,2).
+falli_s(135,2).
+falli_s(136,3).
+falli_s(137,2).
+falli_s(138,0).
+falli_s(139,2).
+falli_s(14,1).
+falli_s(140,2).
+falli_s(141,0).
+falli_s(142,2).
+falli_s(143,2).
+falli_s(144,0).
+falli_s(145,0).
+falli_s(146,3).
+falli_s(147,0).
+falli_s(148,0).
+falli_s(149,0).
+falli_s(15,4).
+falli_s(150,0).
+falli_s(151,3).
+falli_s(152,2).
+falli_s(153,2).
+falli_s(154,0).
+falli_s(155,2).
+falli_s(156,3).
+falli_s(157,6).
+falli_s(158,0).
+falli_s(159,7).
+falli_s(16,0).
+falli_s(160,0).
+falli_s(161,5).
+falli_s(162,2).
+falli_s(163,2).
+falli_s(164,3).
+falli_s(165,2).
+falli_s(166,2).
+falli_s(167,1).
+falli_s(168,0).
+falli_s(169,3).
+falli_s(17,1).
+falli_s(170,1).
+falli_s(171,4).
+falli_s(172,3).
+falli_s(173,3).
+falli_s(174,6).
+falli_s(175,1).
+falli_s(176,1).
+falli_s(177,3).
+falli_s(178,0).
+falli_s(179,0).
+falli_s(18,1).
+falli_s(180,3).
+falli_s(181,2).
+falli_s(182,2).
+falli_s(183,0).
+falli_s(184,0).
+falli_s(185,2).
+falli_s(186,0).
+falli_s(187,6).
+falli_s(188,2).
+falli_s(189,0).
+falli_s(19,4).
+falli_s(190,2).
+falli_s(191,7).
+falli_s(192,0).
+falli_s(193,0).
+falli_s(194,0).
+falli_s(195,3).
+falli_s(196,1).
+falli_s(197,3).
+falli_s(198,8).
+falli_s(199,3).
+falli_s(2,4).
+falli_s(20,3).
+falli_s(200,0).
+falli_s(201,4).
+falli_s(202,2).
+falli_s(203,3).
+falli_s(204,4).
+falli_s(205,2).
+falli_s(206,2).
+falli_s(207,0).
+falli_s(208,0).
+falli_s(209,1).
+falli_s(21,0).
+falli_s(210,2).
+falli_s(211,1).
+falli_s(212,1).
+falli_s(213,1).
+falli_s(214,0).
+falli_s(215,1).
+falli_s(216,0).
+falli_s(217,0).
+falli_s(218,1).
+falli_s(219,3).
+falli_s(22,0).
+falli_s(220,2).
+falli_s(221,1).
+falli_s(222,2).
+falli_s(223,1).
+falli_s(224,0).
+falli_s(225,2).
+falli_s(226,1).
+falli_s(227,0).
+falli_s(228,2).
+falli_s(229,2).
+falli_s(23,2).
+falli_s(230,5).
+falli_s(231,0).
+falli_s(232,0).
+falli_s(233,1).
+falli_s(234,0).
+falli_s(235,2).
+falli_s(236,2).
+falli_s(237,3).
+falli_s(238,1).
+falli_s(239,3).
+falli_s(24,0).
+falli_s(240,1).
+falli_s(241,3).
+falli_s(242,2).
+falli_s(243,1).
+falli_s(244,1).
+falli_s(245,1).
+falli_s(246,6).
+falli_s(247,0).
+falli_s(248,0).
+falli_s(249,0).
+falli_s(25,2).
+falli_s(26,1).
+falli_s(27,1).
+falli_s(28,4).
+falli_s(29,1).
+falli_s(3,4).
+falli_s(30,2).
+falli_s(31,0).
+falli_s(32,1).
+falli_s(33,2).
+falli_s(34,1).
+falli_s(35,2).
+falli_s(36,7).
+falli_s(37,0).
+falli_s(38,0).
+falli_s(39,2).
+falli_s(4,0).
+falli_s(40,0).
+falli_s(41,3).
+falli_s(42,2).
+falli_s(43,1).
+falli_s(44,1).
+falli_s(45,1).
+falli_s(46,0).
+falli_s(47,0).
+falli_s(48,2).
+falli_s(49,1).
+falli_s(5,0).
+falli_s(50,0).
+falli_s(51,0).
+falli_s(52,3).
+falli_s(53,3).
+falli_s(54,0).
+falli_s(55,2).
+falli_s(56,0).
+falli_s(57,2).
+falli_s(58,2).
+falli_s(59,2).
+falli_s(6,2).
+falli_s(60,2).
+falli_s(61,1).
+falli_s(62,2).
+falli_s(63,4).
+falli_s(64,2).
+falli_s(65,1).
+falli_s(66,1).
+falli_s(67,3).
+falli_s(68,0).
+falli_s(69,0).
+falli_s(7,1).
+falli_s(70,6).
+falli_s(71,4).
+falli_s(72,0).
+falli_s(73,1).
+falli_s(74,0).
+falli_s(75,0).
+falli_s(76,8).
+falli_s(77,2).
+falli_s(78,2).
+falli_s(79,0).
+falli_s(8,0).
+falli_s(80,3).
+falli_s(81,1).
+falli_s(82,7).
+falli_s(83,2).
+falli_s(84,0).
+falli_s(85,4).
+falli_s(86,0).
+falli_s(87,0).
+falli_s(88,2).
+falli_s(89,0).
+falli_s(9,2).
+falli_s(90,3).
+falli_s(91,2).
+falli_s(92,4).
+falli_s(93,1).
+falli_s(94,3).
+falli_s(95,0).
+falli_s(96,3).
+falli_s(97,5).
+falli_s(98,2).
+falli_s(99,0).
+minuti(1,7).
+minuti(10,15).
+minuti(100,1).
+minuti(101,26).
+minuti(102,1).
+minuti(103,27).
+minuti(104,0).
+minuti(105,19).
+minuti(106,19).
+minuti(107,25).
+minuti(108,18).
+minuti(109,24).
+minuti(11,8).
+minuti(110,17).
+minuti(111,16).
+minuti(112,22).
+minuti(113,24).
+minuti(114,26).
+minuti(115,16).
+minuti(116,17).
+minuti(117,26).
+minuti(118,4).
+minuti(119,19).
+minuti(12,2).
+minuti(120,1).
+minuti(121,22).
+minuti(122,30).
+minuti(123,24).
+minuti(124,23).
+minuti(125,11).
+minuti(126,23).
+minuti(127,27).
+minuti(128,6).
+minuti(129,26).
+minuti(13,29).
+minuti(130,8).
+minuti(131,15).
+minuti(132,6).
+minuti(133,23).
+minuti(134,29).
+minuti(135,22).
+minuti(136,22).
+minuti(137,22).
+minuti(138,0).
+minuti(139,0).
+minuti(14,21).
+minuti(140,22).
+minuti(141,1).
+minuti(142,24).
+minuti(143,19).
+minuti(144,0).
+minuti(145,19).
+minuti(146,23).
+minuti(147,5).
+minuti(148,17).
+minuti(149,10).
+minuti(15,32).
+minuti(150,1).
+minuti(151,29).
+minuti(152,21).
+minuti(153,20).
+minuti(154,13).
+minuti(155,19).
+minuti(156,25).
+minuti(157,3).
+minuti(158,2).
+minuti(159,3).
+minuti(16,1).
+minuti(160,13).
+minuti(161,30).
+minuti(162,19).
+minuti(163,21).
+minuti(164,20).
+minuti(165,30).
+minuti(166,23).
+minuti(167,23).
+minuti(168,18).
+minuti(169,24).
+minuti(17,16).
+minuti(170,18).
+minuti(171,27).
+minuti(172,27).
+minuti(173,32).
+minuti(174,2).
+minuti(175,3).
+minuti(176,18).
+minuti(177,0).
+minuti(178,5).
+minuti(179,0).
+minuti(18,20).
+minuti(180,25).
+minuti(181,25).
+minuti(182,23).
+minuti(183,14).
+minuti(184,13).
+minuti(185,28).
+minuti(186,1).
+minuti(187,28).
+minuti(188,20).
+minuti(189,7).
+minuti(19,3).
+minuti(190,16).
+minuti(191,2).
+minuti(192,25).
+minuti(193,11).
+minuti(194,4).
+minuti(195,24).
+minuti(196,20).
+minuti(197,24).
+minuti(198,5).
+minuti(199,26).
+minuti(2,30).
+minuti(20,31).
+minuti(200,6).
+minuti(201,2).
+minuti(202,30).
+minuti(203,26).
+minuti(204,24).
+minuti(205,25).
+minuti(206,26).
+minuti(207,1).
+minuti(208,3).
+minuti(209,20).
+minuti(21,11).
+minuti(210,24).
+minuti(211,30).
+minuti(212,13).
+minuti(213,24).
+minuti(214,4).
+minuti(215,9).
+minuti(216,14).
+minuti(217,1).
+minuti(218,23).
+minuti(219,29).
+minuti(22,1).
+minuti(220,12).
+minuti(221,16).
+minuti(222,20).
+minuti(223,18).
+minuti(224,4).
+minuti(225,15).
+minuti(226,13).
+minuti(227,8).
+minuti(228,17).
+minuti(229,22).
+minuti(23,16).
+minuti(230,0).
+minuti(231,0).
+minuti(232,1).
+minuti(233,13).
+minuti(234,3).
+minuti(235,14).
+minuti(236,24).
+minuti(237,2).
+minuti(238,16).
+minuti(239,25).
+minuti(24,5).
+minuti(240,22).
+minuti(241,29).
+minuti(242,24).
+minuti(243,26).
+minuti(244,20).
+minuti(245,22).
+minuti(246,2).
+minuti(247,11).
+minuti(248,19).
+minuti(249,1).
+minuti(25,25).
+minuti(26,21).
+minuti(27,18).
+minuti(28,32).
+minuti(29,19).
+minuti(3,23).
+minuti(30,30).
+minuti(31,7).
+minuti(32,17).
+minuti(33,1).
+minuti(34,2).
+minuti(35,22).
+minuti(36,2).
+minuti(37,7).
+minuti(38,11).
+minuti(39,18).
+minuti(4,15).
+minuti(40,7).
+minuti(41,27).
+minuti(42,17).
+minuti(43,18).
+minuti(44,0).
+minuti(45,27).
+minuti(46,0).
+minuti(47,1).
+minuti(48,24).
+minuti(49,28).
+minuti(5,8).
+minuti(50,8).
+minuti(51,2).
+minuti(52,29).
+minuti(53,32).
+minuti(54,5).
+minuti(55,18).
+minuti(56,13).
+minuti(57,25).
+minuti(58,22).
+minuti(59,20).
+minuti(6,27).
+minuti(60,25).
+minuti(61,10).
+minuti(62,24).
+minuti(63,21).
+minuti(64,31).
+minuti(65,21).
+minuti(66,13).
+minuti(67,0).
+minuti(68,13).
+minuti(69,14).
+minuti(7,27).
+minuti(70,2).
+minuti(71,28).
+minuti(72,7).
+minuti(73,11).
+minuti(74,17).
+minuti(75,3).
+minuti(76,2).
+minuti(77,17).
+minuti(78,12).
+minuti(79,8).
+minuti(8,0).
+minuti(80,23).
+minuti(81,24).
+minuti(82,2).
+minuti(83,22).
+minuti(84,7).
+minuti(85,3).
+minuti(86,1).
+minuti(87,10).
+minuti(88,18).
+minuti(89,3).
+minuti(9,30).
+minuti(90,30).
+minuti(91,20).
+minuti(92,0).
+minuti(93,26).
+minuti(94,25).
+minuti(95,5).
+minuti(96,4).
+minuti(97,2).
+minuti(98,18).
+minuti(99,1).
+nome_giocatore(1,abass_awudu_abass).
+nome_giocatore(10,ismael_bako).
+nome_giocatore(100,filippo_giberti).
+nome_giocatore(101,jayson_granger).
+nome_giocatore(102,sergio_grassi).
+nome_giocatore(103,andrejs_grazulis).
+nome_giocatore(104,tommaso_guadalupi).
+nome_giocatore(105,jon_axel_gudmundsson).
+nome_giocatore(106,daniel_hackett).
+nome_giocatore(107,devon_hall).
+nome_giocatore(108,clevin_hannah).
+nome_giocatore(109,demonte_harper).
+nome_giocatore(11,tommaso_baldasso).
+nome_giocatore(110,d_angelo_harrison).
+nome_giocatore(111,kyle_hines).
+nome_giocatore(112,aric_jeremiah_holman).
+nome_giocatore(113,mikael_levon_hopkins).
+nome_giocatore(114,jordan_howard).
+nome_giocatore(115,matteo_imbro).
+nome_giocatore(116,hugo_invernizzi).
+nome_giocatore(117,ike_iroegbu).
+nome_giocatore(118,marco_ius).
+nome_giocatore(119,mouhammadou_jaiteh).
+nome_giocatore(12,moussa_bamba).
+nome_giocatore(120,dimitrije_jankovic).
+nome_giocatore(121,mikael_jantunen).
+nome_giocatore(122,jaron_johnson).
+nome_giocatore(123,xavier_alexander_johnson).
+nome_giocatore(124,jamal_jones).
+nome_giocatore(125,mikk_jurkatamm).
+nome_giocatore(126,dejan_kravic).
+nome_giocatore(127,filip_kruslin).
+nome_giocatore(128,maximilian_ladurner).
+nome_giocatore(129,doron_lamb).
+nome_giocatore(13,adrian_banks).
+nome_giocatore(130,tommaso_laquintana).
+nome_giocatore(131,alessandro_lever).
+nome_giocatore(132,matteo_librizzi).
+nome_giocatore(133,trent_lockett).
+nome_giocatore(134,david_logan).
+nome_giocatore(135,gabriel_lundberg).
+nome_giocatore(136,timothe_luwawu_cabarrot).
+nome_giocatore(137,jp_macura).
+nome_giocatore(138,niccolo_malaventura).
+nome_giocatore(139,stefano_manfredi).
+nome_giocatore(14,billy_baron).
+nome_giocatore(140,niccolo_mannion).
+nome_giocatore(141,lucio_martini).
+nome_giocatore(142,bruno_mascolo).
+nome_giocatore(143,c_j_massinburg).
+nome_giocatore(144,antonio_matera).
+nome_giocatore(145,valerio_mazzola).
+nome_giocatore(146,nicolo_melli).
+nome_giocatore(147,leo_menalo).
+nome_giocatore(148,andrea_mezzanotte).
+nome_giocatore(149,fabio_mian).
+nome_giocatore(15,frank_bartley).
+nome_giocatore(150,samuele_miccoli).
+nome_giocatore(151,david_michineau).
+nome_giocatore(152,jordan_mickey).
+nome_giocatore(153,nazareth_mitrou_long).
+nome_giocatore(154,diego_monaldi).
+nome_giocatore(155,riccardo_moraschini).
+nome_giocatore(156,davide_moretti).
+nome_giocatore(157,richard_ygor_morina).
+nome_giocatore(158,christopher_mortellaro).
+nome_giocatore(159,emanuele_morvillo).
+nome_giocatore(16,pietro_basta).
+nome_giocatore(160,david_moss).
+nome_giocatore(161,shabazz_napier).
+nome_giocatore(162,aleksej_nikolic).
+nome_giocatore(163,tai_odiase).
+nome_giocatore(164,semi_ojeleye).
+nome_giocatore(165,stanley_okoye).
+nome_giocatore(166,osvaldas_olisevicius).
+nome_giocatore(167,tariq_owens).
+nome_giocatore(168,alessandro_pajola).
+nome_giocatore(169,kevin_pangos).
+nome_giocatore(17,jordan_bayehe).
+nome_giocatore(170,jordan_parks).
+nome_giocatore(171,nick_perkins).
+nome_giocatore(172,john_petrucelli).
+nome_giocatore(173,kruize_pinkins).
+nome_giocatore(174,stefano_piredda).
+nome_giocatore(175,riccardo_pisano).
+nome_giocatore(176,leon_radosevic).
+nome_giocatore(177,jacopo_rapetti).
+nome_giocatore(178,tommaso_raspino).
+nome_giocatore(179,kendrick_ray).
+nome_giocatore(18,marco_belinelli).
+nome_giocatore(180,marcquise_reed).
+nome_giocatore(181,nathan_reuvers).
+nome_giocatore(182,justin_reyes).
+nome_giocatore(183,giampaolo_ricci).
+nome_giocatore(184,joonas_riismaa).
+nome_giocatore(185,gerald_robinson).
+nome_giocatore(186,matteo_rolli).
+nome_giocatore(187,colbey_ross).
+nome_giocatore(188,riccardo_rossato).
+nome_giocatore(189,guido_rosselli).
+nome_giocatore(19,davide_belloni).
+nome_giocatore(190,michele_ruzzier).
+nome_giocatore(191,pietro_sablich).
+nome_giocatore(192,jamarr_sanders).
+nome_giocatore(193,alvise_sarto).
+nome_giocatore(194,francesco_scandiuzzi).
+nome_giocatore(195,jeremy_senglin).
+nome_giocatore(196,luca_severini).
+nome_giocatore(197,tornike_shengelia).
+nome_giocatore(198,dion_sheqiri).
+nome_giocatore(199,shavon_shields).
+nome_giocatore(2,muhammad_ali_abdur_rahkman).
+nome_giocatore(20,eimantas_bendzius).
+nome_giocatore(200,alessandro_simioni).
+nome_giocatore(201,simone_sinagra).
+nome_giocatore(202,taylor_lynn_smith).
+nome_giocatore(203,paulius_sorokas).
+nome_giocatore(204,matteo_spagnolo).
+nome_giocatore(205,skylar_spencer).
+nome_giocatore(206,marco_spissu).
+nome_giocatore(207,umberto_stazzonelli).
+nome_giocatore(208,gabriele_stefanini).
+nome_giocatore(209,deshawn_stephens).
+nome_giocatore(21,paul_stephan_biligha).
+nome_giocatore(210,elijah_stewart).
+nome_giocatore(211,julyan_stone).
+nome_giocatore(212,arturs_strautins).
+nome_giocatore(213,matteo_tambone).
+nome_giocatore(214,nicolas_tanfoglio).
+nome_giocatore(215,riccardo_tavernelli).
+nome_giocatore(216,ryan_taylor).
+nome_giocatore(217,roman_tchintcharauli).
+nome_giocatore(218,milos_teodosic).
+nome_giocatore(219,emanuel_terry).
+nome_giocatore(22,dino_bocevski).
+nome_giocatore(220,amedeo_tessitori).
+nome_giocatore(221,deshaun_thomas).
+nome_giocatore(222,trevor_thompson).
+nome_giocatore(223,stefano_tonut).
+nome_giocatore(224,david_torresani).
+nome_giocatore(225,leonardo_tote).
+nome_giocatore(226,kaspar_treier).
+nome_giocatore(227,liam_udom).
+nome_giocatore(228,mattia_udom).
+nome_giocatore(229,lorenzo_uglietti).
+nome_giocatore(23,giordano_bortolani).
+nome_giocatore(230,lorenzo_vanin).
+nome_giocatore(231,alessandro_vecchi).
+nome_giocatore(232,enrico_vettori).
+nome_giocatore(233,giovanni_vildera).
+nome_giocatore(234,nicolo_virginio).
+nome_giocatore(235,riccardo_visconti).
+nome_giocatore(236,michele_vitali).
+nome_giocatore(237,marco_vitucci).
+nome_giocatore(238,johannes_voigtmann).
+nome_giocatore(239,mitchell_watt).
+nome_giocatore(24,stefano_bossi).
+nome_giocatore(240,kyle_weems).
+nome_giocatore(241,jacorey_williams).
+nome_giocatore(242,derek_willis).
+nome_giocatore(243,andriu_tomas_woldetensae).
+nome_giocatore(244,joe_young).
+nome_giocatore(245,alessandro_zanelli).
+nome_giocatore(246,lorenzo_zangheri).
+nome_giocatore(247,simone_zanotti).
+nome_giocatore(248,andrea_zerini).
+nome_giocatore(249,wei_lun_zhao).
+nome_giocatore(25,ky_bowman).
+nome_giocatore(26,michael_bramos).
+nome_giocatore(27,jeff_brooks).
+nome_giocatore(28,markel_brown).
+nome_giocatore(29,beka_burjanadze).
+nome_giocatore(3,dimitrios_agravanis).
+nome_giocatore(30,jason_burnell).
+nome_giocatore(31,christian_burns).
+nome_giocatore(32,artjoms_butjankovs).
+nome_giocatore(33,alessandro_buzzavo).
+nome_giocatore(34,emanuele_caiazza).
+nome_giocatore(35,tyler_cain).
+nome_giocatore(36,giovanni_alessio_calamita).
+nome_giocatore(37,gora_camara).
+nome_giocatore(38,luca_campogrande).
+nome_giocatore(39,leonardo_candi).
+nome_giocatore(4,nicola_akele).
+nome_giocatore(40,francesco_candussi).
+nome_giocatore(41,alessandro_cappelletti).
+nome_giocatore(42,guglielmo_caruso).
+nome_giocatore(43,davide_casarin).
+nome_giocatore(44,angelo_maria_castellitto).
+nome_giocatore(45,troy_caupain).
+nome_giocatore(46,davide_mario_cecchin).
+nome_giocatore(47,alessandro_chapelli).
+nome_giocatore(48,vasilis_charalampopoulos).
+nome_giocatore(49,kwan_cheatham).
+nome_giocatore(5,davide_alviti).
+nome_giocatore(50,massimo_chessa).
+nome_giocatore(51,matteo_chillo).
+nome_giocatore(52,semaj_christon).
+nome_giocatore(53,andrea_cinciarini).
+nome_giocatore(54,alessandro_cipolla).
+nome_giocatore(55,michael_cobbins).
+nome_giocatore(56,luca_conti).
+nome_giocatore(57,derek_cooke).
+nome_giocatore(58,isaia_cordinier).
+nome_giocatore(59,david_reginald_cournooh).
+nome_giocatore(6,karvel_markeese_anderson).
+nome_giocatore(60,andrew_crawford).
+nome_giocatore(61,luigi_datome).
+nome_giocatore(62,mike_daum).
+nome_giocatore(63,brandon_davies).
+nome_giocatore(64,corey_davis).
+nome_giocatore(65,devin_davis).
+nome_giocatore(66,lodovico_deangeli).
+nome_giocatore(67,mario_fausto_de_donno).
+nome_giocatore(68,quirino_de_laurentiis).
+nome_giocatore(69,carlos_delfino).
+nome_giocatore(7,sacar_anim).
+nome_giocatore(70,lorenzo_dell_anna).
+nome_giocatore(71,amedeo_della_valle).
+nome_giocatore(72,nicolo_dellosto).
+nome_giocatore(73,andrea_de_nicolao).
+nome_giocatore(74,giovanni_de_nicolao).
+nome_giocatore(75,giacomo_devecchi).
+nome_giocatore(76,mamoudou_dia).
+nome_giocatore(77,ousmane_diop).
+nome_giocatore(78,mouhamet_rassoul_diouf).
+nome_giocatore(79,dikembe_dixson).
+nome_giocatore(8,daijuan_antonio).
+nome_giocatore(80,chris_dowe).
+nome_giocatore(81,octavius_ellis).
+nome_giocatore(82,nicholas_errica).
+nome_giocatore(83,junior_etou).
+nome_giocatore(84,leonardo_faggian).
+nome_giocatore(85,giovanni_faldini).
+nome_giocatore(86,alessandro_ferrari).
+nome_giocatore(87,giancarlo_ferrero).
+nome_giocatore(88,ariel_filloy).
+nome_giocatore(89,niccolo_filoni).
+nome_giocatore(9,darion_atkins).
+nome_giocatore(90,diego_flaccadori).
+nome_giocatore(91,toto_forray).
+nome_giocatore(92,alessio_fusco).
+nome_giocatore(93,kenny_gabriel).
+nome_giocatore(94,frank_gaines).
+nome_giocatore(95,luca_gandini).
+nome_giocatore(96,andrea_gattel).
+nome_giocatore(97,mourtada_gaye).
+nome_giocatore(98,stefano_gentile).
+nome_giocatore(99,gabriele_ghidini).
+numero_giocatore(1,0).
+numero_giocatore(10,0).
+numero_giocatore(100,0).
+numero_giocatore(101,0).
+numero_giocatore(102,0).
+numero_giocatore(103,0).
+numero_giocatore(104,0).
+numero_giocatore(105,0).
+numero_giocatore(106,0).
+numero_giocatore(107,0).
+numero_giocatore(108,0).
+numero_giocatore(109,0).
+numero_giocatore(11,0).
+numero_giocatore(110,0).
+numero_giocatore(111,0).
+numero_giocatore(112,0).
+numero_giocatore(113,0).
+numero_giocatore(114,0).
+numero_giocatore(115,0).
+numero_giocatore(116,0).
+numero_giocatore(117,0).
+numero_giocatore(118,0).
+numero_giocatore(119,0).
+numero_giocatore(12,0).
+numero_giocatore(120,0).
+numero_giocatore(121,0).
+numero_giocatore(122,0).
+numero_giocatore(123,0).
+numero_giocatore(124,0).
+numero_giocatore(125,0).
+numero_giocatore(126,0).
+numero_giocatore(127,0).
+numero_giocatore(128,0).
+numero_giocatore(129,0).
+numero_giocatore(13,0).
+numero_giocatore(130,0).
+numero_giocatore(131,0).
+numero_giocatore(132,0).
+numero_giocatore(133,0).
+numero_giocatore(134,0).
+numero_giocatore(135,0).
+numero_giocatore(136,0).
+numero_giocatore(137,0).
+numero_giocatore(138,0).
+numero_giocatore(139,0).
+numero_giocatore(14,0).
+numero_giocatore(140,0).
+numero_giocatore(141,0).
+numero_giocatore(142,0).
+numero_giocatore(143,0).
+numero_giocatore(144,0).
+numero_giocatore(145,0).
+numero_giocatore(146,0).
+numero_giocatore(147,0).
+numero_giocatore(148,0).
+numero_giocatore(149,0).
+numero_giocatore(15,0).
+numero_giocatore(150,0).
+numero_giocatore(151,0).
+numero_giocatore(152,0).
+numero_giocatore(153,0).
+numero_giocatore(154,0).
+numero_giocatore(155,0).
+numero_giocatore(156,0).
+numero_giocatore(157,0).
+numero_giocatore(158,0).
+numero_giocatore(159,0).
+numero_giocatore(16,0).
+numero_giocatore(160,0).
+numero_giocatore(161,0).
+numero_giocatore(162,0).
+numero_giocatore(163,0).
+numero_giocatore(164,0).
+numero_giocatore(165,0).
+numero_giocatore(166,0).
+numero_giocatore(167,0).
+numero_giocatore(168,0).
+numero_giocatore(169,0).
+numero_giocatore(17,0).
+numero_giocatore(170,0).
+numero_giocatore(171,0).
+numero_giocatore(172,0).
+numero_giocatore(173,0).
+numero_giocatore(174,0).
+numero_giocatore(175,0).
+numero_giocatore(176,0).
+numero_giocatore(177,0).
+numero_giocatore(178,0).
+numero_giocatore(179,0).
+numero_giocatore(18,0).
+numero_giocatore(180,0).
+numero_giocatore(181,0).
+numero_giocatore(182,0).
+numero_giocatore(183,0).
+numero_giocatore(184,0).
+numero_giocatore(185,0).
+numero_giocatore(186,0).
+numero_giocatore(187,0).
+numero_giocatore(188,0).
+numero_giocatore(189,0).
+numero_giocatore(19,0).
+numero_giocatore(190,0).
+numero_giocatore(191,0).
+numero_giocatore(192,0).
+numero_giocatore(193,0).
+numero_giocatore(194,0).
+numero_giocatore(195,0).
+numero_giocatore(196,0).
+numero_giocatore(197,0).
+numero_giocatore(198,0).
+numero_giocatore(199,0).
+numero_giocatore(2,0).
+numero_giocatore(20,0).
+numero_giocatore(200,0).
+numero_giocatore(201,0).
+numero_giocatore(202,0).
+numero_giocatore(203,0).
+numero_giocatore(204,0).
+numero_giocatore(205,0).
+numero_giocatore(206,0).
+numero_giocatore(207,0).
+numero_giocatore(208,0).
+numero_giocatore(209,0).
+numero_giocatore(21,0).
+numero_giocatore(210,0).
+numero_giocatore(211,0).
+numero_giocatore(212,0).
+numero_giocatore(213,0).
+numero_giocatore(214,0).
+numero_giocatore(215,0).
+numero_giocatore(216,0).
+numero_giocatore(217,0).
+numero_giocatore(218,0).
+numero_giocatore(219,0).
+numero_giocatore(22,0).
+numero_giocatore(220,0).
+numero_giocatore(221,0).
+numero_giocatore(222,0).
+numero_giocatore(223,0).
+numero_giocatore(224,0).
+numero_giocatore(225,0).
+numero_giocatore(226,0).
+numero_giocatore(227,0).
+numero_giocatore(228,0).
+numero_giocatore(229,0).
+numero_giocatore(23,0).
+numero_giocatore(230,0).
+numero_giocatore(231,0).
+numero_giocatore(232,0).
+numero_giocatore(233,0).
+numero_giocatore(234,0).
+numero_giocatore(235,0).
+numero_giocatore(236,0).
+numero_giocatore(237,0).
+numero_giocatore(238,0).
+numero_giocatore(239,0).
+numero_giocatore(24,0).
+numero_giocatore(240,0).
+numero_giocatore(241,0).
+numero_giocatore(242,0).
+numero_giocatore(243,0).
+numero_giocatore(244,0).
+numero_giocatore(245,0).
+numero_giocatore(246,0).
+numero_giocatore(247,0).
+numero_giocatore(248,0).
+numero_giocatore(249,0).
+numero_giocatore(25,0).
+numero_giocatore(26,0).
+numero_giocatore(27,0).
+numero_giocatore(28,0).
+numero_giocatore(29,0).
+numero_giocatore(3,0).
+numero_giocatore(30,0).
+numero_giocatore(31,0).
+numero_giocatore(32,0).
+numero_giocatore(33,0).
+numero_giocatore(34,0).
+numero_giocatore(35,0).
+numero_giocatore(36,0).
+numero_giocatore(37,0).
+numero_giocatore(38,0).
+numero_giocatore(39,0).
+numero_giocatore(4,0).
+numero_giocatore(40,0).
+numero_giocatore(41,0).
+numero_giocatore(42,0).
+numero_giocatore(43,0).
+numero_giocatore(44,0).
+numero_giocatore(45,0).
+numero_giocatore(46,0).
+numero_giocatore(47,0).
+numero_giocatore(48,0).
+numero_giocatore(49,0).
+numero_giocatore(5,0).
+numero_giocatore(50,0).
+numero_giocatore(51,0).
+numero_giocatore(52,0).
+numero_giocatore(53,0).
+numero_giocatore(54,0).
+numero_giocatore(55,0).
+numero_giocatore(56,0).
+numero_giocatore(57,0).
+numero_giocatore(58,0).
+numero_giocatore(59,0).
+numero_giocatore(6,0).
+numero_giocatore(60,0).
+numero_giocatore(61,0).
+numero_giocatore(62,0).
+numero_giocatore(63,0).
+numero_giocatore(64,0).
+numero_giocatore(65,0).
+numero_giocatore(66,0).
+numero_giocatore(67,0).
+numero_giocatore(68,0).
+numero_giocatore(69,0).
+numero_giocatore(7,0).
+numero_giocatore(70,0).
+numero_giocatore(71,0).
+numero_giocatore(72,0).
+numero_giocatore(73,0).
+numero_giocatore(74,0).
+numero_giocatore(75,0).
+numero_giocatore(76,0).
+numero_giocatore(77,0).
+numero_giocatore(78,0).
+numero_giocatore(79,0).
+numero_giocatore(8,0).
+numero_giocatore(80,0).
+numero_giocatore(81,0).
+numero_giocatore(82,0).
+numero_giocatore(83,0).
+numero_giocatore(84,0).
+numero_giocatore(85,0).
+numero_giocatore(86,0).
+numero_giocatore(87,0).
+numero_giocatore(88,0).
+numero_giocatore(89,0).
+numero_giocatore(9,0).
+numero_giocatore(90,0).
+numero_giocatore(91,0).
+numero_giocatore(92,0).
+numero_giocatore(93,0).
+numero_giocatore(94,0).
+numero_giocatore(95,0).
+numero_giocatore(96,0).
+numero_giocatore(97,0).
+numero_giocatore(98,0).
+numero_giocatore(99,0).
+palle_p(1,0).
+palle_p(10,0).
+palle_p(100,0).
+palle_p(101,1).
+palle_p(102,0).
+palle_p(103,1).
+palle_p(104,0).
+palle_p(105,0).
+palle_p(106,1).
+palle_p(107,1).
+palle_p(108,2).
+palle_p(109,1).
+palle_p(11,0).
+palle_p(110,0).
+palle_p(111,0).
+palle_p(112,1).
+palle_p(113,1).
+palle_p(114,1).
+palle_p(115,0).
+palle_p(116,0).
+palle_p(117,2).
+palle_p(118,0).
+palle_p(119,0).
+palle_p(12,1).
+palle_p(120,1).
+palle_p(121,1).
+palle_p(122,1).
+palle_p(123,1).
+palle_p(124,1).
+palle_p(125,0).
+palle_p(126,0).
+palle_p(127,1).
+palle_p(128,0).
+palle_p(129,1).
+palle_p(13,2).
+palle_p(130,1).
+palle_p(131,0).
+palle_p(132,0).
+palle_p(133,1).
+palle_p(134,1).
+palle_p(135,1).
+palle_p(136,1).
+palle_p(137,1).
+palle_p(138,0).
+palle_p(139,0).
+palle_p(14,1).
+palle_p(140,2).
+palle_p(141,1).
+palle_p(142,1).
+palle_p(143,1).
+palle_p(144,0).
+palle_p(145,0).
+palle_p(146,1).
+palle_p(147,1).
+palle_p(148,0).
+palle_p(149,0).
+palle_p(15,2).
+palle_p(150,0).
+palle_p(151,2).
+palle_p(152,1).
+palle_p(153,1).
+palle_p(154,0).
+palle_p(155,0).
+palle_p(156,1).
+palle_p(157,0).
+palle_p(158,0).
+palle_p(159,0).
+palle_p(16,0).
+palle_p(160,0).
+palle_p(161,3).
+palle_p(162,1).
+palle_p(163,1).
+palle_p(164,1).
+palle_p(165,1).
+palle_p(166,2).
+palle_p(167,1).
+palle_p(168,0).
+palle_p(169,2).
+palle_p(17,0).
+palle_p(170,1).
+palle_p(171,2).
+palle_p(172,2).
+palle_p(173,1).
+palle_p(174,1).
+palle_p(175,1).
+palle_p(176,1).
+palle_p(177,2).
+palle_p(178,0).
+palle_p(179,0).
+palle_p(18,0).
+palle_p(180,1).
+palle_p(181,0).
+palle_p(182,1).
+palle_p(183,0).
+palle_p(184,0).
+palle_p(185,2).
+palle_p(186,0).
+palle_p(187,3).
+palle_p(188,1).
+palle_p(189,0).
+palle_p(19,4).
+palle_p(190,1).
+palle_p(191,2).
+palle_p(192,1).
+palle_p(193,0).
+palle_p(194,0).
+palle_p(195,1).
+palle_p(196,0).
+palle_p(197,2).
+palle_p(198,0).
+palle_p(199,2).
+palle_p(2,2).
+palle_p(20,1).
+palle_p(200,0).
+palle_p(201,5).
+palle_p(202,2).
+palle_p(203,1).
+palle_p(204,1).
+palle_p(205,1).
+palle_p(206,2).
+palle_p(207,0).
+palle_p(208,0).
+palle_p(209,1).
+palle_p(21,0).
+palle_p(210,0).
+palle_p(211,2).
+palle_p(212,0).
+palle_p(213,1).
+palle_p(214,0).
+palle_p(215,0).
+palle_p(216,0).
+palle_p(217,1).
+palle_p(218,2).
+palle_p(219,1).
+palle_p(22,0).
+palle_p(220,1).
+palle_p(221,1).
+palle_p(222,1).
+palle_p(223,1).
+palle_p(224,0).
+palle_p(225,1).
+palle_p(226,1).
+palle_p(227,0).
+palle_p(228,1).
+palle_p(229,1).
+palle_p(23,1).
+palle_p(230,0).
+palle_p(231,0).
+palle_p(232,0).
+palle_p(233,0).
+palle_p(234,0).
+palle_p(235,0).
+palle_p(236,1).
+palle_p(237,2).
+palle_p(238,0).
+palle_p(239,2).
+palle_p(24,0).
+palle_p(240,0).
+palle_p(241,2).
+palle_p(242,1).
+palle_p(243,0).
+palle_p(244,1).
+palle_p(245,1).
+palle_p(246,0).
+palle_p(247,0).
+palle_p(248,0).
+palle_p(249,0).
+palle_p(25,1).
+palle_p(26,0).
+palle_p(27,0).
+palle_p(28,1).
+palle_p(29,1).
+palle_p(3,1).
+palle_p(30,1).
+palle_p(31,0).
+palle_p(32,1).
+palle_p(33,2).
+palle_p(34,0).
+palle_p(35,1).
+palle_p(36,0).
+palle_p(37,1).
+palle_p(38,0).
+palle_p(39,0).
+palle_p(4,0).
+palle_p(40,0).
+palle_p(41,2).
+palle_p(42,0).
+palle_p(43,1).
+palle_p(44,1).
+palle_p(45,1).
+palle_p(46,0).
+palle_p(47,0).
+palle_p(48,1).
+palle_p(49,1).
+palle_p(5,0).
+palle_p(50,0).
+palle_p(51,0).
+palle_p(52,2).
+palle_p(53,2).
+palle_p(54,0).
+palle_p(55,1).
+palle_p(56,0).
+palle_p(57,1).
+palle_p(58,1).
+palle_p(59,1).
+palle_p(6,1).
+palle_p(60,1).
+palle_p(61,0).
+palle_p(62,0).
+palle_p(63,2).
+palle_p(64,2).
+palle_p(65,1).
+palle_p(66,0).
+palle_p(67,0).
+palle_p(68,1).
+palle_p(69,1).
+palle_p(7,1).
+palle_p(70,1).
+palle_p(71,1).
+palle_p(72,0).
+palle_p(73,0).
+palle_p(74,0).
+palle_p(75,0).
+palle_p(76,1).
+palle_p(77,1).
+palle_p(78,1).
+palle_p(79,0).
+palle_p(8,0).
+palle_p(80,1).
+palle_p(81,3).
+palle_p(82,1).
+palle_p(83,0).
+palle_p(84,0).
+palle_p(85,1).
+palle_p(86,0).
+palle_p(87,0).
+palle_p(88,0).
+palle_p(89,0).
+palle_p(9,2).
+palle_p(90,2).
+palle_p(91,1).
+palle_p(92,2).
+palle_p(93,1).
+palle_p(94,1).
+palle_p(95,0).
+palle_p(96,2).
+palle_p(97,0).
+palle_p(98,1).
+palle_p(99,1).
+palle_r(1,0).
+palle_r(10,0).
+palle_r(100,0).
+palle_r(101,3).
+palle_r(102,0).
+palle_r(103,1).
+palle_r(104,0).
+palle_r(105,2).
+palle_r(106,2).
+palle_r(107,2).
+palle_r(108,5).
+palle_r(109,2).
+palle_r(11,0).
+palle_r(110,1).
+palle_r(111,1).
+palle_r(112,1).
+palle_r(113,0).
+palle_r(114,2).
+palle_r(115,2).
+palle_r(116,0).
+palle_r(117,2).
+palle_r(118,0).
+palle_r(119,0).
+palle_r(12,0).
+palle_r(120,0).
+palle_r(121,0).
+palle_r(122,2).
+palle_r(123,0).
+palle_r(124,1).
+palle_r(125,0).
+palle_r(126,1).
+palle_r(127,2).
+palle_r(128,0).
+palle_r(129,1).
+palle_r(13,1).
+palle_r(130,1).
+palle_r(131,0).
+palle_r(132,0).
+palle_r(133,0).
+palle_r(134,3).
+palle_r(135,1).
+palle_r(136,1).
+palle_r(137,1).
+palle_r(138,0).
+palle_r(139,0).
+palle_r(14,2).
+palle_r(140,3).
+palle_r(141,0).
+palle_r(142,3).
+palle_r(143,1).
+palle_r(144,0).
+palle_r(145,0).
+palle_r(146,1).
+palle_r(147,0).
+palle_r(148,0).
+palle_r(149,0).
+palle_r(15,3).
+palle_r(150,0).
+palle_r(151,4).
+palle_r(152,1).
+palle_r(153,2).
+palle_r(154,1).
+palle_r(155,1).
+palle_r(156,2).
+palle_r(157,0).
+palle_r(158,0).
+palle_r(159,0).
+palle_r(16,0).
+palle_r(160,0).
+palle_r(161,3).
+palle_r(162,2).
+palle_r(163,0).
+palle_r(164,0).
+palle_r(165,1).
+palle_r(166,0).
+palle_r(167,0).
+palle_r(168,2).
+palle_r(169,4).
+palle_r(17,0).
+palle_r(170,1).
+palle_r(171,1).
+palle_r(172,2).
+palle_r(173,1).
+palle_r(174,0).
+palle_r(175,0).
+palle_r(176,0).
+palle_r(177,0).
+palle_r(178,0).
+palle_r(179,0).
+palle_r(18,1).
+palle_r(180,2).
+palle_r(181,0).
+palle_r(182,0).
+palle_r(183,0).
+palle_r(184,0).
+palle_r(185,5).
+palle_r(186,0).
+palle_r(187,6).
+palle_r(188,0).
+palle_r(189,0).
+palle_r(19,0).
+palle_r(190,2).
+palle_r(191,0).
+palle_r(192,2).
+palle_r(193,0).
+palle_r(194,0).
+palle_r(195,1).
+palle_r(196,0).
+palle_r(197,2).
+palle_r(198,0).
+palle_r(199,4).
+palle_r(2,3).
+palle_r(20,1).
+palle_r(200,0).
+palle_r(201,0).
+palle_r(202,1).
+palle_r(203,2).
+palle_r(204,2).
+palle_r(205,0).
+palle_r(206,4).
+palle_r(207,0).
+palle_r(208,0).
+palle_r(209,1).
+palle_r(21,0).
+palle_r(210,0).
+palle_r(211,7).
+palle_r(212,0).
+palle_r(213,2).
+palle_r(214,1).
+palle_r(215,1).
+palle_r(216,0).
+palle_r(217,0).
+palle_r(218,6).
+palle_r(219,0).
+palle_r(22,0).
+palle_r(220,0).
+palle_r(221,0).
+palle_r(222,0).
+palle_r(223,0).
+palle_r(224,0).
+palle_r(225,0).
+palle_r(226,0).
+palle_r(227,0).
+palle_r(228,0).
+palle_r(229,2).
+palle_r(23,0).
+palle_r(230,0).
+palle_r(231,0).
+palle_r(232,0).
+palle_r(233,0).
+palle_r(234,0).
+palle_r(235,0).
+palle_r(236,1).
+palle_r(237,0).
+palle_r(238,1).
+palle_r(239,1).
+palle_r(24,0).
+palle_r(240,1).
+palle_r(241,1).
+palle_r(242,1).
+palle_r(243,1).
+palle_r(244,2).
+palle_r(245,1).
+palle_r(246,0).
+palle_r(247,0).
+palle_r(248,1).
+palle_r(249,0).
+palle_r(25,2).
+palle_r(26,0).
+palle_r(27,0).
+palle_r(28,3).
+palle_r(29,0).
+palle_r(3,1).
+palle_r(30,2).
+palle_r(31,0).
+palle_r(32,0).
+palle_r(33,0).
+palle_r(34,0).
+palle_r(35,1).
+palle_r(36,0).
+palle_r(37,0).
+palle_r(38,0).
+palle_r(39,2).
+palle_r(4,0).
+palle_r(40,0).
+palle_r(41,5).
+palle_r(42,0).
+palle_r(43,1).
+palle_r(44,0).
+palle_r(45,5).
+palle_r(46,0).
+palle_r(47,1).
+palle_r(48,1).
+palle_r(49,1).
+palle_r(5,0).
+palle_r(50,0).
+palle_r(51,0).
+palle_r(52,5).
+palle_r(53,11).
+palle_r(54,0).
+palle_r(55,0).
+palle_r(56,0).
+palle_r(57,1).
+palle_r(58,1).
+palle_r(59,2).
+palle_r(6,1).
+palle_r(60,1).
+palle_r(61,0).
+palle_r(62,1).
+palle_r(63,1).
+palle_r(64,4).
+palle_r(65,0).
+palle_r(66,0).
+palle_r(67,0).
+palle_r(68,0).
+palle_r(69,1).
+palle_r(7,1).
+palle_r(70,0).
+palle_r(71,3).
+palle_r(72,0).
+palle_r(73,2).
+palle_r(74,2).
+palle_r(75,0).
+palle_r(76,0).
+palle_r(77,1).
+palle_r(78,0).
+palle_r(79,0).
+palle_r(8,0).
+palle_r(80,4).
+palle_r(81,0).
+palle_r(82,0).
+palle_r(83,0).
+palle_r(84,0).
+palle_r(85,0).
+palle_r(86,0).
+palle_r(87,0).
+palle_r(88,1).
+palle_r(89,0).
+palle_r(9,2).
+palle_r(90,3).
+palle_r(91,1).
+palle_r(92,0).
+palle_r(93,1).
+palle_r(94,0).
+palle_r(95,0).
+palle_r(96,0).
+palle_r(97,0).
+palle_r(98,3).
+palle_r(99,0).
+rim_t(1,0).
+rim_t(10,4).
+rim_t(100,0).
+rim_t(101,2).
+rim_t(102,0).
+rim_t(103,5).
+rim_t(104,0).
+rim_t(105,2).
+rim_t(106,2).
+rim_t(107,2).
+rim_t(108,0).
+rim_t(109,3).
+rim_t(11,1).
+rim_t(110,2).
+rim_t(111,3).
+rim_t(112,5).
+rim_t(113,8).
+rim_t(114,1).
+rim_t(115,1).
+rim_t(116,2).
+rim_t(117,3).
+rim_t(118,1).
+rim_t(119,6).
+rim_t(12,0).
+rim_t(120,0).
+rim_t(121,5).
+rim_t(122,4).
+rim_t(123,5).
+rim_t(124,3).
+rim_t(125,1).
+rim_t(126,5).
+rim_t(127,2).
+rim_t(128,1).
+rim_t(129,1).
+rim_t(13,2).
+rim_t(130,1).
+rim_t(131,3).
+rim_t(132,0).
+rim_t(133,3).
+rim_t(134,2).
+rim_t(135,3).
+rim_t(136,4).
+rim_t(137,3).
+rim_t(138,0).
+rim_t(139,0).
+rim_t(14,2).
+rim_t(140,1).
+rim_t(141,0).
+rim_t(142,3).
+rim_t(143,2).
+rim_t(144,0).
+rim_t(145,3).
+rim_t(146,5).
+rim_t(147,1).
+rim_t(148,1).
+rim_t(149,1).
+rim_t(15,4).
+rim_t(150,0).
+rim_t(151,3).
+rim_t(152,4).
+rim_t(153,2).
+rim_t(154,1).
+rim_t(155,3).
+rim_t(156,1).
+rim_t(157,2).
+rim_t(158,0).
+rim_t(159,3).
+rim_t(16,0).
+rim_t(160,1).
+rim_t(161,5).
+rim_t(162,2).
+rim_t(163,4).
+rim_t(164,4).
+rim_t(165,5).
+rim_t(166,4).
+rim_t(167,6).
+rim_t(168,1).
+rim_t(169,2).
+rim_t(17,3).
+rim_t(170,3).
+rim_t(171,5).
+rim_t(172,2).
+rim_t(173,7).
+rim_t(174,2).
+rim_t(175,0).
+rim_t(176,4).
+rim_t(177,0).
+rim_t(178,0).
+rim_t(179,0).
+rim_t(18,1).
+rim_t(180,3).
+rim_t(181,3).
+rim_t(182,5).
+rim_t(183,2).
+rim_t(184,2).
+rim_t(185,2).
+rim_t(186,0).
+rim_t(187,3).
+rim_t(188,2).
+rim_t(189,1).
+rim_t(19,0).
+rim_t(190,1).
+rim_t(191,0).
+rim_t(192,2).
+rim_t(193,0).
+rim_t(194,0).
+rim_t(195,3).
+rim_t(196,4).
+rim_t(197,5).
+rim_t(198,1).
+rim_t(199,5).
+rim_t(2,3).
+rim_t(20,4).
+rim_t(200,1).
+rim_t(201,4).
+rim_t(202,7).
+rim_t(203,4).
+rim_t(204,3).
+rim_t(205,8).
+rim_t(206,2).
+rim_t(207,0).
+rim_t(208,0).
+rim_t(209,5).
+rim_t(21,2).
+rim_t(210,2).
+rim_t(211,5).
+rim_t(212,2).
+rim_t(213,2).
+rim_t(214,1).
+rim_t(215,0).
+rim_t(216,0).
+rim_t(217,0).
+rim_t(218,1).
+rim_t(219,9).
+rim_t(22,0).
+rim_t(220,3).
+rim_t(221,3).
+rim_t(222,7).
+rim_t(223,2).
+rim_t(224,0).
+rim_t(225,2).
+rim_t(226,2).
+rim_t(227,0).
+rim_t(228,3).
+rim_t(229,3).
+rim_t(23,1).
+rim_t(230,0).
+rim_t(231,0).
+rim_t(232,0).
+rim_t(233,3).
+rim_t(234,0).
+rim_t(235,2).
+rim_t(236,2).
+rim_t(237,1).
+rim_t(238,4).
+rim_t(239,5).
+rim_t(24,0).
+rim_t(240,2).
+rim_t(241,7).
+rim_t(242,5).
+rim_t(243,3).
+rim_t(244,2).
+rim_t(245,2).
+rim_t(246,1).
+rim_t(247,2).
+rim_t(248,3).
+rim_t(249,0).
+rim_t(25,3).
+rim_t(26,2).
+rim_t(27,4).
+rim_t(28,4).
+rim_t(29,3).
+rim_t(3,4).
+rim_t(30,5).
+rim_t(31,2).
+rim_t(32,2).
+rim_t(33,0).
+rim_t(34,0).
+rim_t(35,6).
+rim_t(36,1).
+rim_t(37,2).
+rim_t(38,1).
+rim_t(39,2).
+rim_t(4,2).
+rim_t(40,1).
+rim_t(41,3).
+rim_t(42,3).
+rim_t(43,2).
+rim_t(44,0).
+rim_t(45,3).
+rim_t(46,0).
+rim_t(47,0).
+rim_t(48,5).
+rim_t(49,5).
+rim_t(5,1).
+rim_t(50,1).
+rim_t(51,0).
+rim_t(52,2).
+rim_t(53,4).
+rim_t(54,0).
+rim_t(55,4).
+rim_t(56,2).
+rim_t(57,7).
+rim_t(58,3).
+rim_t(59,2).
+rim_t(6,2).
+rim_t(60,3).
+rim_t(61,1).
+rim_t(62,6).
+rim_t(63,5).
+rim_t(64,2).
+rim_t(65,5).
+rim_t(66,2).
+rim_t(67,0).
+rim_t(68,2).
+rim_t(69,2).
+rim_t(7,2).
+rim_t(70,0).
+rim_t(71,1).
+rim_t(72,0).
+rim_t(73,0).
+rim_t(74,2).
+rim_t(75,0).
+rim_t(76,0).
+rim_t(77,5).
+rim_t(78,2).
+rim_t(79,1).
+rim_t(8,0).
+rim_t(80,3).
+rim_t(81,6).
+rim_t(82,2).
+rim_t(83,3).
+rim_t(84,1).
+rim_t(85,2).
+rim_t(86,0).
+rim_t(87,1).
+rim_t(88,2).
+rim_t(89,0).
+rim_t(9,7).
+rim_t(90,4).
+rim_t(91,2).
+rim_t(92,1).
+rim_t(93,7).
+rim_t(94,2).
+rim_t(95,1).
+rim_t(96,1).
+rim_t(97,0).
+rim_t(98,2).
+rim_t(99,0).
+ruolo(1,ala).
+ruolo(10,centro).
+ruolo(100,play).
+ruolo(101,play).
+ruolo(102,guardia).
+ruolo(103,ala).
+ruolo(104,centro).
+ruolo(105,guardia).
+ruolo(106,play).
+ruolo(107,guardia).
+ruolo(108,play).
+ruolo(109,guardia).
+ruolo(11,play).
+ruolo(110,guardia).
+ruolo(111,centro).
+ruolo(112,ala).
+ruolo(113,centro).
+ruolo(114,play).
+ruolo(115,play).
+ruolo(116,ala).
+ruolo(117,play).
+ruolo(118,guardia).
+ruolo(119,centro).
+ruolo(12,ala).
+ruolo(120,centro).
+ruolo(121,ala).
+ruolo(122,ala).
+ruolo(123,ala).
+ruolo(124,ala).
+ruolo(125,guardia).
+ruolo(126,centro).
+ruolo(127,play).
+ruolo(128,centro).
+ruolo(129,guardia).
+ruolo(13,guardia).
+ruolo(130,play).
+ruolo(131,ala).
+ruolo(132,play).
+ruolo(133,guardia).
+ruolo(134,play).
+ruolo(135,guardia).
+ruolo(136,guardia).
+ruolo(137,guardia).
+ruolo(138,play).
+ruolo(139,play).
+ruolo(14,guardia).
+ruolo(140,play).
+ruolo(141,play).
+ruolo(142,play).
+ruolo(143,ala).
+ruolo(144,guardia).
+ruolo(145,ala).
+ruolo(146,ala).
+ruolo(147,ala).
+ruolo(148,ala).
+ruolo(149,guardia).
+ruolo(15,guardia).
+ruolo(150,guardia).
+ruolo(151,play).
+ruolo(152,ala).
+ruolo(153,play).
+ruolo(154,play).
+ruolo(155,guardia).
+ruolo(156,guardia).
+ruolo(157,guardia).
+ruolo(158,centro).
+ruolo(159,play).
+ruolo(16,guardia).
+ruolo(160,ala).
+ruolo(161,play).
+ruolo(162,play).
+ruolo(163,centro).
+ruolo(164,ala).
+ruolo(165,ala).
+ruolo(166,ala).
+ruolo(167,centro).
+ruolo(168,play).
+ruolo(169,play).
+ruolo(17,ala).
+ruolo(170,ala).
+ruolo(171,centro).
+ruolo(172,guardia).
+ruolo(173,ala).
+ruolo(174,ala).
+ruolo(175,ala).
+ruolo(176,centro).
+ruolo(177,play).
+ruolo(178,guardia).
+ruolo(179,guardia).
+ruolo(18,guardia).
+ruolo(180,guardia).
+ruolo(181,ala).
+ruolo(182,ala).
+ruolo(183,centro).
+ruolo(184,guardia).
+ruolo(185,play).
+ruolo(186,ala).
+ruolo(187,play).
+ruolo(188,guardia).
+ruolo(189,ala).
+ruolo(19,ala).
+ruolo(190,play).
+ruolo(191,ala).
+ruolo(192,guardia).
+ruolo(193,guardia).
+ruolo(194,ala).
+ruolo(195,play).
+ruolo(196,ala).
+ruolo(197,centro).
+ruolo(198,centro).
+ruolo(199,ala).
+ruolo(2,guardia).
+ruolo(20,ala).
+ruolo(200,centro).
+ruolo(201,play).
+ruolo(202,centro).
+ruolo(203,ala).
+ruolo(204,play).
+ruolo(205,centro).
+ruolo(206,play).
+ruolo(207,guardia).
+ruolo(208,play).
+ruolo(209,ala).
+ruolo(21,centro).
+ruolo(210,ala).
+ruolo(211,play).
+ruolo(212,ala).
+ruolo(213,guardia).
+ruolo(214,guardia).
+ruolo(215,play).
+ruolo(216,ala).
+ruolo(217,centro).
+ruolo(218,guardia).
+ruolo(219,centro).
+ruolo(22,guardia).
+ruolo(220,centro).
+ruolo(221,ala).
+ruolo(222,centro).
+ruolo(223,guardia).
+ruolo(224,ala).
+ruolo(225,centro).
+ruolo(226,ala).
+ruolo(227,guardia).
+ruolo(228,ala).
+ruolo(229,guardia).
+ruolo(23,guardia).
+ruolo(230,guardia).
+ruolo(231,guardia).
+ruolo(232,guardia).
+ruolo(233,centro).
+ruolo(234,ala).
+ruolo(235,guardia).
+ruolo(236,guardia).
+ruolo(237,ala).
+ruolo(238,centro).
+ruolo(239,ala).
+ruolo(24,play).
+ruolo(240,ala).
+ruolo(241,centro).
+ruolo(242,ala).
+ruolo(243,ala).
+ruolo(244,play).
+ruolo(245,play).
+ruolo(246,play).
+ruolo(247,ala).
+ruolo(248,ala).
+ruolo(249,ala).
+ruolo(25,play).
+ruolo(26,ala).
+ruolo(27,ala).
+ruolo(28,guardia).
+ruolo(29,ala).
+ruolo(3,ala).
+ruolo(30,ala).
+ruolo(31,centro).
+ruolo(32,ala).
+ruolo(33,guardia).
+ruolo(34,guardia).
+ruolo(35,centro).
+ruolo(36,ala).
+ruolo(37,centro).
+ruolo(38,guardia).
+ruolo(39,play).
+ruolo(4,ala).
+ruolo(40,centro).
+ruolo(41,play).
+ruolo(42,centro).
+ruolo(43,play).
+ruolo(44,play).
+ruolo(45,play).
+ruolo(46,ala).
+ruolo(47,guardia).
+ruolo(48,ala).
+ruolo(49,ala).
+ruolo(5,ala).
+ruolo(50,play).
+ruolo(51,ala).
+ruolo(52,play).
+ruolo(53,play).
+ruolo(54,guardia).
+ruolo(55,centro).
+ruolo(56,guardia).
+ruolo(57,centro).
+ruolo(58,guardia).
+ruolo(59,play).
+ruolo(6,guardia).
+ruolo(60,guardia).
+ruolo(61,ala).
+ruolo(62,ala).
+ruolo(63,centro).
+ruolo(64,play).
+ruolo(65,ala).
+ruolo(66,guardia).
+ruolo(67,ala).
+ruolo(68,centro).
+ruolo(69,ala).
+ruolo(7,guardia).
+ruolo(70,play).
+ruolo(71,guardia).
+ruolo(72,ala).
+ruolo(73,play).
+ruolo(74,play).
+ruolo(75,guardia).
+ruolo(76,ala).
+ruolo(77,ala).
+ruolo(78,ala).
+ruolo(79,ala).
+ruolo(8,guardia).
+ruolo(80,guardia).
+ruolo(81,centro).
+ruolo(82,play).
+ruolo(83,ala).
+ruolo(84,guardia).
+ruolo(85,play).
+ruolo(86,ala).
+ruolo(87,ala).
+ruolo(88,guardia).
+ruolo(89,ala).
+ruolo(9,centro).
+ruolo(90,play).
+ruolo(91,play).
+ruolo(92,play).
+ruolo(93,ala).
+ruolo(94,guardia).
+ruolo(95,centro).
+ruolo(96,ala).
+ruolo(97,play).
+ruolo(98,play).
+ruolo(99,ala).
+squadra(1,virtus_segafredo_bologna).
+squadra(10,virtus_segafredo_bologna).
+squadra(100,unahotels_reggio_emilia).
+squadra(101,umana_reyer_venezia).
+squadra(102,gevi_napoli_basket).
+squadra(103,dolomiti_energia_trentino).
+squadra(104,happy_casa_brindisi).
+squadra(105,carpegna_prosciutto_pesaro).
+squadra(106,virtus_segafredo_bologna).
+squadra(107,ea7_emporio_armani_milano).
+squadra(108,givova_scafati).
+squadra(109,bertram_yachts_derthona_tortona).
+squadra(11,ea7_emporio_armani_milano).
+squadra(110,happy_casa_brindisi).
+squadra(111,ea7_emporio_armani_milano).
+squadra(112,tezenis_verona).
+squadra(113,unahotels_reggio_emilia).
+squadra(114,gevi_napoli_basket).
+squadra(115,givova_scafati).
+squadra(116,nutribullet_treviso_basket).
+squadra(117,nutribullet_treviso_basket).
+squadra(118,pallacanestro_trieste).
+squadra(119,virtus_segafredo_bologna).
+squadra(12,gevi_napoli_basket).
+squadra(120,bertram_yachts_derthona_tortona).
+squadra(121,nutribullet_treviso_basket).
+squadra(122,openjobmetis_varese).
+squadra(123,tezenis_verona).
+squadra(124,banco_di_sardegna_sassari).
+squadra(125,nutribullet_treviso_basket).
+squadra(126,carpegna_prosciutto_pesaro).
+squadra(127,banco_di_sardegna_sassari).
+squadra(128,dolomiti_energia_trentino).
+squadra(129,happy_casa_brindisi).
+squadra(13,nutribullet_treviso_basket).
+squadra(130,germani_brescia).
+squadra(131,pallacanestro_trieste).
+squadra(132,openjobmetis_varese).
+squadra(133,dolomiti_energia_trentino).
+squadra(134,givova_scafati).
+squadra(135,virtus_segafredo_bologna).
+squadra(136,ea7_emporio_armani_milano).
+squadra(137,bertram_yachts_derthona_tortona).
+squadra(138,happy_casa_brindisi).
+squadra(139,happy_casa_brindisi).
+squadra(14,ea7_emporio_armani_milano).
+squadra(140,virtus_segafredo_bologna).
+squadra(141,virtus_segafredo_bologna).
+squadra(142,happy_casa_brindisi).
+squadra(143,germani_brescia).
+squadra(144,gevi_napoli_basket).
+squadra(145,carpegna_prosciutto_pesaro).
+squadra(146,ea7_emporio_armani_milano).
+squadra(147,virtus_segafredo_bologna).
+squadra(148,happy_casa_brindisi).
+squadra(149,givova_scafati).
+squadra(15,pallacanestro_trieste).
+squadra(150,ea7_emporio_armani_milano).
+squadra(151,gevi_napoli_basket).
+squadra(152,virtus_segafredo_bologna).
+squadra(153,ea7_emporio_armani_milano).
+squadra(154,givova_scafati).
+squadra(155,umana_reyer_venezia).
+squadra(156,carpegna_prosciutto_pesaro).
+squadra(157,dolomiti_energia_trentino).
+squadra(158,bertram_yachts_derthona_tortona).
+squadra(159,givova_scafati).
+squadra(16,happy_casa_brindisi).
+squadra(160,germani_brescia).
+squadra(161,ea7_emporio_armani_milano).
+squadra(162,germani_brescia).
+squadra(163,germani_brescia).
+squadra(164,virtus_segafredo_bologna).
+squadra(165,givova_scafati).
+squadra(166,unahotels_reggio_emilia).
+squadra(167,openjobmetis_varese).
+squadra(168,virtus_segafredo_bologna).
+squadra(169,ea7_emporio_armani_milano).
+squadra(17,happy_casa_brindisi).
+squadra(170,umana_reyer_venezia).
+squadra(171,happy_casa_brindisi).
+squadra(172,germani_brescia).
+squadra(173,givova_scafati).
+squadra(174,banco_di_sardegna_sassari).
+squadra(175,banco_di_sardegna_sassari).
+squadra(176,bertram_yachts_derthona_tortona).
+squadra(177,ea7_emporio_armani_milano).
+squadra(178,banco_di_sardegna_sassari).
+squadra(179,umana_reyer_venezia).
+squadra(18,virtus_segafredo_bologna).
+squadra(180,happy_casa_brindisi).
+squadra(181,unahotels_reggio_emilia).
+squadra(182,openjobmetis_varese).
+squadra(183,ea7_emporio_armani_milano).
+squadra(184,happy_casa_brindisi).
+squadra(185,banco_di_sardegna_sassari).
+squadra(186,pallacanestro_trieste).
+squadra(187,openjobmetis_varese).
+squadra(188,givova_scafati).
+squadra(189,tezenis_verona).
+squadra(19,unahotels_reggio_emilia).
+squadra(190,pallacanestro_trieste).
+squadra(191,carpegna_prosciutto_pesaro).
+squadra(192,tezenis_verona).
+squadra(193,nutribullet_treviso_basket).
+squadra(194,nutribullet_treviso_basket).
+squadra(195,unahotels_reggio_emilia).
+squadra(196,bertram_yachts_derthona_tortona).
+squadra(197,virtus_segafredo_bologna).
+squadra(198,pallacanestro_trieste).
+squadra(199,ea7_emporio_armani_milano).
+squadra(2,carpegna_prosciutto_pesaro).
+squadra(20,banco_di_sardegna_sassari).
+squadra(200,nutribullet_treviso_basket).
+squadra(201,gevi_napoli_basket).
+squadra(202,tezenis_verona).
+squadra(203,nutribullet_treviso_basket).
+squadra(204,dolomiti_energia_trentino).
+squadra(205,pallacanestro_trieste).
+squadra(206,umana_reyer_venezia).
+squadra(207,carpegna_prosciutto_pesaro).
+squadra(208,unahotels_reggio_emilia).
+squadra(209,banco_di_sardegna_sassari).
+squadra(21,ea7_emporio_armani_milano).
+squadra(210,gevi_napoli_basket).
+squadra(211,givova_scafati).
+squadra(212,unahotels_reggio_emilia).
+squadra(213,carpegna_prosciutto_pesaro).
+squadra(214,germani_brescia).
+squadra(215,bertram_yachts_derthona_tortona).
+squadra(216,germani_brescia).
+squadra(217,givova_scafati).
+squadra(218,virtus_segafredo_bologna).
+squadra(219,pallacanestro_trieste).
+squadra(22,happy_casa_brindisi).
+squadra(220,umana_reyer_venezia).
+squadra(221,ea7_emporio_armani_milano).
+squadra(222,givova_scafati).
+squadra(223,ea7_emporio_armani_milano).
+squadra(224,nutribullet_treviso_basket).
+squadra(225,carpegna_prosciutto_pesaro).
+squadra(226,banco_di_sardegna_sassari).
+squadra(227,tezenis_verona).
+squadra(228,dolomiti_energia_trentino).
+squadra(229,gevi_napoli_basket).
+squadra(23,tezenis_verona).
+squadra(230,umana_reyer_venezia).
+squadra(231,unahotels_reggio_emilia).
+squadra(232,nutribullet_treviso_basket).
+squadra(233,pallacanestro_trieste).
+squadra(234,openjobmetis_varese).
+squadra(235,carpegna_prosciutto_pesaro).
+squadra(236,unahotels_reggio_emilia).
+squadra(237,happy_casa_brindisi).
+squadra(238,ea7_emporio_armani_milano).
+squadra(239,umana_reyer_venezia).
+squadra(24,pallacanestro_trieste).
+squadra(240,virtus_segafredo_bologna).
+squadra(241,gevi_napoli_basket).
+squadra(242,umana_reyer_venezia).
+squadra(243,openjobmetis_varese).
+squadra(244,gevi_napoli_basket).
+squadra(245,nutribullet_treviso_basket).
+squadra(246,dolomiti_energia_trentino).
+squadra(247,gevi_napoli_basket).
+squadra(248,gevi_napoli_basket).
+squadra(249,openjobmetis_varese).
+squadra(25,happy_casa_brindisi).
+squadra(26,umana_reyer_venezia).
+squadra(27,umana_reyer_venezia).
+squadra(28,openjobmetis_varese).
+squadra(29,unahotels_reggio_emilia).
+squadra(3,gevi_napoli_basket).
+squadra(30,happy_casa_brindisi).
+squadra(31,germani_brescia).
+squadra(32,givova_scafati).
+squadra(33,nutribullet_treviso_basket).
+squadra(34,givova_scafati).
+squadra(35,bertram_yachts_derthona_tortona).
+squadra(36,dolomiti_energia_trentino).
+squadra(37,virtus_segafredo_bologna).
+squadra(38,pallacanestro_trieste).
+squadra(39,bertram_yachts_derthona_tortona).
+squadra(4,germani_brescia).
+squadra(40,tezenis_verona).
+squadra(41,tezenis_verona).
+squadra(42,openjobmetis_varese).
+squadra(43,tezenis_verona).
+squadra(44,happy_casa_brindisi).
+squadra(45,germani_brescia).
+squadra(46,givova_scafati).
+squadra(47,umana_reyer_venezia).
+squadra(48,carpegna_prosciutto_pesaro).
+squadra(49,carpegna_prosciutto_pesaro).
+squadra(5,ea7_emporio_armani_milano).
+squadra(50,banco_di_sardegna_sassari).
+squadra(51,umana_reyer_venezia).
+squadra(52,bertram_yachts_derthona_tortona).
+squadra(53,unahotels_reggio_emilia).
+squadra(54,unahotels_reggio_emilia).
+squadra(55,germani_brescia).
+squadra(56,dolomiti_energia_trentino).
+squadra(57,nutribullet_treviso_basket).
+squadra(58,virtus_segafredo_bologna).
+squadra(59,germani_brescia).
+squadra(6,tezenis_verona).
+squadra(60,dolomiti_energia_trentino).
+squadra(61,ea7_emporio_armani_milano).
+squadra(62,bertram_yachts_derthona_tortona).
+squadra(63,ea7_emporio_armani_milano).
+squadra(64,pallacanestro_trieste).
+squadra(65,gevi_napoli_basket).
+squadra(66,pallacanestro_trieste).
+squadra(67,happy_casa_brindisi).
+squadra(68,givova_scafati).
+squadra(69,carpegna_prosciutto_pesaro).
+squadra(7,unahotels_reggio_emilia).
+squadra(70,dolomiti_energia_trentino).
+squadra(71,germani_brescia).
+squadra(72,gevi_napoli_basket).
+squadra(73,umana_reyer_venezia).
+squadra(74,openjobmetis_varese).
+squadra(75,banco_di_sardegna_sassari).
+squadra(76,carpegna_prosciutto_pesaro).
+squadra(77,banco_di_sardegna_sassari).
+squadra(78,unahotels_reggio_emilia).
+squadra(79,happy_casa_brindisi).
+squadra(8,pallacanestro_trieste).
+squadra(80,banco_di_sardegna_sassari).
+squadra(81,nutribullet_treviso_basket).
+squadra(82,bertram_yachts_derthona_tortona).
+squadra(83,happy_casa_brindisi).
+squadra(84,nutribullet_treviso_basket).
+squadra(85,virtus_segafredo_bologna).
+squadra(86,tezenis_verona).
+squadra(87,openjobmetis_varese).
+squadra(88,bertram_yachts_derthona_tortona).
+squadra(89,bertram_yachts_derthona_tortona).
+squadra(9,dolomiti_energia_trentino).
+squadra(90,dolomiti_energia_trentino).
+squadra(91,dolomiti_energia_trentino).
+squadra(92,happy_casa_brindisi).
+squadra(93,germani_brescia).
+squadra(94,pallacanestro_trieste).
+squadra(95,banco_di_sardegna_sassari).
+squadra(96,umana_reyer_venezia).
+squadra(97,dolomiti_energia_trentino).
+squadra(98,banco_di_sardegna_sassari).
+squadra(99,germani_brescia).
+stop_d(1,0).
+stop_d(10,0).
+stop_d(100,7).
+stop_d(101,0).
+stop_d(102,0).
+stop_d(103,1).
+stop_d(104,0).
+stop_d(105,0).
+stop_d(106,0).
+stop_d(107,0).
+stop_d(108,0).
+stop_d(109,0).
+stop_d(11,0).
+stop_d(110,0).
+stop_d(111,0).
+stop_d(112,1).
+stop_d(113,0).
+stop_d(114,0).
+stop_d(115,0).
+stop_d(116,0).
+stop_d(117,0).
+stop_d(118,28).
+stop_d(119,0).
+stop_d(12,12).
+stop_d(120,5).
+stop_d(121,0).
+stop_d(122,0).
+stop_d(123,0).
+stop_d(124,0).
+stop_d(125,0).
+stop_d(126,0).
+stop_d(127,0).
+stop_d(128,0).
+stop_d(129,0).
+stop_d(13,0).
+stop_d(130,0).
+stop_d(131,0).
+stop_d(132,0).
+stop_d(133,0).
+stop_d(134,0).
+stop_d(135,0).
+stop_d(136,0).
+stop_d(137,0).
+stop_d(138,0).
+stop_d(139,2).
+stop_d(14,0).
+stop_d(140,0).
+stop_d(141,0).
+stop_d(142,0).
+stop_d(143,0).
+stop_d(144,0).
+stop_d(145,0).
+stop_d(146,0).
+stop_d(147,0).
+stop_d(148,0).
+stop_d(149,0).
+stop_d(15,0).
+stop_d(150,0).
+stop_d(151,0).
+stop_d(152,0).
+stop_d(153,0).
+stop_d(154,0).
+stop_d(155,0).
+stop_d(156,0).
+stop_d(157,11).
+stop_d(158,0).
+stop_d(159,6).
+stop_d(16,0).
+stop_d(160,0).
+stop_d(161,0).
+stop_d(162,0).
+stop_d(163,0).
+stop_d(164,0).
+stop_d(165,0).
+stop_d(166,0).
+stop_d(167,1).
+stop_d(168,0).
+stop_d(169,0).
+stop_d(17,0).
+stop_d(170,0).
+stop_d(171,0).
+stop_d(172,0).
+stop_d(173,0).
+stop_d(174,10).
+stop_d(175,0).
+stop_d(176,0).
+stop_d(177,1).
+stop_d(178,0).
+stop_d(179,0).
+stop_d(18,0).
+stop_d(180,0).
+stop_d(181,1).
+stop_d(182,0).
+stop_d(183,0).
+stop_d(184,0).
+stop_d(185,0).
+stop_d(186,0).
+stop_d(187,0).
+stop_d(188,0).
+stop_d(189,0).
+stop_d(19,8).
+stop_d(190,0).
+stop_d(191,7).
+stop_d(192,0).
+stop_d(193,0).
+stop_d(194,0).
+stop_d(195,0).
+stop_d(196,0).
+stop_d(197,0).
+stop_d(198,18).
+stop_d(199,0).
+stop_d(2,0).
+stop_d(20,0).
+stop_d(200,0).
+stop_d(201,11).
+stop_d(202,1).
+stop_d(203,0).
+stop_d(204,0).
+stop_d(205,1).
+stop_d(206,0).
+stop_d(207,0).
+stop_d(208,0).
+stop_d(209,0).
+stop_d(21,0).
+stop_d(210,0).
+stop_d(211,0).
+stop_d(212,0).
+stop_d(213,0).
+stop_d(214,0).
+stop_d(215,0).
+stop_d(216,0).
+stop_d(217,0).
+stop_d(218,0).
+stop_d(219,0).
+stop_d(22,0).
+stop_d(220,0).
+stop_d(221,0).
+stop_d(222,1).
+stop_d(223,0).
+stop_d(224,0).
+stop_d(225,0).
+stop_d(226,0).
+stop_d(227,0).
+stop_d(228,0).
+stop_d(229,0).
+stop_d(23,0).
+stop_d(230,8).
+stop_d(231,1).
+stop_d(232,0).
+stop_d(233,0).
+stop_d(234,0).
+stop_d(235,0).
+stop_d(236,0).
+stop_d(237,11).
+stop_d(238,0).
+stop_d(239,0).
+stop_d(24,0).
+stop_d(240,0).
+stop_d(241,0).
+stop_d(242,0).
+stop_d(243,0).
+stop_d(244,0).
+stop_d(245,0).
+stop_d(246,11).
+stop_d(247,0).
+stop_d(248,0).
+stop_d(249,0).
+stop_d(25,0).
+stop_d(26,0).
+stop_d(27,0).
+stop_d(28,0).
+stop_d(29,0).
+stop_d(3,1).
+stop_d(30,0).
+stop_d(31,0).
+stop_d(32,0).
+stop_d(33,6).
+stop_d(34,0).
+stop_d(35,0).
+stop_d(36,11).
+stop_d(37,0).
+stop_d(38,0).
+stop_d(39,0).
+stop_d(4,0).
+stop_d(40,0).
+stop_d(41,0).
+stop_d(42,0).
+stop_d(43,0).
+stop_d(44,0).
+stop_d(45,0).
+stop_d(46,0).
+stop_d(47,0).
+stop_d(48,0).
+stop_d(49,0).
+stop_d(5,0).
+stop_d(50,0).
+stop_d(51,0).
+stop_d(52,0).
+stop_d(53,0).
+stop_d(54,0).
+stop_d(55,0).
+stop_d(56,0).
+stop_d(57,0).
+stop_d(58,0).
+stop_d(59,0).
+stop_d(6,0).
+stop_d(60,0).
+stop_d(61,0).
+stop_d(62,0).
+stop_d(63,0).
+stop_d(64,0).
+stop_d(65,0).
+stop_d(66,0).
+stop_d(67,2).
+stop_d(68,0).
+stop_d(69,0).
+stop_d(7,0).
+stop_d(70,12).
+stop_d(71,0).
+stop_d(72,0).
+stop_d(73,0).
+stop_d(74,0).
+stop_d(75,0).
+stop_d(76,16).
+stop_d(77,0).
+stop_d(78,0).
+stop_d(79,0).
+stop_d(8,0).
+stop_d(80,0).
+stop_d(81,1).
+stop_d(82,9).
+stop_d(83,0).
+stop_d(84,0).
+stop_d(85,6).
+stop_d(86,0).
+stop_d(87,0).
+stop_d(88,0).
+stop_d(89,0).
+stop_d(9,0).
+stop_d(90,0).
+stop_d(91,0).
+stop_d(92,0).
+stop_d(93,0).
+stop_d(94,0).
+stop_d(95,0).
+stop_d(96,12).
+stop_d(97,9).
+stop_d(98,0).
+stop_d(99,0).
+stop_s(1,0).
+stop_s(10,0).
+stop_s(100,1).
+stop_s(101,0).
+stop_s(102,0).
+stop_s(103,0).
+stop_s(104,0).
+stop_s(105,0).
+stop_s(106,0).
+stop_s(107,0).
+stop_s(108,0).
+stop_s(109,0).
+stop_s(11,0).
+stop_s(110,0).
+stop_s(111,0).
+stop_s(112,0).
+stop_s(113,0).
+stop_s(114,0).
+stop_s(115,0).
+stop_s(116,0).
+stop_s(117,0).
+stop_s(118,1).
+stop_s(119,0).
+stop_s(12,0).
+stop_s(120,0).
+stop_s(121,0).
+stop_s(122,0).
+stop_s(123,0).
+stop_s(124,0).
+stop_s(125,0).
+stop_s(126,0).
+stop_s(127,0).
+stop_s(128,0).
+stop_s(129,0).
+stop_s(13,0).
+stop_s(130,0).
+stop_s(131,0).
+stop_s(132,0).
+stop_s(133,0).
+stop_s(134,0).
+stop_s(135,0).
+stop_s(136,0).
+stop_s(137,0).
+stop_s(138,0).
+stop_s(139,1).
+stop_s(14,0).
+stop_s(140,0).
+stop_s(141,0).
+stop_s(142,0).
+stop_s(143,0).
+stop_s(144,0).
+stop_s(145,0).
+stop_s(146,0).
+stop_s(147,0).
+stop_s(148,0).
+stop_s(149,0).
+stop_s(15,0).
+stop_s(150,0).
+stop_s(151,0).
+stop_s(152,0).
+stop_s(153,0).
+stop_s(154,0).
+stop_s(155,0).
+stop_s(156,0).
+stop_s(157,0).
+stop_s(158,0).
+stop_s(159,0).
+stop_s(16,0).
+stop_s(160,0).
+stop_s(161,0).
+stop_s(162,0).
+stop_s(163,0).
+stop_s(164,0).
+stop_s(165,0).
+stop_s(166,0).
+stop_s(167,0).
+stop_s(168,0).
+stop_s(169,0).
+stop_s(17,0).
+stop_s(170,0).
+stop_s(171,0).
+stop_s(172,0).
+stop_s(173,0).
+stop_s(174,0).
+stop_s(175,0).
+stop_s(176,0).
+stop_s(177,0).
+stop_s(178,0).
+stop_s(179,0).
+stop_s(18,0).
+stop_s(180,0).
+stop_s(181,0).
+stop_s(182,0).
+stop_s(183,0).
+stop_s(184,0).
+stop_s(185,0).
+stop_s(186,0).
+stop_s(187,0).
+stop_s(188,0).
+stop_s(189,0).
+stop_s(19,0).
+stop_s(190,0).
+stop_s(191,0).
+stop_s(192,0).
+stop_s(193,0).
+stop_s(194,0).
+stop_s(195,0).
+stop_s(196,0).
+stop_s(197,0).
+stop_s(198,1).
+stop_s(199,0).
+stop_s(2,0).
+stop_s(20,0).
+stop_s(200,0).
+stop_s(201,0).
+stop_s(202,0).
+stop_s(203,0).
+stop_s(204,0).
+stop_s(205,0).
+stop_s(206,0).
+stop_s(207,0).
+stop_s(208,0).
+stop_s(209,0).
+stop_s(21,0).
+stop_s(210,0).
+stop_s(211,0).
+stop_s(212,0).
+stop_s(213,0).
+stop_s(214,3).
+stop_s(215,0).
+stop_s(216,0).
+stop_s(217,0).
+stop_s(218,0).
+stop_s(219,0).
+stop_s(22,0).
+stop_s(220,0).
+stop_s(221,0).
+stop_s(222,0).
+stop_s(223,0).
+stop_s(224,0).
+stop_s(225,0).
+stop_s(226,0).
+stop_s(227,0).
+stop_s(228,0).
+stop_s(229,0).
+stop_s(23,0).
+stop_s(230,0).
+stop_s(231,0).
+stop_s(232,0).
+stop_s(233,0).
+stop_s(234,0).
+stop_s(235,0).
+stop_s(236,0).
+stop_s(237,0).
+stop_s(238,0).
+stop_s(239,0).
+stop_s(24,0).
+stop_s(240,0).
+stop_s(241,0).
+stop_s(242,0).
+stop_s(243,0).
+stop_s(244,0).
+stop_s(245,0).
+stop_s(246,0).
+stop_s(247,0).
+stop_s(248,0).
+stop_s(249,0).
+stop_s(25,0).
+stop_s(26,0).
+stop_s(27,0).
+stop_s(28,0).
+stop_s(29,0).
+stop_s(3,0).
+stop_s(30,0).
+stop_s(31,0).
+stop_s(32,0).
+stop_s(33,0).
+stop_s(34,0).
+stop_s(35,0).
+stop_s(36,0).
+stop_s(37,0).
+stop_s(38,0).
+stop_s(39,0).
+stop_s(4,0).
+stop_s(40,0).
+stop_s(41,0).
+stop_s(42,0).
+stop_s(43,0).
+stop_s(44,0).
+stop_s(45,0).
+stop_s(46,0).
+stop_s(47,0).
+stop_s(48,0).
+stop_s(49,0).
+stop_s(5,0).
+stop_s(50,0).
+stop_s(51,0).
+stop_s(52,0).
+stop_s(53,0).
+stop_s(54,0).
+stop_s(55,0).
+stop_s(56,0).
+stop_s(57,0).
+stop_s(58,0).
+stop_s(59,0).
+stop_s(6,0).
+stop_s(60,0).
+stop_s(61,0).
+stop_s(62,0).
+stop_s(63,0).
+stop_s(64,0).
+stop_s(65,0).
+stop_s(66,0).
+stop_s(67,0).
+stop_s(68,0).
+stop_s(69,0).
+stop_s(7,0).
+stop_s(70,1).
+stop_s(71,0).
+stop_s(72,0).
+stop_s(73,0).
+stop_s(74,0).
+stop_s(75,0).
+stop_s(76,0).
+stop_s(77,0).
+stop_s(78,0).
+stop_s(79,0).
+stop_s(8,0).
+stop_s(80,0).
+stop_s(81,0).
+stop_s(82,0).
+stop_s(83,0).
+stop_s(84,0).
+stop_s(85,0).
+stop_s(86,0).
+stop_s(87,0).
+stop_s(88,0).
+stop_s(89,0).
+stop_s(9,0).
+stop_s(90,0).
+stop_s(91,0).
+stop_s(92,0).
+stop_s(93,0).
+stop_s(94,0).
+stop_s(95,0).
+stop_s(96,1).
+stop_s(97,0).
+stop_s(98,0).
+stop_s(99,1).
+t1_r(1,0).
+t1_r(10,1).
+t1_r(100,1).
+t1_r(101,0).
+t1_r(102,0).
+t1_r(103,0).
+t1_r(104,0).
+t1_r(105,1).
+t1_r(106,1).
+t1_r(107,1).
+t1_r(108,3).
+t1_r(109,1).
+t1_r(11,0).
+t1_r(110,2).
+t1_r(111,1).
+t1_r(112,1).
+t1_r(113,1).
+t1_r(114,2).
+t1_r(115,0).
+t1_r(116,1).
+t1_r(117,3).
+t1_r(118,10).
+t1_r(119,1).
+t1_r(12,7).
+t1_r(120,3).
+t1_r(121,1).
+t1_r(122,2).
+t1_r(123,2).
+t1_r(124,1).
+t1_r(125,0).
+t1_r(126,1).
+t1_r(127,0).
+t1_r(128,0).
+t1_r(129,2).
+t1_r(13,4).
+t1_r(130,0).
+t1_r(131,1).
+t1_r(132,0).
+t1_r(133,0).
+t1_r(134,1).
+t1_r(135,1).
+t1_r(136,3).
+t1_r(137,2).
+t1_r(138,0).
+t1_r(139,2).
+t1_r(14,2).
+t1_r(140,2).
+t1_r(141,0).
+t1_r(142,1).
+t1_r(143,1).
+t1_r(144,0).
+t1_r(145,0).
+t1_r(146,1).
+t1_r(147,0).
+t1_r(148,0).
+t1_r(149,0).
+t1_r(15,4).
+t1_r(150,0).
+t1_r(151,1).
+t1_r(152,1).
+t1_r(153,1).
+t1_r(154,0).
+t1_r(155,1).
+t1_r(156,2).
+t1_r(157,3).
+t1_r(158,0).
+t1_r(159,6).
+t1_r(16,0).
+t1_r(160,0).
+t1_r(161,3).
+t1_r(162,1).
+t1_r(163,1).
+t1_r(164,2).
+t1_r(165,1).
+t1_r(166,2).
+t1_r(167,1).
+t1_r(168,0).
+t1_r(169,1).
+t1_r(17,1).
+t1_r(170,1).
+t1_r(171,3).
+t1_r(172,3).
+t1_r(173,3).
+t1_r(174,4).
+t1_r(175,2).
+t1_r(176,1).
+t1_r(177,4).
+t1_r(178,0).
+t1_r(179,0).
+t1_r(18,2).
+t1_r(180,2).
+t1_r(181,1).
+t1_r(182,2).
+t1_r(183,0).
+t1_r(184,0).
+t1_r(185,1).
+t1_r(186,0).
+t1_r(187,4).
+t1_r(188,1).
+t1_r(189,0).
+t1_r(19,2).
+t1_r(190,1).
+t1_r(191,4).
+t1_r(192,0).
+t1_r(193,0).
+t1_r(194,0).
+t1_r(195,2).
+t1_r(196,1).
+t1_r(197,3).
+t1_r(198,6).
+t1_r(199,0).
+t1_r(2,2).
+t1_r(20,2).
+t1_r(200,0).
+t1_r(201,3).
+t1_r(202,1).
+t1_r(203,2).
+t1_r(204,3).
+t1_r(205,0).
+t1_r(206,1).
+t1_r(207,0).
+t1_r(208,0).
+t1_r(209,0).
+t1_r(21,0).
+t1_r(210,2).
+t1_r(211,0).
+t1_r(212,0).
+t1_r(213,0).
+t1_r(214,0).
+t1_r(215,0).
+t1_r(216,1).
+t1_r(217,0).
+t1_r(218,1).
+t1_r(219,0).
+t1_r(22,0).
+t1_r(220,0).
+t1_r(221,1).
+t1_r(222,2).
+t1_r(223,0).
+t1_r(224,0).
+t1_r(225,1).
+t1_r(226,0).
+t1_r(227,0).
+t1_r(228,1).
+t1_r(229,1).
+t1_r(23,1).
+t1_r(230,4).
+t1_r(231,0).
+t1_r(232,0).
+t1_r(233,0).
+t1_r(234,0).
+t1_r(235,1).
+t1_r(236,2).
+t1_r(237,4).
+t1_r(238,0).
+t1_r(239,2).
+t1_r(24,0).
+t1_r(240,1).
+t1_r(241,1).
+t1_r(242,2).
+t1_r(243,0).
+t1_r(244,1).
+t1_r(245,1).
+t1_r(246,3).
+t1_r(247,0).
+t1_r(248,0).
+t1_r(249,0).
+t1_r(25,2).
+t1_r(26,0).
+t1_r(27,1).
+t1_r(28,4).
+t1_r(29,1).
+t1_r(3,2).
+t1_r(30,1).
+t1_r(31,0).
+t1_r(32,1).
+t1_r(33,0).
+t1_r(34,1).
+t1_r(35,1).
+t1_r(36,6).
+t1_r(37,0).
+t1_r(38,0).
+t1_r(39,1).
+t1_r(4,0).
+t1_r(40,0).
+t1_r(41,2).
+t1_r(42,1).
+t1_r(43,0).
+t1_r(44,1).
+t1_r(45,1).
+t1_r(46,0).
+t1_r(47,0).
+t1_r(48,2).
+t1_r(49,1).
+t1_r(5,0).
+t1_r(50,0).
+t1_r(51,0).
+t1_r(52,2).
+t1_r(53,1).
+t1_r(54,0).
+t1_r(55,1).
+t1_r(56,0).
+t1_r(57,0).
+t1_r(58,2).
+t1_r(59,1).
+t1_r(6,2).
+t1_r(60,1).
+t1_r(61,0).
+t1_r(62,1).
+t1_r(63,3).
+t1_r(64,1).
+t1_r(65,1).
+t1_r(66,0).
+t1_r(67,3).
+t1_r(68,0).
+t1_r(69,0).
+t1_r(7,1).
+t1_r(70,2).
+t1_r(71,6).
+t1_r(72,0).
+t1_r(73,0).
+t1_r(74,0).
+t1_r(75,0).
+t1_r(76,9).
+t1_r(77,1).
+t1_r(78,1).
+t1_r(79,0).
+t1_r(8,0).
+t1_r(80,2).
+t1_r(81,1).
+t1_r(82,3).
+t1_r(83,1).
+t1_r(84,0).
+t1_r(85,4).
+t1_r(86,0).
+t1_r(87,1).
+t1_r(88,2).
+t1_r(89,0).
+t1_r(9,2).
+t1_r(90,2).
+t1_r(91,1).
+t1_r(92,0).
+t1_r(93,0).
+t1_r(94,3).
+t1_r(95,0).
+t1_r(96,1).
+t1_r(97,5).
+t1_r(98,1).
+t1_r(99,0).
+t1_t(1,0).
+t1_t(10,1).
+t1_t(100,0).
+t1_t(101,1).
+t1_t(102,0).
+t1_t(103,1).
+t1_t(104,0).
+t1_t(105,1).
+t1_t(106,2).
+t1_t(107,1).
+t1_t(108,3).
+t1_t(109,1).
+t1_t(11,0).
+t1_t(110,2).
+t1_t(111,2).
+t1_t(112,1).
+t1_t(113,2).
+t1_t(114,2).
+t1_t(115,0).
+t1_t(116,1).
+t1_t(117,4).
+t1_t(118,1).
+t1_t(119,3).
+t1_t(12,0).
+t1_t(120,0).
+t1_t(121,1).
+t1_t(122,2).
+t1_t(123,3).
+t1_t(124,2).
+t1_t(125,0).
+t1_t(126,1).
+t1_t(127,1).
+t1_t(128,0).
+t1_t(129,2).
+t1_t(13,4).
+t1_t(130,0).
+t1_t(131,1).
+t1_t(132,0).
+t1_t(133,1).
+t1_t(134,2).
+t1_t(135,2).
+t1_t(136,4).
+t1_t(137,2).
+t1_t(138,0).
+t1_t(139,0).
+t1_t(14,2).
+t1_t(140,2).
+t1_t(141,0).
+t1_t(142,1).
+t1_t(143,2).
+t1_t(144,0).
+t1_t(145,0).
+t1_t(146,2).
+t1_t(147,0).
+t1_t(148,0).
+t1_t(149,0).
+t1_t(15,5).
+t1_t(150,0).
+t1_t(151,2).
+t1_t(152,2).
+t1_t(153,1).
+t1_t(154,0).
+t1_t(155,2).
+t1_t(156,3).
+t1_t(157,0).
+t1_t(158,0).
+t1_t(159,0).
+t1_t(16,0).
+t1_t(160,0).
+t1_t(161,3).
+t1_t(162,1).
+t1_t(163,2).
+t1_t(164,2).
+t1_t(165,2).
+t1_t(166,3).
+t1_t(167,2).
+t1_t(168,1).
+t1_t(169,1).
+t1_t(17,1).
+t1_t(170,1).
+t1_t(171,5).
+t1_t(172,3).
+t1_t(173,4).
+t1_t(174,0).
+t1_t(175,2).
+t1_t(176,1).
+t1_t(177,0).
+t1_t(178,0).
+t1_t(179,0).
+t1_t(18,2).
+t1_t(180,2).
+t1_t(181,2).
+t1_t(182,3).
+t1_t(183,0).
+t1_t(184,0).
+t1_t(185,2).
+t1_t(186,0).
+t1_t(187,5).
+t1_t(188,2).
+t1_t(189,0).
+t1_t(19,0).
+t1_t(190,1).
+t1_t(191,0).
+t1_t(192,1).
+t1_t(193,0).
+t1_t(194,0).
+t1_t(195,2).
+t1_t(196,1).
+t1_t(197,4).
+t1_t(198,0).
+t1_t(199,1).
+t1_t(2,3).
+t1_t(20,3).
+t1_t(200,0).
+t1_t(201,0).
+t1_t(202,2).
+t1_t(203,3).
+t1_t(204,3).
+t1_t(205,2).
+t1_t(206,1).
+t1_t(207,0).
+t1_t(208,0).
+t1_t(209,1).
+t1_t(21,0).
+t1_t(210,2).
+t1_t(211,0).
+t1_t(212,1).
+t1_t(213,0).
+t1_t(214,0).
+t1_t(215,0).
+t1_t(216,1).
+t1_t(217,0).
+t1_t(218,1).
+t1_t(219,1).
+t1_t(22,0).
+t1_t(220,1).
+t1_t(221,1).
+t1_t(222,3).
+t1_t(223,1).
+t1_t(224,0).
+t1_t(225,2).
+t1_t(226,0).
+t1_t(227,1).
+t1_t(228,2).
+t1_t(229,1).
+t1_t(23,1).
+t1_t(230,0).
+t1_t(231,0).
+t1_t(232,0).
+t1_t(233,0).
+t1_t(234,0).
+t1_t(235,1).
+t1_t(236,2).
+t1_t(237,0).
+t1_t(238,0).
+t1_t(239,3).
+t1_t(24,0).
+t1_t(240,1).
+t1_t(241,3).
+t1_t(242,2).
+t1_t(243,0).
+t1_t(244,1).
+t1_t(245,1).
+t1_t(246,0).
+t1_t(247,0).
+t1_t(248,0).
+t1_t(249,0).
+t1_t(25,2).
+t1_t(26,0).
+t1_t(27,1).
+t1_t(28,5).
+t1_t(29,1).
+t1_t(3,4).
+t1_t(30,1).
+t1_t(31,0).
+t1_t(32,1).
+t1_t(33,0).
+t1_t(34,2).
+t1_t(35,2).
+t1_t(36,0).
+t1_t(37,1).
+t1_t(38,0).
+t1_t(39,1).
+t1_t(4,0).
+t1_t(40,0).
+t1_t(41,3).
+t1_t(42,3).
+t1_t(43,1).
+t1_t(44,0).
+t1_t(45,1).
+t1_t(46,0).
+t1_t(47,0).
+t1_t(48,3).
+t1_t(49,1).
+t1_t(5,0).
+t1_t(50,0).
+t1_t(51,0).
+t1_t(52,3).
+t1_t(53,2).
+t1_t(54,0).
+t1_t(55,2).
+t1_t(56,0).
+t1_t(57,2).
+t1_t(58,2).
+t1_t(59,1).
+t1_t(6,3).
+t1_t(60,2).
+t1_t(61,0).
+t1_t(62,1).
+t1_t(63,4).
+t1_t(64,1).
+t1_t(65,1).
+t1_t(66,1).
+t1_t(67,0).
+t1_t(68,1).
+t1_t(69,0).
+t1_t(7,1).
+t1_t(70,0).
+t1_t(71,6).
+t1_t(72,0).
+t1_t(73,0).
+t1_t(74,0).
+t1_t(75,0).
+t1_t(76,0).
+t1_t(77,2).
+t1_t(78,2).
+t1_t(79,0).
+t1_t(8,0).
+t1_t(80,2).
+t1_t(81,1).
+t1_t(82,0).
+t1_t(83,1).
+t1_t(84,0).
+t1_t(85,0).
+t1_t(86,0).
+t1_t(87,1).
+t1_t(88,2).
+t1_t(89,0).
+t1_t(9,3).
+t1_t(90,3).
+t1_t(91,1).
+t1_t(92,0).
+t1_t(93,1).
+t1_t(94,3).
+t1_t(95,0).
+t1_t(96,0).
+t1_t(97,0).
+t1_t(98,1).
+t1_t(99,0).
+t2_r(1,0).
+t2_r(10,1).
+t2_r(100,0).
+t2_r(101,1).
+t2_r(102,0).
+t2_r(103,2).
+t2_r(104,0).
+t2_r(105,1).
+t2_r(106,0).
+t2_r(107,1).
+t2_r(108,1).
+t2_r(109,1).
+t2_r(11,0).
+t2_r(110,1).
+t2_r(111,2).
+t2_r(112,1).
+t2_r(113,3).
+t2_r(114,2).
+t2_r(115,0).
+t2_r(116,0).
+t2_r(117,3).
+t2_r(118,1).
+t2_r(119,3).
+t2_r(12,2).
+t2_r(120,0).
+t2_r(121,2).
+t2_r(122,3).
+t2_r(123,3).
+t2_r(124,3).
+t2_r(125,0).
+t2_r(126,5).
+t2_r(127,0).
+t2_r(128,1).
+t2_r(129,2).
+t2_r(13,3).
+t2_r(130,1).
+t2_r(131,1).
+t2_r(132,0).
+t2_r(133,1).
+t2_r(134,2).
+t2_r(135,2).
+t2_r(136,2).
+t2_r(137,2).
+t2_r(138,0).
+t2_r(139,0).
+t2_r(14,1).
+t2_r(140,2).
+t2_r(141,0).
+t2_r(142,2).
+t2_r(143,2).
+t2_r(144,0).
+t2_r(145,1).
+t2_r(146,2).
+t2_r(147,0).
+t2_r(148,0).
+t2_r(149,0).
+t2_r(15,4).
+t2_r(150,0).
+t2_r(151,3).
+t2_r(152,3).
+t2_r(153,0).
+t2_r(154,0).
+t2_r(155,1).
+t2_r(156,2).
+t2_r(157,0).
+t2_r(158,0).
+t2_r(159,0).
+t2_r(16,0).
+t2_r(160,0).
+t2_r(161,2).
+t2_r(162,1).
+t2_r(163,3).
+t2_r(164,1).
+t2_r(165,2).
+t2_r(166,2).
+t2_r(167,3).
+t2_r(168,1).
+t2_r(169,1).
+t2_r(17,1).
+t2_r(170,2).
+t2_r(171,5).
+t2_r(172,4).
+t2_r(173,3).
+t2_r(174,0).
+t2_r(175,0).
+t2_r(176,2).
+t2_r(177,0).
+t2_r(178,0).
+t2_r(179,0).
+t2_r(18,1).
+t2_r(180,5).
+t2_r(181,2).
+t2_r(182,3).
+t2_r(183,0).
+t2_r(184,0).
+t2_r(185,3).
+t2_r(186,0).
+t2_r(187,4).
+t2_r(188,1).
+t2_r(189,0).
+t2_r(19,0).
+t2_r(190,1).
+t2_r(191,0).
+t2_r(192,1).
+t2_r(193,0).
+t2_r(194,0).
+t2_r(195,2).
+t2_r(196,0).
+t2_r(197,3).
+t2_r(198,0).
+t2_r(199,2).
+t2_r(2,3).
+t2_r(20,1).
+t2_r(200,0).
+t2_r(201,0).
+t2_r(202,5).
+t2_r(203,2).
+t2_r(204,3).
+t2_r(205,4).
+t2_r(206,0).
+t2_r(207,0).
+t2_r(208,0).
+t2_r(209,2).
+t2_r(21,1).
+t2_r(210,1).
+t2_r(211,1).
+t2_r(212,1).
+t2_r(213,1).
+t2_r(214,0).
+t2_r(215,0).
+t2_r(216,0).
+t2_r(217,0).
+t2_r(218,1).
+t2_r(219,8).
+t2_r(22,0).
+t2_r(220,2).
+t2_r(221,3).
+t2_r(222,2).
+t2_r(223,1).
+t2_r(224,0).
+t2_r(225,2).
+t2_r(226,1).
+t2_r(227,0).
+t2_r(228,0).
+t2_r(229,1).
+t2_r(23,1).
+t2_r(230,0).
+t2_r(231,0).
+t2_r(232,0).
+t2_r(233,2).
+t2_r(234,0).
+t2_r(235,0).
+t2_r(236,1).
+t2_r(237,0).
+t2_r(238,1).
+t2_r(239,5).
+t2_r(24,0).
+t2_r(240,1).
+t2_r(241,6).
+t2_r(242,2).
+t2_r(243,0).
+t2_r(244,1).
+t2_r(245,1).
+t2_r(246,0).
+t2_r(247,0).
+t2_r(248,0).
+t2_r(249,0).
+t2_r(25,2).
+t2_r(26,0).
+t2_r(27,1).
+t2_r(28,2).
+t2_r(29,1).
+t2_r(3,2).
+t2_r(30,2).
+t2_r(31,0).
+t2_r(32,1).
+t2_r(33,0).
+t2_r(34,0).
+t2_r(35,2).
+t2_r(36,1).
+t2_r(37,1).
+t2_r(38,0).
+t2_r(39,1).
+t2_r(4,1).
+t2_r(40,0).
+t2_r(41,2).
+t2_r(42,3).
+t2_r(43,0).
+t2_r(44,0).
+t2_r(45,3).
+t2_r(46,0).
+t2_r(47,0).
+t2_r(48,1).
+t2_r(49,2).
+t2_r(5,0).
+t2_r(50,0).
+t2_r(51,0).
+t2_r(52,5).
+t2_r(53,2).
+t2_r(54,0).
+t2_r(55,1).
+t2_r(56,0).
+t2_r(57,3).
+t2_r(58,2).
+t2_r(59,1).
+t2_r(6,2).
+t2_r(60,2).
+t2_r(61,0).
+t2_r(62,2).
+t2_r(63,5).
+t2_r(64,2).
+t2_r(65,2).
+t2_r(66,0).
+t2_r(67,0).
+t2_r(68,0).
+t2_r(69,0).
+t2_r(7,2).
+t2_r(70,0).
+t2_r(71,2).
+t2_r(72,0).
+t2_r(73,0).
+t2_r(74,1).
+t2_r(75,0).
+t2_r(76,0).
+t2_r(77,2).
+t2_r(78,1).
+t2_r(79,0).
+t2_r(8,0).
+t2_r(80,3).
+t2_r(81,6).
+t2_r(82,0).
+t2_r(83,1).
+t2_r(84,0).
+t2_r(85,0).
+t2_r(86,0).
+t2_r(87,0).
+t2_r(88,1).
+t2_r(89,0).
+t2_r(9,5).
+t2_r(90,3).
+t2_r(91,1).
+t2_r(92,0).
+t2_r(93,1).
+t2_r(94,1).
+t2_r(95,0).
+t2_r(96,0).
+t2_r(97,0).
+t2_r(98,1).
+t2_r(99,0).
+t2_t(1,1).
+t2_t(10,3).
+t2_t(100,3).
+t2_t(101,3).
+t2_t(102,0).
+t2_t(103,5).
+t2_t(104,0).
+t2_t(105,2).
+t2_t(106,1).
+t2_t(107,3).
+t2_t(108,2).
+t2_t(109,4).
+t2_t(11,0).
+t2_t(110,2).
+t2_t(111,3).
+t2_t(112,4).
+t2_t(113,5).
+t2_t(114,5).
+t2_t(115,1).
+t2_t(116,0).
+t2_t(117,6).
+t2_t(118,0).
+t2_t(119,5).
+t2_t(12,0).
+t2_t(120,0).
+t2_t(121,4).
+t2_t(122,5).
+t2_t(123,5).
+t2_t(124,6).
+t2_t(125,1).
+t2_t(126,8).
+t2_t(127,2).
+t2_t(128,2).
+t2_t(129,5).
+t2_t(13,6).
+t2_t(130,2).
+t2_t(131,2).
+t2_t(132,0).
+t2_t(133,3).
+t2_t(134,6).
+t2_t(135,4).
+t2_t(136,4).
+t2_t(137,4).
+t2_t(138,0).
+t2_t(139,1).
+t2_t(14,1).
+t2_t(140,3).
+t2_t(141,0).
+t2_t(142,6).
+t2_t(143,5).
+t2_t(144,0).
+t2_t(145,2).
+t2_t(146,3).
+t2_t(147,1).
+t2_t(148,1).
+t2_t(149,0).
+t2_t(15,9).
+t2_t(150,0).
+t2_t(151,7).
+t2_t(152,5).
+t2_t(153,2).
+t2_t(154,0).
+t2_t(155,3).
+t2_t(156,4).
+t2_t(157,1).
+t2_t(158,0).
+t2_t(159,0).
+t2_t(16,0).
+t2_t(160,1).
+t2_t(161,8).
+t2_t(162,2).
+t2_t(163,6).
+t2_t(164,3).
+t2_t(165,5).
+t2_t(166,4).
+t2_t(167,5).
+t2_t(168,2).
+t2_t(169,3).
+t2_t(17,3).
+t2_t(170,4).
+t2_t(171,9).
+t2_t(172,6).
+t2_t(173,6).
+t2_t(174,1).
+t2_t(175,2).
+t2_t(176,3).
+t2_t(177,0).
+t2_t(178,0).
+t2_t(179,0).
+t2_t(18,3).
+t2_t(180,9).
+t2_t(181,4).
+t2_t(182,5).
+t2_t(183,1).
+t2_t(184,1).
+t2_t(185,6).
+t2_t(186,0).
+t2_t(187,8).
+t2_t(188,3).
+t2_t(189,0).
+t2_t(19,0).
+t2_t(190,2).
+t2_t(191,0).
+t2_t(192,1).
+t2_t(193,0).
+t2_t(194,0).
+t2_t(195,3).
+t2_t(196,2).
+t2_t(197,6).
+t2_t(198,1).
+t2_t(199,4).
+t2_t(2,7).
+t2_t(20,3).
+t2_t(200,0).
+t2_t(201,0).
+t2_t(202,7).
+t2_t(203,4).
+t2_t(204,7).
+t2_t(205,6).
+t2_t(206,2).
+t2_t(207,0).
+t2_t(208,0).
+t2_t(209,4).
+t2_t(21,2).
+t2_t(210,2).
+t2_t(211,2).
+t2_t(212,1).
+t2_t(213,2).
+t2_t(214,1).
+t2_t(215,0).
+t2_t(216,1).
+t2_t(217,0).
+t2_t(218,2).
+t2_t(219,11).
+t2_t(22,0).
+t2_t(220,4).
+t2_t(221,5).
+t2_t(222,4).
+t2_t(223,2).
+t2_t(224,0).
+t2_t(225,3).
+t2_t(226,1).
+t2_t(227,1).
+t2_t(228,1).
+t2_t(229,3).
+t2_t(23,2).
+t2_t(230,0).
+t2_t(231,0).
+t2_t(232,0).
+t2_t(233,3).
+t2_t(234,0).
+t2_t(235,1).
+t2_t(236,2).
+t2_t(237,1).
+t2_t(238,2).
+t2_t(239,9).
+t2_t(24,0).
+t2_t(240,3).
+t2_t(241,10).
+t2_t(242,3).
+t2_t(243,2).
+t2_t(244,5).
+t2_t(245,2).
+t2_t(246,1).
+t2_t(247,1).
+t2_t(248,1).
+t2_t(249,0).
+t2_t(25,5).
+t2_t(26,1).
+t2_t(27,2).
+t2_t(28,3).
+t2_t(29,2).
+t2_t(3,4).
+t2_t(30,5).
+t2_t(31,1).
+t2_t(32,3).
+t2_t(33,0).
+t2_t(34,0).
+t2_t(35,4).
+t2_t(36,0).
+t2_t(37,1).
+t2_t(38,0).
+t2_t(39,2).
+t2_t(4,2).
+t2_t(40,1).
+t2_t(41,6).
+t2_t(42,4).
+t2_t(43,2).
+t2_t(44,0).
+t2_t(45,6).
+t2_t(46,0).
+t2_t(47,0).
+t2_t(48,3).
+t2_t(49,4).
+t2_t(5,1).
+t2_t(50,0).
+t2_t(51,0).
+t2_t(52,10).
+t2_t(53,4).
+t2_t(54,0).
+t2_t(55,3).
+t2_t(56,1).
+t2_t(57,6).
+t2_t(58,3).
+t2_t(59,3).
+t2_t(6,4).
+t2_t(60,4).
+t2_t(61,2).
+t2_t(62,4).
+t2_t(63,8).
+t2_t(64,6).
+t2_t(65,3).
+t2_t(66,1).
+t2_t(67,0).
+t2_t(68,1).
+t2_t(69,1).
+t2_t(7,4).
+t2_t(70,0).
+t2_t(71,5).
+t2_t(72,0).
+t2_t(73,0).
+t2_t(74,2).
+t2_t(75,0).
+t2_t(76,0).
+t2_t(77,4).
+t2_t(78,2).
+t2_t(79,1).
+t2_t(8,0).
+t2_t(80,5).
+t2_t(81,8).
+t2_t(82,1).
+t2_t(83,2).
+t2_t(84,1).
+t2_t(85,0).
+t2_t(86,0).
+t2_t(87,0).
+t2_t(88,2).
+t2_t(89,0).
+t2_t(9,9).
+t2_t(90,7).
+t2_t(91,4).
+t2_t(92,0).
+t2_t(93,3).
+t2_t(94,4).
+t2_t(95,0).
+t2_t(96,3).
+t2_t(97,0).
+t2_t(98,2).
+t2_t(99,1).
+t3_r(1,0).
+t3_r(10,0).
+t3_r(100,2).
+t3_r(101,2).
+t3_r(102,0).
+t3_r(103,0).
+t3_r(104,0).
+t3_r(105,0).
+t3_r(106,0).
+t3_r(107,0).
+t3_r(108,2).
+t3_r(109,0).
+t3_r(11,1).
+t3_r(110,0).
+t3_r(111,0).
+t3_r(112,1).
+t3_r(113,0).
+t3_r(114,2).
+t3_r(115,1).
+t3_r(116,0).
+t3_r(117,1).
+t3_r(118,5).
+t3_r(119,0).
+t3_r(12,3).
+t3_r(120,0).
+t3_r(121,0).
+t3_r(122,2).
+t3_r(123,0).
+t3_r(124,1).
+t3_r(125,0).
+t3_r(126,0).
+t3_r(127,2).
+t3_r(128,0).
+t3_r(129,1).
+t3_r(13,1).
+t3_r(130,0).
+t3_r(131,0).
+t3_r(132,0).
+t3_r(133,0).
+t3_r(134,2).
+t3_r(135,1).
+t3_r(136,1).
+t3_r(137,2).
+t3_r(138,0).
+t3_r(139,0).
+t3_r(14,2).
+t3_r(140,1).
+t3_r(141,0).
+t3_r(142,0).
+t3_r(143,1).
+t3_r(144,0).
+t3_r(145,1).
+t3_r(146,1).
+t3_r(147,0).
+t3_r(148,1).
+t3_r(149,0).
+t3_r(15,2).
+t3_r(150,0).
+t3_r(151,0).
+t3_r(152,0).
+t3_r(153,1).
+t3_r(154,1).
+t3_r(155,0).
+t3_r(156,1).
+t3_r(157,3).
+t3_r(158,0).
+t3_r(159,2).
+t3_r(16,0).
+t3_r(160,0).
+t3_r(161,2).
+t3_r(162,1).
+t3_r(163,0).
+t3_r(164,1).
+t3_r(165,3).
+t3_r(166,1).
+t3_r(167,0).
+t3_r(168,0).
+t3_r(169,1).
+t3_r(17,0).
+t3_r(170,0).
+t3_r(171,0).
+t3_r(172,2).
+t3_r(173,1).
+t3_r(174,1).
+t3_r(175,0).
+t3_r(176,0).
+t3_r(177,1).
+t3_r(178,0).
+t3_r(179,0).
+t3_r(18,1).
+t3_r(180,0).
+t3_r(181,0).
+t3_r(182,1).
+t3_r(183,0).
+t3_r(184,0).
+t3_r(185,1).
+t3_r(186,0).
+t3_r(187,1).
+t3_r(188,1).
+t3_r(189,0).
+t3_r(19,2).
+t3_r(190,0).
+t3_r(191,2).
+t3_r(192,1).
+t3_r(193,0).
+t3_r(194,0).
+t3_r(195,1).
+t3_r(196,1).
+t3_r(197,0).
+t3_r(198,5).
+t3_r(199,0).
+t3_r(2,1).
+t3_r(20,2).
+t3_r(200,0).
+t3_r(201,3).
+t3_r(202,0).
+t3_r(203,1).
+t3_r(204,0).
+t3_r(205,0).
+t3_r(206,2).
+t3_r(207,0).
+t3_r(208,0).
+t3_r(209,0).
+t3_r(21,0).
+t3_r(210,1).
+t3_r(211,1).
+t3_r(212,0).
+t3_r(213,1).
+t3_r(214,0).
+t3_r(215,0).
+t3_r(216,0).
+t3_r(217,0).
+t3_r(218,1).
+t3_r(219,0).
+t3_r(22,0).
+t3_r(220,0).
+t3_r(221,0).
+t3_r(222,0).
+t3_r(223,0).
+t3_r(224,0).
+t3_r(225,0).
+t3_r(226,1).
+t3_r(227,0).
+t3_r(228,0).
+t3_r(229,0).
+t3_r(23,1).
+t3_r(230,1).
+t3_r(231,0).
+t3_r(232,0).
+t3_r(233,0).
+t3_r(234,0).
+t3_r(235,0).
+t3_r(236,1).
+t3_r(237,2).
+t3_r(238,0).
+t3_r(239,0).
+t3_r(24,0).
+t3_r(240,1).
+t3_r(241,0).
+t3_r(242,1).
+t3_r(243,2).
+t3_r(244,1).
+t3_r(245,1).
+t3_r(246,1).
+t3_r(247,0).
+t3_r(248,0).
+t3_r(249,0).
+t3_r(25,1).
+t3_r(26,1).
+t3_r(27,0).
+t3_r(28,2).
+t3_r(29,0).
+t3_r(3,0).
+t3_r(30,1).
+t3_r(31,0).
+t3_r(32,0).
+t3_r(33,0).
+t3_r(34,0).
+t3_r(35,0).
+t3_r(36,3).
+t3_r(37,0).
+t3_r(38,0).
+t3_r(39,0).
+t3_r(4,0).
+t3_r(40,0).
+t3_r(41,0).
+t3_r(42,0).
+t3_r(43,0).
+t3_r(44,0).
+t3_r(45,1).
+t3_r(46,0).
+t3_r(47,0).
+t3_r(48,1).
+t3_r(49,2).
+t3_r(5,0).
+t3_r(50,1).
+t3_r(51,0).
+t3_r(52,0).
+t3_r(53,1).
+t3_r(54,0).
+t3_r(55,0).
+t3_r(56,0).
+t3_r(57,0).
+t3_r(58,1).
+t3_r(59,1).
+t3_r(6,3).
+t3_r(60,1).
+t3_r(61,0).
+t3_r(62,1).
+t3_r(63,0).
+t3_r(64,1).
+t3_r(65,0).
+t3_r(66,0).
+t3_r(67,0).
+t3_r(68,0).
+t3_r(69,0).
+t3_r(7,0).
+t3_r(70,4).
+t3_r(71,1).
+t3_r(72,0).
+t3_r(73,0).
+t3_r(74,0).
+t3_r(75,0).
+t3_r(76,4).
+t3_r(77,0).
+t3_r(78,0).
+t3_r(79,0).
+t3_r(8,0).
+t3_r(80,0).
+t3_r(81,0).
+t3_r(82,2).
+t3_r(83,1).
+t3_r(84,0).
+t3_r(85,1).
+t3_r(86,0).
+t3_r(87,1).
+t3_r(88,1).
+t3_r(89,0).
+t3_r(9,0).
+t3_r(90,1).
+t3_r(91,0).
+t3_r(92,0).
+t3_r(93,1).
+t3_r(94,2).
+t3_r(95,0).
+t3_r(96,6).
+t3_r(97,2).
+t3_r(98,0).
+t3_r(99,0).
+t3_t(1,1).
+t3_t(10,0).
+t3_t(100,0).
+t3_t(101,5).
+t3_t(102,0).
+t3_t(103,3).
+t3_t(104,0).
+t3_t(105,2).
+t3_t(106,2).
+t3_t(107,2).
+t3_t(108,2).
+t3_t(109,3).
+t3_t(11,2).
+t3_t(110,4).
+t3_t(111,0).
+t3_t(112,3).
+t3_t(113,2).
+t3_t(114,5).
+t3_t(115,3).
+t3_t(116,2).
+t3_t(117,5).
+t3_t(118,4).
+t3_t(119,0).
+t3_t(12,2).
+t3_t(120,1).
+t3_t(121,1).
+t3_t(122,6).
+t3_t(123,1).
+t3_t(124,4).
+t3_t(125,2).
+t3_t(126,0).
+t3_t(127,4).
+t3_t(128,0).
+t3_t(129,4).
+t3_t(13,4).
+t3_t(130,1).
+t3_t(131,1).
+t3_t(132,0).
+t3_t(133,1).
+t3_t(134,7).
+t3_t(135,2).
+t3_t(136,3).
+t3_t(137,5).
+t3_t(138,0).
+t3_t(139,1).
+t3_t(14,4).
+t3_t(140,3).
+t3_t(141,0).
+t3_t(142,1).
+t3_t(143,3).
+t3_t(144,0).
+t3_t(145,2).
+t3_t(146,2).
+t3_t(147,0).
+t3_t(148,2).
+t3_t(149,1).
+t3_t(15,6).
+t3_t(150,0).
+t3_t(151,2).
+t3_t(152,1).
+t3_t(153,4).
+t3_t(154,2).
+t3_t(155,2).
+t3_t(156,4).
+t3_t(157,1).
+t3_t(158,0).
+t3_t(159,1).
+t3_t(16,0).
+t3_t(160,0).
+t3_t(161,6).
+t3_t(162,3).
+t3_t(163,0).
+t3_t(164,2).
+t3_t(165,7).
+t3_t(166,4).
+t3_t(167,0).
+t3_t(168,2).
+t3_t(169,5).
+t3_t(17,0).
+t3_t(170,2).
+t3_t(171,1).
+t3_t(172,4).
+t3_t(173,3).
+t3_t(174,1).
+t3_t(175,0).
+t3_t(176,1).
+t3_t(177,1).
+t3_t(178,0).
+t3_t(179,0).
+t3_t(18,5).
+t3_t(180,2).
+t3_t(181,2).
+t3_t(182,2).
+t3_t(183,1).
+t3_t(184,2).
+t3_t(185,3).
+t3_t(186,0).
+t3_t(187,3).
+t3_t(188,3).
+t3_t(189,0).
+t3_t(19,0).
+t3_t(190,0).
+t3_t(191,2).
+t3_t(192,3).
+t3_t(193,1).
+t3_t(194,0).
+t3_t(195,3).
+t3_t(196,2).
+t3_t(197,1).
+t3_t(198,4).
+t3_t(199,3).
+t3_t(2,4).
+t3_t(20,6).
+t3_t(200,1).
+t3_t(201,0).
+t3_t(202,0).
+t3_t(203,3).
+t3_t(204,1).
+t3_t(205,0).
+t3_t(206,4).
+t3_t(207,0).
+t3_t(208,1).
+t3_t(209,0).
+t3_t(21,0).
+t3_t(210,4).
+t3_t(211,4).
+t3_t(212,3).
+t3_t(213,3).
+t3_t(214,1).
+t3_t(215,1).
+t3_t(216,2).
+t3_t(217,0).
+t3_t(218,3).
+t3_t(219,0).
+t3_t(22,0).
+t3_t(220,0).
+t3_t(221,2).
+t3_t(222,0).
+t3_t(223,1).
+t3_t(224,0).
+t3_t(225,0).
+t3_t(226,2).
+t3_t(227,0).
+t3_t(228,1).
+t3_t(229,1).
+t3_t(23,4).
+t3_t(230,2).
+t3_t(231,0).
+t3_t(232,0).
+t3_t(233,0).
+t3_t(234,0).
+t3_t(235,2).
+t3_t(236,3).
+t3_t(237,1).
+t3_t(238,2).
+t3_t(239,0).
+t3_t(24,1).
+t3_t(240,3).
+t3_t(241,0).
+t3_t(242,2).
+t3_t(243,6).
+t3_t(244,2).
+t3_t(245,3).
+t3_t(246,2).
+t3_t(247,1).
+t3_t(248,1).
+t3_t(249,0).
+t3_t(25,5).
+t3_t(26,3).
+t3_t(27,1).
+t3_t(28,7).
+t3_t(29,3).
+t3_t(3,1).
+t3_t(30,2).
+t3_t(31,0).
+t3_t(32,0).
+t3_t(33,0).
+t3_t(34,0).
+t3_t(35,0).
+t3_t(36,2).
+t3_t(37,0).
+t3_t(38,2).
+t3_t(39,2).
+t3_t(4,1).
+t3_t(40,1).
+t3_t(41,3).
+t3_t(42,0).
+t3_t(43,1).
+t3_t(44,0).
+t3_t(45,3).
+t3_t(46,0).
+t3_t(47,0).
+t3_t(48,2).
+t3_t(49,7).
+t3_t(5,1).
+t3_t(50,1).
+t3_t(51,0).
+t3_t(52,2).
+t3_t(53,4).
+t3_t(54,0).
+t3_t(55,0).
+t3_t(56,0).
+t3_t(57,0).
+t3_t(58,3).
+t3_t(59,3).
+t3_t(6,7).
+t3_t(60,4).
+t3_t(61,1).
+t3_t(62,3).
+t3_t(63,0).
+t3_t(64,4).
+t3_t(65,2).
+t3_t(66,1).
+t3_t(67,2).
+t3_t(68,0).
+t3_t(69,2).
+t3_t(7,2).
+t3_t(70,0).
+t3_t(71,4).
+t3_t(72,0).
+t3_t(73,1).
+t3_t(74,2).
+t3_t(75,0).
+t3_t(76,4).
+t3_t(77,0).
+t3_t(78,0).
+t3_t(79,1).
+t3_t(8,0).
+t3_t(80,2).
+t3_t(81,0).
+t3_t(82,1).
+t3_t(83,3).
+t3_t(84,0).
+t3_t(85,1).
+t3_t(86,0).
+t3_t(87,2).
+t3_t(88,4).
+t3_t(89,0).
+t3_t(9,2).
+t3_t(90,4).
+t3_t(91,2).
+t3_t(92,0).
+t3_t(93,5).
+t3_t(94,6).
+t3_t(95,0).
+t3_t(96,0).
+t3_t(97,1).
+t3_t(98,2).
+t3_t(99,0).
+handleDivisionByZero(X1, X2, Y) :-
+    X2 > 0,
+    Y is X1 / X2.
+handleDivisionByZero(X1, X2, Y) :-
+    X2 < 0,
+    Y is X1 / X2.
+handleDivisionByZero(_, X2, Y) :-
+    X2 = 0,
+    Y is 0.
+
+calc_max([], R, R). %end
+calc_max([X|Xs], WK, R):- X >  WK, calc_max(Xs, X, R). %WK is Carry about
+calc_max([X|Xs], WK, R):- X =< WK, calc_max(Xs, WK, R).
+calc_max([X|Xs], R):- calc_max(Xs,X,R).%start
+
+is_centro(Id) :- ruolo(Id,centro).
+is_ala(Id) :- ruolo(Id,ala).
+is_play(Id) :- ruolo(Id,play).
+is_guardia(Id) :- ruolo(Id,guardia).
+
+%Altezze
+get_all_height([], []).
+get_all_height([H | T], Res_list) :-
+    altezza(H, Res),
+    get_all_height(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Minuti
+get_all_minutesPlayed([], []).
+get_all_minutesPlayed([H | T], Res_list) :-
+    minuti(H, Res),
+    get_all_minutesPlayed(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Falli subiti
+get_all_fouls_s([], []).
+get_all_fouls_s([H | T], Res_list) :-
+    falli_s(H, Res),
+    get_all_fouls_s(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Falli commessi
+get_all_fouls_c([], []).
+get_all_fouls_c([H | T], Res_list) :-
+    falli_c(H, Res),
+    get_all_fouls_c(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Tiri 2 risuciti
+get_all_T2([], []).
+get_all_T2([H | T], Res_list) :-
+    t2_r(H, Res),
+    get_all_T2(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Tiri 2 tentati
+get_all_T2T([], []).
+get_all_T2T([H | T], Res_list) :-
+    t2_t(H, Res),
+    get_all_T2T(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Tiri 3 risuciti
+get_all_T3([], []).
+get_all_T3([H | T], Res_list) :-
+    t3_r(H, Res),
+    get_all_T3(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Tiri 3 tentati
+get_all_T3T([], []).
+get_all_T3T([H | T], Res_list) :-
+    t3_t(H, Res),
+    get_all_T3T(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Tiri 1 risuciti
+get_all_T1([], []).
+get_all_T1([H | T], Res_list) :-
+    t1_r(H, Res),
+    get_all_T1(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Tiri 1 tentati
+get_all_T1T([], []).
+get_all_T1T([H | T], Res_list) :-
+    t1_t(H, Res),
+    get_all_T1T(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Rimbalzi T
+get_all_rebaunds([], []).
+get_all_rebaunds([H | T], Res_list) :-
+    rim_t(H, Res),
+    get_all_rebaunds(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Stoppate Date
+get_all_stopD([], []).
+get_all_stopD([H | T], Res_list) :-
+    stop_d(H, Res),
+    get_all_stopD(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Stoppate Subite
+get_all_stopS([], []).
+get_all_stopS([H | T], Res_list) :-
+    stop_s(H, Res),
+    get_all_stopS(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Palle perse
+get_all_palleP([], []).
+get_all_palleP([H | T], Res_list) :-
+    palle_p(H, Res),
+    get_all_palleP(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Palle recuperate
+get_all_palleR([], []).
+get_all_palleR([H | T], Res_list) :-
+    palle_r(H, Res),
+    get_all_palleR(T, Res_down),
+    append([Res], Res_down,Res_list).
+
+%Percentuale T2
+t2Percentage(Id, T2Percentage) :-
+    t2_r(Id, T2),
+    t2_t(Id, T2T),
+    handleDivisionByZero(T2, T2T, Y),
+    T2Percentage is Y.
+
+%Percentuale T3
+t3Percentage(Id, T3Percentage) :-
+    t3_r(Id, T3),
+    t3_t(Id, T3T),
+    handleDivisionByZero(T3, T3T, Y),
+    T3Percentage is Y.
+
+%Percentuale T1
+t1Percentage(Id, T1Percentage) :-
+    t1_r(Id, T1),
+    t1_t(Id, T1T),
+    handleDivisionByZero(T1, T1T, Y),
+    T1Percentage is Y.
+
+%Da una valutazione sull'altezza dei giocatori
+eval_height(Height, Lower_bound, _, _, _, _, Eval) :-
+    Height =< Lower_bound,
+    Eval is 0.
+eval_height(Height, Lower_bound, Upper_bound, Perc_lower, _, Max, Eval) :-
+    Height > Lower_bound,
+    Height =< Upper_bound,
+    Eval is Height / Max * Perc_lower.
+eval_height(Height, _, Upper_bound, _, Perc_upper, Max, Eval) :-
+    Height > Upper_bound,
+    Eval is Height / Max*Perc_upper.
+
+%Da una valutazione sui minuti giocati
+eval_mp(MinutesPlayed, Min_mp1, _, Perc1, _, _, Max, Eval) :-
+    MinutesPlayed < Min_mp1,
+    Eval is MinutesPlayed / Max * Perc1.
+eval_mp(MinutesPlayed, Min_mp1, Min_mp2, _, Perc2, _, Max, Eval) :-
+    MinutesPlayed >= Min_mp1,
+    MinutesPlayed < Min_mp2,
+    Eval is Min_mp2 / Max * Perc2.
+eval_mp(MinutesPlayed, _, Min_mp2, _, _, Perc3, Max, Eval) :-
+    MinutesPlayed >= Min_mp2,
+    Eval is Min_mp2/Max*Perc3.
+
+%Valutazione percentuale da 2
+eval_t2Percentage(T2Percentage, T2T, Threshold, Perc, Eval) :-
+    T2T < Threshold,
+    Eval is T2Percentage * Perc.
+eval_t2Percentage(T2Percentage, T2T, Threshold, _, Eval) :-
+    T2T >= Threshold,
+    Eval is T2Percentage.
+
+%Valutazione percentuale da 3
+eval_t3Percentage(T3Percentage, T3T, Threshold, Perc, Eval) :-
+    T3T < Threshold,
+    Eval is T3Percentage * Perc.
+eval_t3Percentage(T3Percentage, T3T, Threshold, _, Eval) :-
+    T3T >= Threshold,
+    Eval is T3Percentage.
+
+%Valutazione percentuale da 1
+eval_t1Percentage(T1Percentage, T1T, Threshold, Perc, Eval) :-
+    T1T < Threshold,
+    Eval is T1Percentage * Perc.
+eval_t1Percentage(T1Percentage, T1T, Threshold, _, Eval) :-
+    T1T >= Threshold,
+    Eval is T1Percentage.
+
+
+evaluate_all_pl(Pl) :-
+    findall(Player, is_play(Player), Players),
+
+    get_all_height(Players, Height_list),
+    get_all_minutesPlayed(Players, MinutesPlayed_list),
+    get_all_fouls_c(Players, Fouls_c_list),
+    get_all_fouls_s(Players, Fouls_s_list),
+    get_all_T2(Players, T2_list),
+    get_all_T2T(Players, T2T_list),
+    get_all_T3(Players, T3_list),
+    get_all_T3T(Players, T3T_list),
+    get_all_T1(Players, T1_list),
+    get_all_T1T(Players, T1T_list),
+    get_all_rebaunds(Players, Rebaunds_list),
+    get_all_stopD(Players, StopD_list),
+    get_all_stopS(Players, StopS_list),
+    get_all_palleP(Players, PalleP_list),
+    get_all_palleR(Players, PalleR_list),
+
+    calc_max(Height_list, Max_height),
+    calc_max(MinutesPlayed_list, Max_minutesPlayed),
+    calc_max(Fouls_c_list, Max_Fouls_c),
+    calc_max(Fouls_s_list, Max_Fouls_s),
+    calc_max(T2_list, Max_T2),
+    calc_max(T2T_list, Max_T2T),
+    calc_max(T3_list, Max_T3),
+    calc_max(T3T_list, Max_T3T),
+    calc_max(T1_list, Max_T1),
+    calc_max(T1T_list, Max_T1T),
+    calc_max(Rebaunds_list, Max_Rebaunds),
+    calc_max(StopD_list, Max_StopD),
+    calc_max(StopS_list, Max_StopS),
+    calc_max(PalleP_list, Max_PalleP),
+    calc_max(PalleR_list, Max_PalleR),
+
+    evaluate_all_pl(Players,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Pl).
+
+evaluate_all_pl([], _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_pl([H | T],
+            Max_height,
+            Max_minutesPlayed,
+            Max_Fouls_c,
+            Max_Fouls_s,
+            Max_T2,
+            Max_T2T,
+            Max_T3,
+            Max_T3T,
+            Max_T1,
+            Max_T1T,
+            Max_Rebaunds,
+            Max_StopD,
+            Max_StopS,
+            Max_PalleP,
+            Max_PalleR,
+            Res) :-
+    evaluation_pl(H,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_local),
+    evaluate_all_pl(T,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_down),
+
+    nome_giocatore(H, Name),
+    append([[Name, Eval_local]], Eval_down, Res).
+
+evaluation_pl(Id,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval) :-
+    is_play(Id),
+    altezza(Id, Height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
+    altezza(Id, Height),
+    minuti(Id, MinutesPlayed),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
+
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
+
+    Eval is
+        Eval_height +
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
+
+
+evaluate_all_cn(Cn) :-
+    findall(Player, is_centro(Player), Players),
+
+    get_all_height(Players, Height_list),
+    get_all_minutesPlayed(Players, MinutesPlayed_list),
+    get_all_fouls_c(Players, Fouls_c_list),
+    get_all_fouls_s(Players, Fouls_s_list),
+    get_all_T2(Players, T2_list),
+    get_all_T2T(Players, T2T_list),
+    get_all_T3(Players, T3_list),
+    get_all_T3T(Players, T3T_list),
+    get_all_T1(Players, T1_list),
+    get_all_T1T(Players, T1T_list),
+    get_all_rebaunds(Players, Rebaunds_list),
+    get_all_stopD(Players, StopD_list),
+    get_all_stopS(Players, StopS_list),
+    get_all_palleP(Players, PalleP_list),
+    get_all_palleR(Players, PalleR_list),
+
+    calc_max(Height_list, Max_height),
+    calc_max(MinutesPlayed_list, Max_minutesPlayed),
+    calc_max(Fouls_c_list, Max_Fouls_c),
+    calc_max(Fouls_s_list, Max_Fouls_s),
+    calc_max(T2_list, Max_T2),
+    calc_max(T2T_list, Max_T2T),
+    calc_max(T3_list, Max_T3),
+    calc_max(T3T_list, Max_T3T),
+    calc_max(T1_list, Max_T1),
+    calc_max(T1T_list, Max_T1T),
+    calc_max(Rebaunds_list, Max_Rebaunds),
+    calc_max(StopD_list, Max_StopD),
+    calc_max(StopS_list, Max_StopS),
+    calc_max(PalleP_list, Max_PalleP),
+    calc_max(PalleR_list, Max_PalleR),
+
+    evaluate_all_cn(Players,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Cn).
+
+evaluate_all_cn([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_cn([H | T],
+            Max_height,
+            Max_minutesPlayed,
+            Max_Fouls_c,
+            Max_Fouls_s,
+            Max_T2,
+            Max_T2T,
+            Max_T3,
+            Max_T3T,
+            Max_T1,
+            Max_T1T,
+            Max_Rebaunds,
+            Max_StopD,
+            Max_StopS,
+            Max_PalleP,
+            Max_PalleR,
+            Res) :-
+    evaluation_cn(H,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_local),
+    evaluate_all_cn(T,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_down),
+    %%%%%% da modificare
+    nome_giocatore(H, Name),
+    append([[Name, Eval_local]], Eval_down, Res).
+
+evaluation_cn(Id,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval) :-
+    is_centro(Id),
+    altezza(Id, Height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
+    altezza(Id, Height),
+    minuti(Id, MinutesPlayed),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
+
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
+
+    Eval is
+        Eval_height +
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
+
+evaluate_all_gd(Gd) :-
+    findall(Player, is_guardia(Player), Players),
+
+    get_all_height(Players, Height_list),
+    get_all_minutesPlayed(Players, MinutesPlayed_list),
+    get_all_fouls_c(Players, Fouls_c_list),
+    get_all_fouls_s(Players, Fouls_s_list),
+    get_all_T2(Players, T2_list),
+    get_all_T2T(Players, T2T_list),
+    get_all_T3(Players, T3_list),
+    get_all_T3T(Players, T3T_list),
+    get_all_T1(Players, T1_list),
+    get_all_T1T(Players, T1T_list),
+    get_all_rebaunds(Players, Rebaunds_list),
+    get_all_stopD(Players, StopD_list),
+    get_all_stopS(Players, StopS_list),
+    get_all_palleP(Players, PalleP_list),
+    get_all_palleR(Players, PalleR_list),
+
+    calc_max(Height_list, Max_height),
+    calc_max(MinutesPlayed_list, Max_minutesPlayed),
+    calc_max(Fouls_c_list, Max_Fouls_c),
+    calc_max(Fouls_s_list, Max_Fouls_s),
+    calc_max(T2_list, Max_T2),
+    calc_max(T2T_list, Max_T2T),
+    calc_max(T3_list, Max_T3),
+    calc_max(T3T_list, Max_T3T),
+    calc_max(T1_list, Max_T1),
+    calc_max(T1T_list, Max_T1T),
+    calc_max(Rebaunds_list, Max_Rebaunds),
+    calc_max(StopD_list, Max_StopD),
+    calc_max(StopS_list, Max_StopS),
+    calc_max(PalleP_list, Max_PalleP),
+    calc_max(PalleR_list, Max_PalleR),
+
+    evaluate_all_gd(Players,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Gd).
+
+evaluate_all_gd([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_gd([H | T],
+            Max_height,
+            Max_minutesPlayed,
+            Max_Fouls_c,
+            Max_Fouls_s,
+            Max_T2,
+            Max_T2T,
+            Max_T3,
+            Max_T3T,
+            Max_T1,
+            Max_T1T,
+            Max_Rebaunds,
+            Max_StopD,
+            Max_StopS,
+            Max_PalleP,
+            Max_PalleR,
+            Res) :-
+    evaluation_gd(H,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_local),
+    evaluate_all_gd(T,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_down),
+    %%%%%% da modificare
+    nome_giocatore(H, Name),
+    append([[Name, Eval_local]], Eval_down, Res).
+
+evaluation_gd(Id,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval) :-
+    is_guardia(Id),
+    altezza(Id, Height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
+    altezza(Id, Height),
+    minuti(Id, MinutesPlayed),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
+
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
+
+    Eval is
+        Eval_height +
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
+
+evaluate_all_al(Al) :-
+    findall(Player, is_ala(Player), Players),
+
+    get_all_height(Players, Height_list),
+    get_all_minutesPlayed(Players, MinutesPlayed_list),
+    get_all_fouls_c(Players, Fouls_c_list),
+    get_all_fouls_s(Players, Fouls_s_list),
+    get_all_T2(Players, T2_list),
+    get_all_T2T(Players, T2T_list),
+    get_all_T3(Players, T3_list),
+    get_all_T3T(Players, T3T_list),
+    get_all_T1(Players, T1_list),
+    get_all_T1T(Players, T1T_list),
+    get_all_rebaunds(Players, Rebaunds_list),
+    get_all_stopD(Players, StopD_list),
+    get_all_stopS(Players, StopS_list),
+    get_all_palleP(Players, PalleP_list),
+    get_all_palleR(Players, PalleR_list),
+
+    calc_max(Height_list, Max_height),
+    calc_max(MinutesPlayed_list, Max_minutesPlayed),
+    calc_max(Fouls_c_list, Max_Fouls_c),
+    calc_max(Fouls_s_list, Max_Fouls_s),
+    calc_max(T2_list, Max_T2),
+    calc_max(T2T_list, Max_T2T),
+    calc_max(T3_list, Max_T3),
+    calc_max(T3T_list, Max_T3T),
+    calc_max(T1_list, Max_T1),
+    calc_max(T1T_list, Max_T1T),
+    calc_max(Rebaunds_list, Max_Rebaunds),
+    calc_max(StopD_list, Max_StopD),
+    calc_max(StopS_list, Max_StopS),
+    calc_max(PalleP_list, Max_PalleP),
+    calc_max(PalleR_list, Max_PalleR),
+
+    evaluate_all_al(Players,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Al).
+
+evaluate_all_al([],  _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, []).
+evaluate_all_al([H | T],
+            Max_height,
+            Max_minutesPlayed,
+            Max_Fouls_c,
+            Max_Fouls_s,
+            Max_T2,
+            Max_T2T,
+            Max_T3,
+            Max_T3T,
+            Max_T1,
+            Max_T1T,
+            Max_Rebaunds,
+            Max_StopD,
+            Max_StopS,
+            Max_PalleP,
+            Max_PalleR,
+            Res) :-
+    evaluation_al(H,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_local),
+    evaluate_all_al(T,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval_down),
+    %%%%%% da modificare
+    nome_giocatore(H, Name),
+    append([[Name, Eval_local]], Eval_down, Res).
+
+evaluation_al(Id,
+        Max_height,
+        Max_minutesPlayed,
+        Max_Fouls_c,
+        Max_Fouls_s,
+        Max_T2,
+        Max_T2T,
+        Max_T3,
+        Max_T3T,
+        Max_T1,
+        Max_T1T,
+        Max_Rebaunds,
+        Max_StopD,
+        Max_StopS,
+        Max_PalleP,
+        Max_PalleR,
+        Eval) :-
+    is_ala(Id),
+    altezza(Id, Height),
+    eval_height(Height, 176, 182, 4/10, 6/10, Max_height, Eval_height),
+    altezza(Id, Height),
+    minuti(Id, MinutesPlayed),
+    eval_mp(MinutesPlayed, 1000, 2500, 2/10, 5/10, 6/10, 40, Eval_mp),
+    falli_c(Id,Fouls_c),
+    falli_s(Id,Fouls_s),
+    t2_r(Id,T2),
+    t2_t(Id,T2T),
+    t3_r(Id,T3),
+    t3_t(Id,T3T),
+    t1_r(Id,T1),
+    t1_t(Id,T1T),
+    rim_t(Id,Rebaunds),
+    stop_d(Id,StopD),
+    stop_s(Id,StopS),
+    palle_p(Id,PalleP),
+    palle_r(Id,PalleR),
+
+    handleDivisionByZero(MinutesPlayed, Max_minutesPlayed, MinutesPlayed_divided),
+    handleDivisionByZero(Fouls_c, Max_Fouls_c, Fouls_c_divided),
+    handleDivisionByZero(Fouls_s, Max_Fouls_s, Fouls_s_divided),
+    handleDivisionByZero(T2, Max_T2, T2_divided),
+    handleDivisionByZero(T2T, Max_T2T, T2T_divided),
+    handleDivisionByZero(T3, Max_T3, T3_divided),
+    handleDivisionByZero(T3T, Max_T3T, T3T_divided),
+    handleDivisionByZero(T1, Max_T1, T1_divided),
+    handleDivisionByZero(T1T, Max_T1T, T1T_divided),
+    handleDivisionByZero(Rebaunds, Max_Rebaunds, Rebaunds_divided),
+    handleDivisionByZero(StopD, Max_StopD, StopD_divided),
+    handleDivisionByZero(StopS, Max_StopS, StopS_divided),
+    handleDivisionByZero(PalleP, Max_PalleP, PalleP_divided),
+    handleDivisionByZero(PalleR, Max_PalleR, PalleR_divided),
+
+    Eval is
+        Eval_height +
+        (
+            Fouls_c_divided /2 +
+            Fouls_s_divided /2 +
+            T2_divided *1 +
+            (T2T_divided - T2_divided) *3/4 +
+            T3_divided *1 +
+            (T3T_divided - T3_divided) *3/4 +
+            T1_divided *1+
+            (T1T_divided - T1_divided) /2 +
+            Rebaunds_divided *1 +
+            StopD_divided *3/4 +
+            StopS_divided *2/10 +
+            PalleP_divided *1 +
+            PalleR_divided *1
+        ) * Eval_mp.
+
+
+
+
+
+
