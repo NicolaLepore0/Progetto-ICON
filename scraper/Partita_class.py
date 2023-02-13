@@ -6,16 +6,6 @@ class Partita:
         self.risultato_finale_host = risultato_finale_host
         self.risultato_finale_guest = risultato_finale_guest
         self.eventi = []
-    def next_10(self,n_evento):
-        for j in range(n_evento, len(self.eventi)):
-            if(self.eventi[j].punti_casa >= self.eventi[n_evento].punti_casa+10):
-                return 1
-            elif(self.eventi[j].punti_ospite >= self.eventi[n_evento].punti_ospite+10):
-                return 0
-        if(self.eventi[len(self.eventi)-1].punti_casa > self.eventi[len(self.eventi)-1].punti_ospite):
-            return 1
-        else:
-            return 0
 class Evento:
     def __init__(self, punti_casa, punti_ospite, evento,quarto, time,giocatore):
         self.punti_casa = punti_casa
@@ -29,7 +19,6 @@ class Giocatore:
         self.nome_giocatore = nome_giocatore
         self.numero_giocatore = numero_giocatore
         self.squadra = squadra
-
 
 
 class PartitaEncoder(json.JSONEncoder):

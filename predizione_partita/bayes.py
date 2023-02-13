@@ -418,16 +418,16 @@ for i, r in enumerate(tqdm.tqdm(data.iloc)):
         break
     obj = {**r}
     corr_dict = {
-        'A': 0,
-        'B': 1,
+        'A': 1,
+        'B': 0,
     }
     expected_result = df.iloc[i]['result']
     del obj['result']
     obj = {k: corr_dict[v] for k, v in obj.items()}
     prob = inference.query(variables=["result"], evidence=obj, show_progress=False)
     str_int = {
-        'victory': 0,
-        'lose': 1,
+        'victory': 1,
+        'lose': 0,
     }
 
     print(f'expected_result: {expected_result}, {np.argmax(prob)},\nactual_result: {prob}')
