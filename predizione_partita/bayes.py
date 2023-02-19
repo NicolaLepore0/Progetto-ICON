@@ -185,8 +185,8 @@ casa_t2_s_cpd = TabularCPD(
     variable="casa_t2_s",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t2_s']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_t2_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_t2_s']['A'] / total],
+        [features_count['casa_t2_s']['B'] / total],
     ],
 )
 print('TabularCPD casa_t3_s')
@@ -194,8 +194,8 @@ casa_t3_s_cpd = TabularCPD(
     variable="casa_t3_s",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t3_s']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_t3_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_t3_s']['A'] / total],
+        [features_count['casa_t3_s']['B'] / total],
     ],
 )
 print('TabularCPD casa_t1_s')
@@ -203,8 +203,8 @@ casa_t1_s_cpd = TabularCPD(
     variable="casa_t1_s",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t1_s']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_t1_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_t1_s']['A'] / total], 
+        [features_count['casa_t1_s']['B'] / total], 
     ],
 )
 print('TabularCPD casa_t2_r')
@@ -212,8 +212,8 @@ casa_t2_r_cpd = TabularCPD(
     variable="casa_t2_r",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t2_r']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_t2_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_t2_r']['A'] / total], 
+        [features_count['casa_t2_r']['B'] / total], 
     ],
 )
 print('TabularCPD casa_t3_r')
@@ -221,8 +221,8 @@ casa_t3_r_cpd = TabularCPD(
     variable="casa_t3_r",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t3_r']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_t3_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_t3_r']['A'] / total], 
+        [features_count['casa_t3_r']['B'] / total], 
     ],
 )
 print('TabularCPD casa_t1_')
@@ -230,8 +230,8 @@ casa_t1_r_cpd = TabularCPD(
     variable="casa_t1_r",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_t1_r']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_t1_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_t1_r']['A'] / total], 
+        [features_count['casa_t1_r']['B'] / total], 
     ],
 )
 print('TabularCPD casa_puntiFatti')
@@ -255,8 +255,8 @@ casa_palleRecuperate_cpd = TabularCPD(
     variable="casa_palleRecuperate",
     variable_card=N_BINS,
     values=[
-        [features_count['casa_palleRecuperate']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['casa_palleRecuperate']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['casa_palleRecuperate']['A'] / total],
+        [features_count['casa_palleRecuperate']['B'] / total],
     ],
 )
 
@@ -275,8 +275,8 @@ ospiti_falliFatti_cpd = TabularCPD(
     variable="ospiti_falliFatti",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_falliFatti']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_falliFatti']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_falliFatti']['A'] / total],  
+        [features_count['ospiti_falliFatti']['B'] / total],  
     ],
 )
 
@@ -301,8 +301,8 @@ ospiti_palleRecuperate_cpd = TabularCPD(
     variable="ospiti_palleRecuperate",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_palleRecuperate']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_palleRecuperate']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_palleRecuperate']['A'] / total], 
+        [features_count['ospiti_palleRecuperate']['B'] / total], 
     ],
 )
 
@@ -311,8 +311,8 @@ ospiti_t2_s_cpd = TabularCPD(
     variable="ospiti_t2_s",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t2_s']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_t2_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_t2_s']['A'] / total], 
+        [features_count['ospiti_t2_s']['B'] / total], 
     ],
 )
 print('TabularCPD ospiti_t3_s')
@@ -320,8 +320,8 @@ ospiti_t3_s_cpd = TabularCPD(
     variable="ospiti_t3_s",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t3_s']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_t3_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_t3_s']['A'] / total], 
+        [features_count['ospiti_t3_s']['B'] / total], 
     ],
 )
 print('TabularCPD ospiti_t1_s')
@@ -329,8 +329,8 @@ ospiti_t1_s_cpd = TabularCPD(
     variable="ospiti_t1_s",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t1_s']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_t1_s']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_t1_s']['A'] / total], 
+        [features_count['ospiti_t1_s']['B'] / total], 
     ],
 )
 print('TabularCPD ospiti_t2_r')
@@ -338,8 +338,8 @@ ospiti_t2_r_cpd = TabularCPD(
     variable="ospiti_t2_r",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t2_r']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_t2_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_t2_r']['A'] / total],
+        [features_count['ospiti_t2_r']['B'] / total],
     ],
 )
 print('TabularCPD ospiti_t3_r')
@@ -347,8 +347,8 @@ ospiti_t3_r_cpd = TabularCPD(
     variable="ospiti_t3_r",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t3_r']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_t3_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_t3_r']['A'] / total],
+        [features_count['ospiti_t3_r']['B'] / total],
     ],
 )
 print('TabularCPD ospiti_t1_r')
@@ -356,8 +356,8 @@ ospiti_t1_r_cpd = TabularCPD(
     variable="ospiti_t1_r",
     variable_card=N_BINS,
     values=[
-        [features_count['ospiti_t1_r']['A'] / total],  # A: 0.0, 0.1081081081081081
-        [features_count['ospiti_t1_r']['B'] / total],  # C: 0.2162162162162162, 0.3243243243243243
+        [features_count['ospiti_t1_r']['A'] / total], 
+        [features_count['ospiti_t1_r']['B'] / total], 
     ],
 )
 
